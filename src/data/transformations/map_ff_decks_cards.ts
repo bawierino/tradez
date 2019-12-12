@@ -15,7 +15,7 @@ export function mapFFDecksCards(ffDecksCards: FFDecksCard[]): FFCard[] {
             rarity: getRarityByFFRarity(ffCard.rarity),
             serial: ffCard["Serial number"],
             opus: getOpusBySerial(ffCard["Serial number"]),
-            idealQuantity: 3
+            minimalWantedQuantity: 3
         };
     });
 }
