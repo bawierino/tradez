@@ -7,12 +7,12 @@ export function mapFFDecksCards(ffDecksCards: FFDecksCard[]): FFCard[] {
     return ffDecksCards.map(ffCard => {
         return {
             name: ffCard.Name,
-            normalQuantity: ffCard["regular quantity"],
-            foilQuantity: ffCard["foil quantity"],
-            fullArtQuantity: 0,
-            foilArtQuanity: 0,
-            alternateArtQuantity: 0,
-            alternateArtFoilQuantity: 0,
+            normal: { quantity: ffCard["regular quantity"], minimalQuantityWanted: 0 },
+            foil: { quantity: ffCard["foil quantity"], minimalQuantityWanted: 0 },
+            fullArt: { quantity: 0, minimalQuantityWanted: 0 },
+            foilArt: { quantity: 0, minimalQuantityWanted: 0 },
+            alternateArt: { quantity: 0, minimalQuantityWanted: 0 },
+            alternateArtFoil: { quantity: 0, minimalQuantityWanted: 0 },
             rarity: getRarityByFFRarity(ffCard.rarity),
             serial: ffCard["Serial number"],
             opus: getOpusBySerial(ffCard["Serial number"]),

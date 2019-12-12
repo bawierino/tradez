@@ -3,14 +3,19 @@ import { Opus } from "./opus";
 
 export interface FFCard {
     name: string;
-    normalQuantity: number;
-    foilQuantity: number;
-    fullArtQuantity: number;
-    foilArtQuanity: number;
-    alternateArtQuantity: number;
-    alternateArtFoilQuantity: number;
+    normal: CardQuantityInfo;
+    foil: CardQuantityInfo;
+    fullArt: CardQuantityInfo;
+    foilArt: CardQuantityInfo;
+    alternateArt: CardQuantityInfo;
+    alternateArtFoil: CardQuantityInfo;
     rarity: Rarity;
     serial: string;
     opus: Opus;
     minimalWantedQuantity: number;
+}
+
+export interface CardQuantityInfo {
+    quantity: number;
+    minimalQuantityWanted: number;
 }
