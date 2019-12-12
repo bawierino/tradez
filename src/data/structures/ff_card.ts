@@ -8,6 +8,7 @@ export interface FFCard {
     fullArtQuantity: number;
     foilArtQuanity: number;
     alternateArtQuantity: number;
+    alternateArtFoilQuantity: number;
     rarity: Rarity;
     serial: string;
     opus: Opus;

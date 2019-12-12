@@ -12,6 +12,7 @@ export function mapFFDecksCards(ffDecksCards: FFDecksCard[]): FFCard[] {
             fullArtQuantity: 0,
             foilArtQuanity: 0,
             alternateArtQuantity: 0,
+            alternateArtFoilQuantity: 0,
             rarity: getRarityByFFRarity(ffCard.rarity),
             serial: ffCard["Serial number"],
             opus: getOpusBySerial(ffCard["Serial number"]),
