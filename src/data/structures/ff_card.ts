@@ -11,4 +11,5 @@ export interface FFCard {
     rarity: Rarity;
     serial: string;
     opus: Opus;
+    idealQuantity: number;
 }

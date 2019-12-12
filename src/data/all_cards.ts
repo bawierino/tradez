@@ -8,7 +8,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-001",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Auron",
@@ -19,7 +20,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-002",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -30,7 +32,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-003",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ifrit",
@@ -41,7 +44,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-004",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Warrior of Light",
@@ -52,7 +56,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-005",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Garland",
@@ -63,7 +68,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-006",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Gadot",
@@ -74,7 +80,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-007",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ranger",
@@ -85,7 +92,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-008",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cloud",
@@ -96,7 +104,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-009",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -107,7 +116,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-010",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Evoker",
@@ -118,7 +128,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-011",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Zack",
@@ -129,7 +140,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-012",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Sazh",
@@ -140,7 +152,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-013",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Samurai",
@@ -151,7 +164,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-014",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Jecht",
@@ -162,7 +176,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-015",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Tifa",
@@ -173,7 +188,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-016",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Dajh",
@@ -184,7 +200,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-017",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Bahamut",
@@ -195,7 +212,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-018",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Chocobo Chick",
@@ -206,7 +224,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-019",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Fang",
@@ -217,7 +236,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-020",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Firion",
@@ -228,7 +248,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-021",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Firion",
@@ -239,7 +260,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-022",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Brynhildr",
@@ -250,7 +272,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-023",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Magus",
@@ -261,7 +284,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-024",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Squire",
@@ -272,7 +296,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-025",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Squire",
@@ -283,7 +308,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-026",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Lann",
@@ -294,7 +320,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-027",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Reynn",
@@ -305,7 +332,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-028",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Red XIII",
@@ -316,7 +344,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-029",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Lebreau",
@@ -327,7 +356,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-030",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Chemist",
@@ -338,7 +368,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-031",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Chemist",
@@ -349,7 +380,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-032",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Argath",
@@ -360,7 +392,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-033",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Orran",
@@ -371,7 +404,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-034",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -382,7 +416,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-035",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -393,7 +428,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-036",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Kuja",
@@ -404,7 +440,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-037",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Shiva",
@@ -415,7 +452,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-038",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Shiva",
@@ -426,7 +464,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-039",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -437,7 +476,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-040",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Squall",
@@ -448,7 +488,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-041",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Squall",
@@ -459,7 +500,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-042",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Snow",
@@ -470,7 +512,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-043",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Sephiroth",
@@ -481,7 +524,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-044",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Serah",
@@ -492,7 +536,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-045",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Terra",
@@ -503,7 +548,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-046",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Terra",
@@ -514,7 +560,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-047",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Devout",
@@ -525,7 +572,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-048",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Time Mage",
@@ -536,7 +584,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-049",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Knight",
@@ -547,7 +596,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-050",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Nooj",
@@ -558,7 +608,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-051",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Hades",
@@ -569,7 +620,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-052",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -580,7 +632,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-053",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -591,7 +644,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-054",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -602,7 +656,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-055",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Josef",
@@ -613,7 +668,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-056",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Duke Larg",
@@ -624,7 +680,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-057",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Laguna",
@@ -635,7 +692,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-058",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Laguna",
@@ -646,7 +704,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-059",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Leon",
@@ -657,7 +716,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-060",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Alexander",
@@ -668,7 +728,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-061",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Valefor",
@@ -679,7 +740,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-062",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -690,7 +752,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-063",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Aerith",
@@ -701,7 +764,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-064",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Aerith",
@@ -712,7 +776,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-065",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Dancer",
@@ -723,7 +788,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-066",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight",
@@ -734,7 +800,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-067",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Evoker",
@@ -745,7 +812,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-068",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Thief",
@@ -756,7 +824,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-069",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Thief",
@@ -767,7 +836,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-070",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Zidane",
@@ -778,7 +848,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-071",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cid Highwind",
@@ -789,7 +860,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-072",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cid Highwind",
@@ -800,7 +872,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-073",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Sylph",
@@ -811,7 +884,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-074",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -822,7 +896,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-075",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -833,7 +908,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-076",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Devout",
@@ -844,7 +920,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-077",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -855,7 +932,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-078",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Nora",
@@ -866,7 +944,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-079",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Bartz",
@@ -877,7 +956,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-080",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Bartz",
@@ -888,7 +968,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-081",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Hope",
@@ -899,7 +980,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-082",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Maria",
@@ -910,7 +992,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-083",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Y'shtola",
@@ -921,7 +1004,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-084",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Yuffie",
@@ -932,7 +1016,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-085",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Yuffie",
@@ -943,7 +1028,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-086",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Archer",
@@ -954,7 +1040,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-087",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Archer",
@@ -965,7 +1052,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-088",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Rikku",
@@ -976,7 +1064,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-089",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Rikku",
@@ -987,7 +1076,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-090",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Amodar",
@@ -998,7 +1088,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-091",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -1009,7 +1100,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-092",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Vanille",
@@ -1020,7 +1112,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-093",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Vincent",
@@ -1031,7 +1124,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-094",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Enna Kros",
@@ -1042,7 +1136,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-095",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Mystic",
@@ -1053,7 +1148,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-096",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Guy",
@@ -1064,7 +1160,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-097",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Gabranth",
@@ -1075,7 +1172,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-098",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Black Belt",
@@ -1086,7 +1184,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-099",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Black Belt",
@@ -1097,7 +1196,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-100",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Gippal",
@@ -1108,7 +1208,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-101",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Kimahri",
@@ -1119,7 +1220,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-102",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Kimahri",
@@ -1130,7 +1232,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-103",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Kefka",
@@ -1141,7 +1244,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-104",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Evoker",
@@ -1152,7 +1256,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-105",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Golem",
@@ -1163,7 +1268,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-106",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Shantotto",
@@ -1174,7 +1280,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-107",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cecil",
@@ -1185,7 +1292,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-108",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Serafie",
@@ -1196,7 +1304,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-109",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Titan",
@@ -1207,7 +1316,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-110",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Tama",
@@ -1218,7 +1328,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-111",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Delita",
@@ -1229,7 +1340,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-112",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Delita",
@@ -1240,7 +1352,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-113",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Barret",
@@ -1251,7 +1364,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-114",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -1262,7 +1376,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-115",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Prishe",
@@ -1273,7 +1388,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-116",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Hecatoncheir",
@@ -1284,7 +1400,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-117",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Mustadio",
@@ -1295,7 +1412,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-118",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Monk",
@@ -1306,7 +1424,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-119",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Monk",
@@ -1317,7 +1436,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-120",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -1328,7 +1448,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-121",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Exdeath",
@@ -1339,7 +1460,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-122",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Odin",
@@ -1350,7 +1472,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-123",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Odin",
@@ -1361,7 +1484,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-124",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight",
@@ -1372,7 +1496,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-125",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Orlandeau",
@@ -1383,7 +1508,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-126",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Kain",
@@ -1394,7 +1520,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-127",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Gilgamesh",
@@ -1405,7 +1532,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-128",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Gilgamesh",
@@ -1416,7 +1544,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-129",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -1427,7 +1556,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-130",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cait Sith",
@@ -1438,7 +1568,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-131",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cait Sith",
@@ -1449,7 +1580,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-132",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Sage",
@@ -1460,7 +1592,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-133",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Duke Goltanna",
@@ -1471,7 +1604,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-134",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Golbez",
@@ -1482,7 +1616,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-135",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Zalbaag",
@@ -1493,7 +1628,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-136",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Seymour",
@@ -1504,7 +1640,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-137",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -1515,7 +1652,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-138",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -1526,7 +1664,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-139",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Magus",
@@ -1537,7 +1676,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-140",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -1548,7 +1688,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-141",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -1559,7 +1700,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-142",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ramuh",
@@ -1570,7 +1712,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-143",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ramza",
@@ -1581,7 +1724,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-144",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ramza",
@@ -1592,7 +1736,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-145",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ricard",
@@ -1603,7 +1748,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-146",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -1614,7 +1760,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-147",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -1625,7 +1772,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-148",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Lulu",
@@ -1636,7 +1784,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-149",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Lulu",
@@ -1647,7 +1796,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-150",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Agrias",
@@ -1658,7 +1808,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-151",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ultimecia",
@@ -1669,7 +1820,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-152",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Alma",
@@ -1680,7 +1832,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-153",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -1691,7 +1844,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-154",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Warrior of Light",
@@ -1702,7 +1856,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-155",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Ovelia",
@@ -1713,7 +1868,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-156",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Scholar",
@@ -1724,7 +1880,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-157",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cloud of Darkness",
@@ -1735,7 +1892,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-158",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Evoker",
@@ -1746,7 +1904,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-159",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Gordon",
@@ -1757,7 +1916,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-160",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -1768,7 +1928,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-161",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cecil",
@@ -1779,7 +1940,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-162",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Tidus",
@@ -1790,7 +1952,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-163",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Tidus",
@@ -1801,7 +1964,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-164",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Knight",
@@ -1812,7 +1976,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-165",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Knight",
@@ -1823,7 +1988,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-166",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Viking",
@@ -1834,7 +2000,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-167",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -1845,7 +2012,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-168",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -1856,7 +2024,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-169",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Fairy",
@@ -1867,7 +2036,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-170",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Minwu",
@@ -1878,7 +2048,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-171",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Moogle",
@@ -1889,7 +2060,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-172",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Mime",
@@ -1900,7 +2072,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "1-173",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Yaag Rosch",
@@ -1911,7 +2084,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-174",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Yuj",
@@ -1922,7 +2096,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-175",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Yuna",
@@ -1933,7 +2108,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-176",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Yuna",
@@ -1944,7 +2120,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-177",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Leviathan",
@@ -1955,7 +2132,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-178",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Leila",
@@ -1966,7 +2144,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-179",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Wakka",
@@ -1977,7 +2156,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "1-180",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight",
@@ -1988,7 +2168,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-181",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cloud",
@@ -1999,7 +2180,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-182",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cosmos",
@@ -2010,7 +2192,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-183",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Chaos",
@@ -2021,7 +2204,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-184",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "The Emperor",
@@ -2032,7 +2216,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "1-185",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Sephiroth",
@@ -2043,7 +2228,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "1-186",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cloud",
@@ -2054,7 +2240,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-187",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Zangan",
@@ -2065,7 +2252,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-188",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Tifa",
@@ -2076,7 +2264,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-189",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Bahamut Fury",
@@ -2087,7 +2276,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-190",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Red XIII",
@@ -2098,7 +2288,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-191",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Cid Raines",
@@ -2109,7 +2300,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-192",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Jihl Nabaat",
@@ -2120,7 +2312,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-193",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Snow",
@@ -2131,7 +2324,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-194",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Serah",
@@ -2142,7 +2336,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-195",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Mog (XIII-2)",
@@ -2153,7 +2348,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-196",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Brother",
@@ -2164,7 +2360,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-197",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Valefor",
@@ -2175,7 +2372,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-198",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Paine",
@@ -2186,7 +2384,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-199",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Baralai",
@@ -2197,7 +2396,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-200",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Rikku",
@@ -2208,7 +2408,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-201",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Vincent",
@@ -2219,7 +2420,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-202",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Wedge",
@@ -2230,7 +2432,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-203",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Jessie",
@@ -2241,7 +2444,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-204",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Barret",
@@ -2252,7 +2456,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-205",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Biggs",
@@ -2263,7 +2468,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-206",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Gilgamesh",
@@ -2274,7 +2480,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-207",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Noel",
@@ -2285,7 +2492,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-208",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Maqui",
@@ -2296,7 +2504,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-209",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -2307,7 +2516,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-210",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Rygdea",
@@ -2318,7 +2528,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-211",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Shuyin",
@@ -2329,7 +2540,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-212",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Tidus",
@@ -2340,7 +2552,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-213",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Yuna",
@@ -2351,7 +2564,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-214",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Lenne",
@@ -2362,7 +2576,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-215",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Wakka",
@@ -2373,7 +2588,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "1-216",
-        opus: "I"
+        opus: "I",
+        idealQuantity: 3
     },
     {
         name: "Irvine",
@@ -2384,7 +2600,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-001",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ifrit",
@@ -2395,7 +2612,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-002",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ward",
@@ -2406,7 +2624,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-003",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ephemeral Phantom",
@@ -2417,7 +2636,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-004",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Sage",
@@ -2428,7 +2648,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-005",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Sazh",
@@ -2439,7 +2660,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-006",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Emperor Xande",
@@ -2450,7 +2672,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-007",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Zell",
@@ -2461,7 +2684,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-008",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Selphie",
@@ -2472,7 +2696,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-009",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Warrior",
@@ -2483,7 +2708,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-010",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Tifa",
@@ -2494,7 +2720,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-011",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Tellah",
@@ -2505,7 +2732,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-012",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -2516,7 +2744,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-013",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Basch",
@@ -2527,7 +2756,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-014",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Palom",
@@ -2538,7 +2768,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-015",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Palom",
@@ -2549,7 +2780,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-016",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Bergan",
@@ -2560,7 +2792,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-017",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -2571,7 +2804,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-018",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Belias, the Gigas",
@@ -2582,7 +2816,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-019",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Imitation Liegeman",
@@ -2593,7 +2828,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-020",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Montblanc",
@@ -2604,7 +2840,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-021",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Luneth",
@@ -2615,7 +2852,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-022",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rubicante",
@@ -2626,7 +2864,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-023",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rosso",
@@ -2637,7 +2876,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-024",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Weiss",
@@ -2648,7 +2888,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-025",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Vayne",
@@ -2659,7 +2900,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-026",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Scholar",
@@ -2670,7 +2912,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-027",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Semblance of a Lion",
@@ -2681,7 +2924,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-028",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Imaginary Champion",
@@ -2692,7 +2936,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-029",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Edward",
@@ -2703,7 +2948,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-030",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Edward",
@@ -2714,7 +2960,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-031",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -2725,7 +2972,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-032",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -2736,7 +2984,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-033",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Zargabaath",
@@ -2747,7 +2996,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-034",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Shelke",
@@ -2758,7 +3008,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-035",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Shalua",
@@ -2769,7 +3020,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-036",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Jihl Nabaat",
@@ -2780,7 +3032,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-037",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Squall",
@@ -2791,7 +3044,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-038",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Capricious Reaper",
@@ -2802,7 +3056,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-039",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Time Mage",
@@ -2813,7 +3068,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-040",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Doctor Cid",
@@ -2824,7 +3080,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-041",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Nero",
@@ -2835,7 +3092,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-042",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Hurdy",
@@ -2846,7 +3104,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-043",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Mateus, the Corrupt",
@@ -2857,7 +3116,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-044",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Moomba",
@@ -2868,7 +3128,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-045",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Laguna",
@@ -2879,7 +3140,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-046",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rinoa",
@@ -2890,7 +3152,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-047",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rinoa",
@@ -2901,7 +3164,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-048",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Asura",
@@ -2912,7 +3176,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-049",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Arc",
@@ -2923,7 +3188,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-050",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -2934,7 +3200,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-051",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -2945,7 +3212,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-052",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Edge",
@@ -2956,7 +3224,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-053",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Edge",
@@ -2967,7 +3236,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-054",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Kan-E-Senna",
@@ -2978,7 +3248,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-055",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ranger",
@@ -2989,7 +3260,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-056",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Cid Pollendina",
@@ -3000,7 +3272,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-057",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -3011,7 +3284,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-058",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Capricious Thief",
@@ -3022,7 +3296,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-059",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -3033,7 +3308,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-060",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -3044,7 +3320,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-061",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Nono",
@@ -3055,7 +3332,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-062",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Paine",
@@ -3066,7 +3344,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-063",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Barbariccia",
@@ -3077,7 +3356,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-064",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Balthier",
@@ -3088,7 +3368,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-065",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Balthier",
@@ -3099,7 +3380,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-066",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Penelo",
@@ -3110,7 +3392,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-067",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Fran",
@@ -3121,7 +3404,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-068",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Fallacious Wanderer",
@@ -3132,7 +3416,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-069",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Shemhazai, the Whisperer",
@@ -3143,7 +3428,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-070",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rikku",
@@ -3154,7 +3440,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-071",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Reddas",
@@ -3165,7 +3452,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-072",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -3176,7 +3464,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-073",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Warrior of Antiquity",
@@ -3187,7 +3476,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-074",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ingus",
@@ -3198,7 +3488,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-075",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Vanille",
@@ -3209,7 +3500,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-076",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Vincent",
@@ -3220,7 +3512,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-077",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Vincent",
@@ -3231,7 +3524,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-078",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ormi",
@@ -3242,7 +3536,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-079",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Carbuncle",
@@ -3253,7 +3548,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-080",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Gabranth",
@@ -3264,7 +3560,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-081",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ranger",
@@ -3275,7 +3572,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-082",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Machinist",
@@ -3286,7 +3584,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-083",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Logos",
@@ -3297,7 +3596,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-084",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Scarmiglione",
@@ -3308,7 +3608,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-085",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Sorbet",
@@ -3319,7 +3620,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-086",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Hashmal, Bringer of Order",
@@ -3330,7 +3632,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-087",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ba'Gamnan",
@@ -3341,7 +3644,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-088",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Monk",
@@ -3352,7 +3656,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-089",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Yang",
@@ -3363,7 +3668,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-090",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Yang",
@@ -3374,7 +3680,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-091",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Phantasmal Harlequin",
@@ -3385,7 +3692,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-092",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Raubahn",
@@ -3396,7 +3704,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-093",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rydia",
@@ -3407,7 +3716,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-094",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rydia",
@@ -3418,7 +3728,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-095",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Leblanc",
@@ -3429,7 +3740,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-096",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Al-Cid",
@@ -3440,7 +3752,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-097",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Amon",
@@ -3451,7 +3764,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-098",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Edea",
@@ -3462,7 +3776,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-099",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Edea",
@@ -3473,7 +3788,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-100",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Exdeath",
@@ -3484,7 +3800,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-101",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Gurdy",
@@ -3495,7 +3812,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-102",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Kain",
@@ -3506,7 +3824,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-103",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Kain",
@@ -3517,7 +3836,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-104",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Kiros",
@@ -3528,7 +3848,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-105",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Gramis",
@@ -3539,7 +3860,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-106",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Cyclops",
@@ -3550,7 +3872,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-107",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -3561,7 +3884,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-108",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Golbez",
@@ -3572,7 +3896,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-109",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Seifer",
@@ -3583,7 +3908,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-110",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Seifer",
@@ -3594,7 +3920,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-111",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Fleeting Flash",
@@ -3605,7 +3932,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-112",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Drace",
@@ -3616,7 +3944,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-113",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -3627,7 +3956,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-114",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -3638,7 +3968,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-115",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Fusoya",
@@ -3649,7 +3980,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-116",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Adrammelech, the Wroth",
@@ -3660,7 +3992,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-117",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Arborous Simulacrum",
@@ -3671,7 +4004,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-118",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Reeve",
@@ -3682,7 +4016,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-119",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -3693,7 +4028,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-120",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ashe",
@@ -3704,7 +4040,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-121",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Agrias",
@@ -3715,7 +4052,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-122",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ephemeral Vision",
@@ -3726,7 +4064,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-123",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Cagnazzo",
@@ -3737,7 +4076,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-124",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Semblance of a Witch",
@@ -3748,7 +4088,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-125",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Ghis",
@@ -3759,7 +4100,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-126",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Quistis",
@@ -3770,7 +4112,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-127",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -3781,7 +4124,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-128",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Cecil",
@@ -3792,7 +4136,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-129",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Astrologian",
@@ -3803,7 +4148,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-130",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Knight",
@@ -3814,7 +4160,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-131",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Viking",
@@ -3825,7 +4172,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-132",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Cuchulainn, the Impure",
@@ -3836,7 +4184,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-133",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Horne",
@@ -3847,7 +4196,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-134",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Porom",
@@ -3858,7 +4208,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-135",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Porom",
@@ -3869,7 +4220,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-136",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Merlwyb",
@@ -3880,7 +4232,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-137",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Yuna",
@@ -3891,7 +4244,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-138",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Larsa",
@@ -3902,7 +4256,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-139",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Leviathan",
@@ -3913,7 +4268,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-140",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Refia",
@@ -3924,7 +4280,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-141",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Lenne",
@@ -3935,7 +4292,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-142",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rosa",
@@ -3946,7 +4304,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "2-143",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Rosa",
@@ -3957,7 +4316,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "2-144",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Warrior of Light",
@@ -3968,7 +4328,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-145",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Fusoya",
@@ -3979,7 +4340,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-146",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "The Emperor",
@@ -3990,7 +4352,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "2-147",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Zemus",
@@ -4001,7 +4364,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "2-148",
-        opus: "II"
+        opus: "II",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -4012,7 +4376,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-001",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ifrit",
@@ -4023,7 +4388,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-002",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ace",
@@ -4034,7 +4400,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-003",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Garland",
@@ -4045,7 +4412,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-004",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Imaginary Brawler",
@@ -4056,7 +4424,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-005",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "King",
@@ -4067,7 +4436,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-006",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -4078,7 +4448,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-007",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Cloud",
@@ -4089,7 +4460,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-008",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Cater",
@@ -4100,7 +4472,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-009",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Gekkou",
@@ -4111,7 +4484,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-010",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Gladiator",
@@ -4122,7 +4496,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-011",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Zack",
@@ -4133,7 +4508,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-012",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Amarant",
@@ -4144,7 +4520,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-013",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Cinque",
@@ -4155,7 +4532,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-014",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Black Waltz 2",
@@ -4166,7 +4544,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-015",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Palom",
@@ -4177,7 +4556,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-016",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Vivi",
@@ -4188,7 +4568,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-017",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Vivi",
@@ -4199,7 +4580,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-018",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Faris",
@@ -4210,7 +4592,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-019",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Phoenix",
@@ -4221,7 +4604,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-020",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Cannoneer",
@@ -4232,7 +4616,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-021",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Machina",
@@ -4243,7 +4628,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-022",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Luca",
@@ -4254,7 +4640,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-023",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Rubicante",
@@ -4265,7 +4652,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-024",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Emina",
@@ -4276,7 +4664,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-025",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Kazusa",
@@ -4287,7 +4676,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-026",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Qator Bashtar",
@@ -4298,7 +4688,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-027",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Semblance of a Gunslinger",
@@ -4309,7 +4700,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-028",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Edward",
@@ -4320,7 +4712,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-029",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Kuja",
@@ -4331,7 +4724,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-030",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Kurasame",
@@ -4342,7 +4736,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-031",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Shiva",
@@ -4353,7 +4748,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-032",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Genesis",
@@ -4364,7 +4760,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-033",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Genesis Avatar",
@@ -4375,7 +4772,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-034",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Shelke",
@@ -4386,7 +4784,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-035",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Cid Aulstyne",
@@ -4397,7 +4796,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-036",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Zalera, the Death Seraph",
@@ -4408,7 +4808,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-037",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Xezat",
@@ -4419,7 +4820,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-038",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Sephiroth",
@@ -4430,7 +4832,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-039",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "DGS Trooper 1st Class",
@@ -4441,7 +4844,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-040",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Deepground Soldier",
@@ -4452,7 +4856,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-041",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Deepground Soldier",
@@ -4463,7 +4868,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-042",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Time Mage",
@@ -4474,7 +4880,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-043",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Harley",
@@ -4485,7 +4892,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-044",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "White Tiger l'Cie Qun'mi",
@@ -4496,7 +4904,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-045",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "White Tiger l'Cie Nimbus",
@@ -4507,7 +4916,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-046",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Cannoneer",
@@ -4518,7 +4928,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-047",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Mystic Knight",
@@ -4529,7 +4940,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-048",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Izana",
@@ -4540,7 +4952,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-049",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Aerith",
@@ -4551,7 +4964,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-050",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Eight",
@@ -4562,7 +4976,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-051",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Dancer",
@@ -4573,7 +4988,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-052",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ranger",
@@ -4584,7 +5000,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-053",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Black Chocobo",
@@ -4595,7 +5012,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-054",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Thief",
@@ -4606,7 +5024,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-055",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Zidane",
@@ -4617,7 +5036,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-056",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Seven",
@@ -4628,7 +5048,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-057",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Sky Pirate Replica",
@@ -4639,7 +5060,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-058",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "King Tycoon",
@@ -4650,7 +5072,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-059",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Tsukinowa",
@@ -4661,7 +5084,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-060",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Diablos",
@@ -4672,7 +5096,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-061",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Deuce",
@@ -4683,7 +5108,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-062",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Dorgann",
@@ -4694,7 +5120,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-063",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Trey",
@@ -4705,7 +5132,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-064",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Bartz",
@@ -4716,7 +5144,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-065",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Barbariccia",
@@ -4727,7 +5156,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-066",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Wind Drake",
@@ -4738,7 +5168,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-067",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -4749,7 +5180,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-068",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Yuffie",
@@ -4760,7 +5192,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-069",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Oracle",
@@ -4771,7 +5204,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-070",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Chaos, Walker of the Wheel",
@@ -4782,7 +5216,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-071",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Rem",
@@ -4793,7 +5228,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-072",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ursula",
@@ -4804,7 +5240,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-073",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Atomos",
@@ -4815,7 +5252,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-074",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Horror of Antiquity",
@@ -4826,7 +5264,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-075",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Masked Woman",
@@ -4837,7 +5276,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-076",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Galuf",
@@ -4848,7 +5288,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-077",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Krile",
@@ -4859,7 +5300,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-078",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Kefka",
@@ -4870,7 +5312,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-079",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Black Tortoise l'Cie Gilgamesh",
@@ -4881,7 +5324,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-080",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -4892,7 +5336,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-081",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Scarmiglione",
@@ -4903,7 +5348,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-082",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Segwarides",
@@ -4914,7 +5360,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-083",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "WRO Member",
@@ -4925,7 +5372,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-084",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "WRO Member",
@@ -4936,7 +5384,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-085",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "WRO Commander",
@@ -4947,7 +5396,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-086",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Zeromus, the Condemner",
@@ -4958,7 +5408,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-087",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Delita",
@@ -4969,7 +5420,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-088",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "The Girl Who Forgot Her Name",
@@ -4980,7 +5432,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-089",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -4991,7 +5444,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-090",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Berserker",
@@ -5002,7 +5456,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-091",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Prishe",
@@ -5013,7 +5468,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-092",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Brandelis",
@@ -5024,7 +5480,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-093",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Pellinore",
@@ -5035,7 +5492,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-094",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Yang",
@@ -5046,7 +5504,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-095",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Rydia",
@@ -5057,7 +5516,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-096",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Arecia Al-Rashia",
@@ -5068,7 +5528,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-097",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Angeal",
@@ -5079,7 +5540,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-098",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Angeal Penance",
@@ -5090,7 +5552,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-099",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Exdeath",
@@ -5101,7 +5564,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-100",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Enuo",
@@ -5112,7 +5576,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-101",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Odin",
@@ -5123,7 +5588,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-102",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Gilgamesh",
@@ -5134,7 +5600,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-103",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Queen",
@@ -5145,7 +5612,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-104",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Black Waltz 3",
@@ -5156,7 +5624,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-105",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -5167,7 +5636,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-106",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -5178,7 +5648,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-107",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Kelger",
@@ -5189,7 +5660,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-108",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Sice",
@@ -5200,7 +5672,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-109",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Zangetsu",
@@ -5211,7 +5684,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-110",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Jack",
@@ -5222,7 +5696,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-111",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Exodus, the Judge-Sal",
@@ -5233,7 +5708,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-112",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Nine",
@@ -5244,7 +5720,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-113",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Freya",
@@ -5255,7 +5732,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-114",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Cannoneer",
@@ -5266,7 +5744,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-115",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Mystic Knight",
@@ -5277,7 +5756,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-116",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Simulacrum of a Hero",
@@ -5288,7 +5768,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-117",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -5299,7 +5780,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-118",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ramza",
@@ -5310,7 +5792,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-119",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -5321,7 +5804,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-120",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Blue Mage",
@@ -5332,7 +5816,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-121",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Artemicion",
@@ -5343,7 +5828,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-122",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Famfrit, the Darkening Cloud",
@@ -5354,7 +5840,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-123",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Izayoi",
@@ -5365,7 +5852,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-124",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ephemeral Summoner",
@@ -5376,7 +5864,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-125",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Eiko",
@@ -5387,7 +5876,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-126",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Eiko",
@@ -5398,7 +5888,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-127",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Dancer",
@@ -5409,7 +5900,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-128",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Garnet",
@@ -5420,7 +5912,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-129",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Cagnazzo",
@@ -5431,7 +5924,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-130",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ghido",
@@ -5442,7 +5936,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-131",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Quacho Queen",
@@ -5453,7 +5948,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-132",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Quina",
@@ -5464,7 +5960,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-133",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -5475,7 +5972,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-134",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Syldra",
@@ -5486,7 +5984,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-135",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -5497,7 +5996,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-136",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Steiner",
@@ -5508,7 +6008,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-137",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ceodore",
@@ -5519,7 +6020,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-138",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Knight",
@@ -5530,7 +6032,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-139",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Porom",
@@ -5541,7 +6044,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "3-140",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Mog (IX)",
@@ -5552,7 +6056,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-141",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Famed Mimic Gogo",
@@ -5563,7 +6068,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-142",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Leonora",
@@ -5574,7 +6080,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "3-143",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Lenna",
@@ -5585,7 +6092,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-144",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ultima, the High Seraph",
@@ -5596,7 +6104,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-145",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Minerva",
@@ -5607,7 +6116,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-146",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Zodiark, Keeper of Precepts",
@@ -5618,7 +6128,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "3-147",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Feral Chaos",
@@ -5629,7 +6140,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "3-148",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Vivi",
@@ -5640,7 +6152,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "3-149",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Moogle (Class Zero)",
@@ -5651,7 +6164,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "3-150",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Queen",
@@ -5662,7 +6176,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "3-151",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Garnet",
@@ -5673,7 +6188,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "3-152",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Ace",
@@ -5684,7 +6200,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "3-153",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Zidane",
@@ -5695,7 +6212,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "3-154",
-        opus: "III"
+        opus: "III",
+        idealQuantity: 3
     },
     {
         name: "Hauyn",
@@ -5706,7 +6224,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-001",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -5717,7 +6236,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-002",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ifrit",
@@ -5728,7 +6248,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-003",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Edgar",
@@ -5739,7 +6260,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-004",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Garland",
@@ -5750,7 +6272,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-005",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Caius",
@@ -5761,7 +6284,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-006",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Cyan",
@@ -5772,7 +6296,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-007",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Scholar",
@@ -5783,7 +6308,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-008",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ranger",
@@ -5794,7 +6320,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-009",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -5805,7 +6332,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-010",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Sage",
@@ -5816,7 +6344,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-011",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Goblin",
@@ -5827,7 +6356,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-012",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Zack",
@@ -5838,7 +6368,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-013",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Samurai",
@@ -5849,7 +6380,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-014",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Shadow",
@@ -5860,7 +6392,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-015",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Bahamut",
@@ -5871,7 +6404,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-016",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Marauder",
@@ -5882,7 +6416,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-017",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Bomb",
@@ -5893,7 +6428,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-018",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Bomb",
@@ -5904,7 +6440,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-019",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Marche",
@@ -5915,7 +6452,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-020",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Sabin",
@@ -5926,7 +6464,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-021",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Montblanc",
@@ -5937,7 +6476,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-022",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "General Leo",
@@ -5948,7 +6488,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-023",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Llednar",
@@ -5959,7 +6500,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-024",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Umaro",
@@ -5970,7 +6512,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-025",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Gestahlian Empire Cid",
@@ -5981,7 +6524,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-026",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -5992,7 +6536,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-027",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -6003,7 +6548,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-028",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ghoul",
@@ -6014,7 +6560,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-029",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -6025,7 +6572,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-030",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Sage",
@@ -6036,7 +6584,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-031",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Arithmetician",
@@ -6047,7 +6596,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-032",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Shiva",
@@ -6058,7 +6608,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-033",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Cid (WOFF)",
@@ -6069,7 +6620,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-034",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Cid Randall",
@@ -6080,7 +6632,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-035",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Setzer",
@@ -6091,7 +6644,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-036",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Serah",
@@ -6102,7 +6656,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-037",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Celes",
@@ -6113,7 +6668,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-038",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Rogue",
@@ -6124,7 +6680,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-039",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Knight",
@@ -6135,7 +6692,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-040",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Swampmonk",
@@ -6146,7 +6704,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-041",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Babus",
@@ -6157,7 +6716,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-042",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Flan",
@@ -6168,7 +6728,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-043",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Mewt",
@@ -6179,7 +6740,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-044",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Mecha Chocobo",
@@ -6190,7 +6752,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-045",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Lich",
@@ -6201,7 +6764,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-046",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Remedi",
@@ -6212,7 +6776,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-047",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Locke",
@@ -6223,7 +6788,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-048",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ahriman",
@@ -6234,7 +6800,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-049",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "A-Ruhn-Senna",
@@ -6245,7 +6812,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-050",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Alexander",
@@ -6256,7 +6824,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-051",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Alexander",
@@ -6267,7 +6836,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-052",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ezel",
@@ -6278,7 +6848,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-053",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight",
@@ -6289,7 +6860,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-054",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Kan-E-Senna",
@@ -6300,7 +6872,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-055",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Archer",
@@ -6311,7 +6884,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-056",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Koboldroid Yin",
@@ -6322,7 +6896,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-057",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Cactuar",
@@ -6333,7 +6908,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-058",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Thief",
@@ -6344,7 +6920,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-059",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Shara",
@@ -6355,7 +6932,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-060",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -6366,7 +6944,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-061",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -6377,7 +6956,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-062",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -6388,7 +6968,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-063",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Fat Chocobo",
@@ -6399,7 +6980,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-064",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Doned",
@@ -6410,7 +6992,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-065",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Nono",
@@ -6421,7 +7004,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-066",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -6432,7 +7016,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-067",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Hope",
@@ -6443,7 +7028,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-068",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Moogle",
@@ -6454,7 +7040,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-069",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Archer",
@@ -6465,7 +7052,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-070",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Raya-O-Senna",
@@ -6476,7 +7064,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-071",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ritz",
@@ -6487,7 +7076,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-072",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Atomos",
@@ -6498,7 +7088,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-073",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -6509,7 +7100,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-074",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Vincent",
@@ -6520,7 +7112,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-075",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Wedge",
@@ -6531,7 +7124,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-076",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Pugilist",
@@ -6542,7 +7136,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-077",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Black Belt",
@@ -6553,7 +7148,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-078",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -6564,7 +7160,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-079",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Kefka",
@@ -6575,7 +7172,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-080",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Goblin",
@@ -6586,7 +7184,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-081",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Jessie",
@@ -6597,7 +7196,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-082",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Shantotto",
@@ -6608,7 +7208,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-083",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Warrior",
@@ -6619,7 +7220,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-084",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Dadaluma",
@@ -6630,7 +7232,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-085",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Tama",
@@ -6641,7 +7244,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-086",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Delita",
@@ -6652,7 +7256,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-087",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Bangaa Thief",
@@ -6663,7 +7268,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-088",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Barret",
@@ -6674,7 +7280,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-089",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Biggs",
@@ -6685,7 +7292,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-090",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -6696,7 +7304,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-091",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Prishe",
@@ -6707,7 +7316,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-092",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Hecatoncheir",
@@ -6718,7 +7328,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-093",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Magic Pot",
@@ -6729,7 +7340,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-094",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Monk",
@@ -6740,7 +7352,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-095",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Raubahn",
@@ -6751,7 +7364,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-096",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ark Angel EV",
@@ -6762,7 +7376,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-097",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Azul",
@@ -6773,7 +7388,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-098",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Usher",
@@ -6784,7 +7400,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-099",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Esthar Soldier",
@@ -6795,7 +7412,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-100",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Orlandeau",
@@ -6806,7 +7424,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-101",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Black Waltz 3",
@@ -6817,7 +7436,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-102",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Warrior",
@@ -6828,7 +7448,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-103",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Lancer",
@@ -6839,7 +7460,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-104",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Dycedarg",
@@ -6850,7 +7472,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-105",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Dragon",
@@ -6861,7 +7484,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-106",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Nashu",
@@ -6872,7 +7496,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-107",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -6883,7 +7508,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-108",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Hildibrand",
@@ -6894,7 +7520,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-109",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "King of Burmecia",
@@ -6905,7 +7532,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-110",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Behemoth",
@@ -6916,7 +7544,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-111",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Magus",
@@ -6927,7 +7556,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-112",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Magus",
@@ -6938,7 +7568,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-113",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Raiden",
@@ -6949,7 +7580,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-114",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -6960,7 +7592,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-115",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ramuh",
@@ -6971,7 +7604,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-116",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Ramza",
@@ -6982,7 +7616,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-117",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Yeoman",
@@ -6993,7 +7628,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-118",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -7004,7 +7640,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-119",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Restrictor",
@@ -7015,7 +7652,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-120",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Adamantoise",
@@ -7026,7 +7664,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-121",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Mystic",
@@ -7037,7 +7676,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-122",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Gau",
@@ -7048,7 +7688,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-123",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Green Dragon",
@@ -7059,7 +7700,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-124",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Clione",
@@ -7070,7 +7712,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-125",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Gladiator",
@@ -7081,7 +7724,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-126",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Gogo",
@@ -7092,7 +7736,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-127",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "PuPu",
@@ -7103,7 +7748,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-128",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Steiner",
@@ -7114,7 +7760,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-129",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Strago",
@@ -7125,7 +7772,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-130",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Tonbetty",
@@ -7136,7 +7784,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-131",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Tonberries",
@@ -7147,7 +7796,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-132",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Viking",
@@ -7158,7 +7808,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-133",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Brahne",
@@ -7169,7 +7820,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-134",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Beatrix",
@@ -7180,7 +7832,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-135",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -7191,7 +7844,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-136",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Mira",
@@ -7202,7 +7856,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-137",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Merlwyb",
@@ -7213,7 +7868,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-138",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Moogle (THEATRHYTHM)",
@@ -7224,7 +7880,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-139",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Mog (VI)",
@@ -7235,7 +7892,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-140",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Mime",
@@ -7246,7 +7904,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "4-141",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Malboro",
@@ -7257,7 +7916,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-142",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Leviathan",
@@ -7268,7 +7928,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "4-143",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Relm",
@@ -7279,7 +7940,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-144",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Cloud",
@@ -7290,7 +7952,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-145",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Terra",
@@ -7301,7 +7964,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-146",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Kefka",
@@ -7312,7 +7976,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "4-147",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Shadow Lord",
@@ -7323,7 +7988,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "4-148",
-        opus: "IV"
+        opus: "IV",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -7334,7 +8000,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-001",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ayame",
@@ -7345,7 +8012,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-002",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ifrit",
@@ -7356,7 +8024,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-003",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Caius",
@@ -7367,7 +8036,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-004",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Gadot",
@@ -7378,7 +8048,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-005",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Carla",
@@ -7389,7 +8060,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-006",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Royal Ripeness",
@@ -7400,7 +8072,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-007",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Grenade",
@@ -7411,7 +8084,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-008",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -7422,7 +8096,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-009",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Manasvin Warmech",
@@ -7433,7 +8108,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-010",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Vermilion Bird l'Cie Zhuyu",
@@ -7444,7 +8120,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-011",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Vermilion Bird l'Cie Caetuna",
@@ -7455,7 +8132,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-012",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Warrior",
@@ -7466,7 +8144,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-013",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Warrior",
@@ -7477,7 +8156,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-014",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Tellah",
@@ -7488,7 +8168,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-015",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Fighter",
@@ -7499,7 +8180,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-016",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -7510,7 +8192,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-017",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Palom",
@@ -7521,7 +8204,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-018",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Phoenix",
@@ -7532,7 +8216,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-019",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Volker",
@@ -7543,7 +8228,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-020",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Mutsuki",
@@ -7554,7 +8240,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-021",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Parivir",
@@ -7565,7 +8252,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-022",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ryid",
@@ -7576,7 +8264,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-023",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Luneth",
@@ -7587,7 +8276,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-024",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Aloeidai",
@@ -7598,7 +8288,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-025",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Vayne",
@@ -7609,7 +8300,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-026",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Unei",
@@ -7620,7 +8312,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-027",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Arcanist",
@@ -7631,7 +8324,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-028",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Orphan",
@@ -7642,7 +8336,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-029",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Scholar",
@@ -7653,7 +8348,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-030",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Edward",
@@ -7664,7 +8360,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-031",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Glasya Labolas",
@@ -7675,7 +8372,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-032",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Gumbah",
@@ -7686,7 +8384,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-033",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Gesper",
@@ -7697,7 +8396,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-034",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Conjurer",
@@ -7708,7 +8408,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-035",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "The Emperor",
@@ -7719,7 +8420,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-036",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Zeid",
@@ -7730,7 +8432,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-037",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Arithmetician",
@@ -7741,7 +8444,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-038",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Cid Raines",
@@ -7752,7 +8456,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-039",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Thaumaturge",
@@ -7763,7 +8468,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-040",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Snow",
@@ -7774,7 +8480,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-041",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Trickster",
@@ -7785,7 +8492,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-042",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Hurdy",
@@ -7796,7 +8504,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-043",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Mateus, the Corrupt",
@@ -7807,7 +8516,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-044",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Barnabas",
@@ -7818,7 +8528,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-045",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Buccaboo",
@@ -7829,7 +8540,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-046",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Mystic Knight",
@@ -7840,7 +8552,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-047",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Lugae",
@@ -7851,7 +8564,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-048",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Asura",
@@ -7862,7 +8576,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-049",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Adelle",
@@ -7873,7 +8588,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-050",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Aria (TYPE-0)",
@@ -7884,7 +8600,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-051",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Arc",
@@ -7895,7 +8612,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-052",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Echo",
@@ -7906,7 +8624,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-053",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ranger",
@@ -7917,7 +8636,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-054",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Thief",
@@ -7928,7 +8648,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-055",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Cid Pollendina",
@@ -7939,7 +8660,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-056",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -7950,7 +8672,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-057",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Elementalist",
@@ -7961,7 +8684,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-058",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Semih Lafihna",
@@ -7972,7 +8696,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-059",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -7983,7 +8708,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-060",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Chocobo Knight",
@@ -7994,7 +8720,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-061",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Diabolos",
@@ -8005,7 +8732,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-062",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Deathgaze",
@@ -8016,7 +8744,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-063",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Nanaa Mihgo",
@@ -8027,7 +8756,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-064",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -8038,7 +8768,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-065",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Penelo",
@@ -8049,7 +8780,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-066",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Miounne",
@@ -8060,7 +8792,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-067",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Y'shtola",
@@ -8071,7 +8804,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-068",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Luso",
@@ -8082,7 +8816,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-069",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Reks",
@@ -8093,7 +8828,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-070",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Leyak",
@@ -8104,7 +8840,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-071",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Spiceacilian",
@@ -8115,7 +8852,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-072",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Heretical Knight Garland",
@@ -8126,7 +8864,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-073",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ingus",
@@ -8137,7 +8876,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-074",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Wol",
@@ -8148,7 +8888,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-075",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Botanist",
@@ -8159,7 +8900,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-076",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Carbuncle",
@@ -8170,7 +8912,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-077",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Gabranth",
@@ -8181,7 +8924,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-078",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Calbrena",
@@ -8192,7 +8936,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-079",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Grav'iton",
@@ -8203,7 +8948,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-080",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Cockatrice",
@@ -8214,7 +8960,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-081",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Miner",
@@ -8225,7 +8972,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-082",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "PSICOM Enforcer",
@@ -8236,7 +8984,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-083",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "PSICOM Warden",
@@ -8247,7 +8996,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-084",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Sarah (MOBIUS)",
@@ -8258,7 +9008,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-085",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Cecil",
@@ -8269,7 +9020,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-086",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Doga",
@@ -8280,7 +9032,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-087",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Flandit",
@@ -8291,7 +9044,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-088",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Berserker",
@@ -8302,7 +9056,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-089",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Hill Gigas",
@@ -8313,7 +9068,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-090",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Star Sibyl",
@@ -8324,7 +9080,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-091",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Master Monk",
@@ -8335,7 +9092,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-092",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Mog (MOBIUS)",
@@ -8346,7 +9104,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-093",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Momodi",
@@ -8357,7 +9116,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-094",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Yang",
@@ -8368,7 +9128,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-095",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Lanista",
@@ -8379,7 +9140,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-096",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -8390,7 +9152,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-097",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Assassin",
@@ -8401,7 +9164,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-098",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Illua",
@@ -8412,7 +9176,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-099",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Odin",
@@ -8423,7 +9188,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-100",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Twilight Odin",
@@ -8434,7 +9200,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-101",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Scholar",
@@ -8445,7 +9212,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-102",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Cid of Clan Gully",
@@ -8456,7 +9224,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-103",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Khalia Chival",
@@ -8467,7 +9236,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-104",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Quon",
@@ -8478,7 +9248,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-105",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Black Knight",
@@ -8489,7 +9260,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-106",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Thancred",
@@ -8500,7 +9272,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-107",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Zemus",
@@ -8511,7 +9284,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-108",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Destin",
@@ -8522,7 +9296,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-109",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Bunkerbeast",
@@ -8533,7 +9308,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-110",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Trion",
@@ -8544,7 +9320,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-111",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Naghi",
@@ -8555,7 +9332,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-112",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ravager",
@@ -8566,7 +9344,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-113",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Cannoneer",
@@ -8577,7 +9356,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-114",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -8588,7 +9368,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-115",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -8599,7 +9380,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-116",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ramuh",
@@ -8610,7 +9392,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-117",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ramza",
@@ -8621,7 +9404,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-118",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -8632,7 +9416,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-119",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Louisoix",
@@ -8643,7 +9428,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-120",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Andoria",
@@ -8654,7 +9440,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-121",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Vossler",
@@ -8665,7 +9452,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-122",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Aria (III)",
@@ -8676,7 +9464,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-123",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ozma",
@@ -8687,7 +9476,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-124",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ondore",
@@ -8698,7 +9488,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-125",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Cloud of Darkness",
@@ -8709,7 +9500,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-126",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Curilla",
@@ -8720,7 +9512,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-127",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Claidie",
@@ -8731,7 +9524,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-128",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Schrodinger",
@@ -8742,7 +9536,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-129",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Tonberry",
@@ -8753,7 +9548,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-130",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Arcanist",
@@ -8764,7 +9560,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-131",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Baderon",
@@ -8775,7 +9572,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-132",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Bismarck",
@@ -8786,7 +9584,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-133",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Celestia",
@@ -8797,7 +9596,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "5-134",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Porom",
@@ -8808,7 +9608,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-135",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Flintlock",
@@ -8819,7 +9620,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-136",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Green Mage",
@@ -8830,7 +9632,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-137",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Moogle Knight",
@@ -8841,7 +9644,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-138",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Leviathan",
@@ -8852,7 +9656,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-139",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Fisher",
@@ -8863,7 +9668,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-140",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Refia",
@@ -8874,7 +9680,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-141",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Rosa",
@@ -8885,7 +9692,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-142",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Orator",
@@ -8896,7 +9704,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-143",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Orator",
@@ -8907,7 +9716,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "5-144",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -8918,7 +9728,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-145",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Wol",
@@ -8929,7 +9740,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-146",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Eald'narche",
@@ -8940,7 +9752,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "5-147",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Kam'lanaut",
@@ -8951,7 +9764,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "5-148",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Amodar",
@@ -8962,7 +9776,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-149",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Noel",
@@ -8973,7 +9788,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-150",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Lebreau",
@@ -8984,7 +9800,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-151",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Serah",
@@ -8995,7 +9812,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-152",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Mog (XIII-2)",
@@ -9006,7 +9824,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-153",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Yeul",
@@ -9017,7 +9836,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-154",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -9028,7 +9848,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-155",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Balthier",
@@ -9039,7 +9860,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-156",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Fran",
@@ -9050,7 +9872,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-157",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Yda",
@@ -9061,7 +9884,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-158",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Papalymo",
@@ -9072,7 +9896,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-159",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Minfilia",
@@ -9083,7 +9908,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-160",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Alisaie",
@@ -9094,7 +9920,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-161",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Alphinaud",
@@ -9105,7 +9932,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-162",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Urianger",
@@ -9116,7 +9944,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-163",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ashe",
@@ -9127,7 +9956,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-164",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Larsa",
@@ -9138,7 +9968,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-165",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Rasler",
@@ -9149,7 +9980,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "5-166",
-        opus: "V"
+        opus: "V",
+        idealQuantity: 3
     },
     {
         name: "Ward",
@@ -9160,7 +9992,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-001",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Garland",
@@ -9171,7 +10004,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-002",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Guy",
@@ -9182,7 +10016,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-003",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Kiros",
@@ -9193,7 +10028,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-004",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Illusionist",
@@ -9204,7 +10040,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-005",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Evoker",
@@ -9215,7 +10052,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-006",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Cornelia",
@@ -9226,7 +10064,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-007",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Goblin",
@@ -9237,7 +10076,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-008",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Cid (XI)",
@@ -9248,7 +10088,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-009",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Vermilion Bird l'Cie Caetuna",
@@ -9259,7 +10100,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-010",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Dominion Legionary",
@@ -9270,7 +10112,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-011",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Zell",
@@ -9281,7 +10124,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-012",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Selphie",
@@ -9292,7 +10136,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-013",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Warrior",
@@ -9303,7 +10148,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-014",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Soldier",
@@ -9314,7 +10160,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-015",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Dark Lord",
@@ -9325,7 +10172,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-016",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Bahamut",
@@ -9336,7 +10184,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-017",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Neo Bahamut",
@@ -9347,7 +10196,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-018",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Firion",
@@ -9358,7 +10208,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-019",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Montblanc",
@@ -9369,7 +10220,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-020",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Ruby Dragon",
@@ -9380,7 +10232,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-021",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Ysayle",
@@ -9391,7 +10244,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-022",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Emina",
@@ -9402,7 +10256,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-023",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Scholar",
@@ -9413,7 +10268,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-024",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Kazusa",
@@ -9424,7 +10280,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-025",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -9435,7 +10292,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-026",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Kuja",
@@ -9446,7 +10304,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-027",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Kurasame",
@@ -9457,7 +10316,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-028",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Doomtrain",
@@ -9468,7 +10328,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-029",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Militesi Coeurl",
@@ -9479,7 +10340,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-030",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -9490,7 +10352,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-031",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -9501,7 +10364,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-032",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Squall",
@@ -9512,7 +10376,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-033",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Snow",
@@ -9523,7 +10388,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-034",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Snow Giant",
@@ -9534,7 +10400,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-035",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Celes",
@@ -9545,7 +10412,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-036",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Shock Trooper",
@@ -9556,7 +10424,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-037",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Hades",
@@ -9567,7 +10436,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-038",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Borghen",
@@ -9578,7 +10448,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-039",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Laguna",
@@ -9589,7 +10460,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-040",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Rinoa",
@@ -9600,7 +10472,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-041",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Locke",
@@ -9611,7 +10484,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-042",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Evoker",
@@ -9622,7 +10496,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-043",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Zidane",
@@ -9633,7 +10508,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-044",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Cid (II)",
@@ -9644,7 +10520,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-045",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Cid Haze",
@@ -9655,7 +10532,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-046",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -9666,7 +10544,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-047",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Shinra",
@@ -9677,7 +10556,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-048",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Zu",
@@ -9688,7 +10568,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-049",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -9699,7 +10580,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-050",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Choco/Mog",
@@ -9710,7 +10592,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-051",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Diablos",
@@ -9721,7 +10604,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-052",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Paine",
@@ -9732,7 +10616,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-053",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Fujin",
@@ -9743,7 +10628,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-054",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -9754,7 +10640,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-055",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Paul",
@@ -9765,7 +10652,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-056",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Maria",
@@ -9776,7 +10664,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-057",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Moogle (XI)",
@@ -9787,7 +10676,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-058",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Wingvern",
@@ -9798,7 +10688,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-059",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Lezaford",
@@ -9809,7 +10700,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-060",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Raptor",
@@ -9820,7 +10712,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-061",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Rikku",
@@ -9831,7 +10724,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-062",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Leon",
@@ -9842,7 +10736,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-063",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Ajido-Marujido",
@@ -9853,7 +10748,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-064",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -9864,7 +10760,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-065",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Warrior of Light",
@@ -9875,7 +10772,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-066",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Epitav",
@@ -9886,7 +10784,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-067",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Scholar",
@@ -9897,7 +10796,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-068",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Machinist",
@@ -9908,7 +10808,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-069",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Gigas",
@@ -9919,7 +10820,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-070",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Krile (XIV)",
@@ -9930,7 +10832,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-071",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Cait Sith (XIV)",
@@ -9941,7 +10844,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-072",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Evoker",
@@ -9952,7 +10856,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-073",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Cactuar",
@@ -9963,7 +10868,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-074",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Titan",
@@ -9974,7 +10880,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-075",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Pavlov",
@@ -9985,7 +10892,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-076",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Hugh Yurg",
@@ -9996,7 +10904,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-077",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Maat",
@@ -10007,7 +10916,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-078",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Minfilia",
@@ -10018,7 +10928,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-079",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Mushussu",
@@ -10029,7 +10940,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-080",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Moogle Brothers",
@@ -10040,7 +10952,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-081",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Monk",
@@ -10051,7 +10964,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-082",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Y'shtola",
@@ -10062,7 +10976,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-083",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Leo",
@@ -10073,7 +10988,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-084",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Al-Cid",
@@ -10084,7 +11000,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-085",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Arecia Al-Rashia",
@@ -10095,7 +11012,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-086",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Edea",
@@ -10106,7 +11024,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-087",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Estinien",
@@ -10117,7 +11036,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-088",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Estinien",
@@ -10128,7 +11048,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-089",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Kain",
@@ -10139,7 +11060,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-090",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -10150,7 +11072,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-091",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Quezacotl",
@@ -10161,7 +11084,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-092",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Colossus",
@@ -10172,7 +11096,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-093",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Seifer",
@@ -10183,7 +11108,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-094",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Seifer",
@@ -10194,7 +11120,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-095",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -10205,7 +11132,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-096",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -10216,7 +11144,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-097",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Diepvern",
@@ -10227,7 +11156,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-098",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Frimelda",
@@ -10238,7 +11168,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-099",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Ewen",
@@ -10249,7 +11180,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-100",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Raijin",
@@ -10260,7 +11192,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-101",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Ramuh",
@@ -10271,7 +11204,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-102",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Ricard",
@@ -10282,7 +11216,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-103",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -10293,7 +11228,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-104",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -10304,7 +11240,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-105",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Aymeric",
@@ -10315,7 +11252,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-106",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Ultimecia",
@@ -10326,7 +11264,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-107",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Thordan VII",
@@ -10337,7 +11276,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-108",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Eiko",
@@ -10348,7 +11288,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-109",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Evoker",
@@ -10359,7 +11300,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-110",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Sahagin",
@@ -10370,7 +11312,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-111",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Shuyin",
@@ -10381,7 +11324,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-112",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -10392,7 +11336,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-113",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Templar",
@@ -10403,7 +11348,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-114",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Scott",
@@ -10414,7 +11360,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-115",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Dracobaltian",
@@ -10425,7 +11372,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-116",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Siren",
@@ -10436,7 +11384,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-117",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Astrologian",
@@ -10447,7 +11396,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-118",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Chime",
@@ -10458,7 +11408,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-119",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Paladin",
@@ -10469,7 +11420,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-120",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Pieuje",
@@ -10480,7 +11432,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "6-121",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Hilda",
@@ -10491,7 +11444,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-122",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Minwu",
@@ -10502,7 +11456,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-123",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Yuna",
@@ -10513,7 +11468,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-124",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Leviathan",
@@ -10524,7 +11480,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-125",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Leila",
@@ -10535,7 +11492,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "6-126",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Hraesvelgr",
@@ -10546,7 +11504,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-127",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Materia",
@@ -10557,7 +11516,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-128",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Spiritus",
@@ -10568,7 +11528,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "6-129",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Nidhogg",
@@ -10579,7 +11540,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "6-130",
-        opus: "VI"
+        opus: "VI",
+        idealQuantity: 3
     },
     {
         name: "Auron",
@@ -10590,7 +11552,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-001",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Aigis",
@@ -10601,7 +11564,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-002",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -10612,7 +11576,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-003",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Fritt",
@@ -10623,7 +11588,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-004",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ifrit",
@@ -10634,7 +11600,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-005",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Varuna",
@@ -10645,7 +11612,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-006",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -10656,7 +11624,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-007",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sazh",
@@ -10667,7 +11636,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-008",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Samurai",
@@ -10678,7 +11648,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-009",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Jecht",
@@ -10689,7 +11660,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-010",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -10700,7 +11672,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-011",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sol",
@@ -10711,7 +11684,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-012",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Berserker",
@@ -10722,7 +11696,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-013",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Baugauven",
@@ -10733,7 +11708,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-014",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Fang",
@@ -10744,7 +11720,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-015",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Bomb",
@@ -10755,7 +11732,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-016",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Meeth",
@@ -10766,7 +11744,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-017",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lann",
@@ -10777,7 +11756,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-018",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Latov",
@@ -10788,7 +11768,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-019",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lulu",
@@ -10799,7 +11780,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-020",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Reynn",
@@ -10810,7 +11792,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-021",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Emperor (FFL)",
@@ -10821,7 +11804,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-022",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Eduardo",
@@ -10832,7 +11816,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-023",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -10843,7 +11828,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-024",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cu Chaspel",
@@ -10854,7 +11840,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-025",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Gremlin",
@@ -10865,7 +11852,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-026",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -10876,7 +11864,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-027",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -10887,7 +11876,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-028",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Kefka",
@@ -10898,7 +11888,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-029",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Goblin",
@@ -10909,7 +11900,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-030",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Shiva",
@@ -10920,7 +11912,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-031",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Jihl Nabaat",
@@ -10931,7 +11924,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-032",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Snow",
@@ -10942,7 +11936,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-033",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sephiroth",
@@ -10953,7 +11948,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-034",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Serah",
@@ -10964,7 +11960,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-035",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Terra",
@@ -10975,7 +11972,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-036",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Time Mage",
@@ -10986,7 +11984,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-037",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Bablizz",
@@ -10997,7 +11996,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-038",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Mystic Knight",
@@ -11008,7 +12008,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-039",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yunalesca",
@@ -11019,7 +12020,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-040",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yeul",
@@ -11030,7 +12032,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-041",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lasswell",
@@ -11041,7 +12044,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-042",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Aleria",
@@ -11052,7 +12056,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-043",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Alhanalem",
@@ -11063,7 +12068,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-044",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Alexander",
@@ -11074,7 +12080,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-045",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Vata",
@@ -11085,7 +12092,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-046",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Dancer",
@@ -11096,7 +12104,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-047",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ranger",
@@ -11107,7 +12116,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-048",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Kelger",
@@ -11118,7 +12128,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-049",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Condor",
@@ -11129,7 +12140,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-050",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cactuar Conductor",
@@ -11140,7 +12152,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-051",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Thief",
@@ -11151,7 +12164,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-052",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Zu",
@@ -11162,7 +12176,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-053",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Chelinka",
@@ -11173,7 +12188,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-054",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -11184,7 +12200,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-055",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Dorgann",
@@ -11195,7 +12212,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-056",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Gnash",
@@ -11206,7 +12224,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-057",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -11217,7 +12236,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-058",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Bartz",
@@ -11228,7 +12248,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-059",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Bartholomew",
@@ -11239,7 +12260,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-060",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Wind Drake",
@@ -11250,7 +12272,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-061",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Hope",
@@ -11261,7 +12284,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-062",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Rem",
@@ -11272,7 +12296,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-063",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Asmodai",
@@ -11283,7 +12308,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-064",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Vanille",
@@ -11294,7 +12320,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-065",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Carbuncle",
@@ -11305,7 +12332,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-066",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Galuf",
@@ -11316,7 +12344,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-067",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Krile",
@@ -11327,7 +12356,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-068",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Kolka",
@@ -11338,7 +12368,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-069",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Zaghnal",
@@ -11349,7 +12380,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-070",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Shantotto",
@@ -11360,7 +12392,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-071",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -11371,7 +12404,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-072",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Xezat",
@@ -11382,7 +12416,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-073",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Tama",
@@ -11393,7 +12428,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-074",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Tilika",
@@ -11404,7 +12440,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-075",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Necromancer",
@@ -11415,7 +12452,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-076",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Noctis",
@@ -11426,7 +12464,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-077",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Bahamutian Soldier",
@@ -11437,7 +12476,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-078",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -11448,7 +12488,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-079",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Prishe",
@@ -11459,7 +12500,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-080",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Flan",
@@ -11470,7 +12512,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-081",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Moogle (FFCC)",
@@ -11481,7 +12524,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-082",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Monk",
@@ -11492,7 +12536,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-083",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yojimbo",
@@ -11503,7 +12548,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-084",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -11514,7 +12560,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-085",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Argy",
@@ -11525,7 +12572,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-086",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Exdeath",
@@ -11536,7 +12584,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-087",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Gilgamesh",
@@ -11547,7 +12596,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-088",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Coeurl",
@@ -11558,7 +12608,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-089",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Gladiator",
@@ -11569,7 +12620,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-090",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "The Emperor",
@@ -11580,7 +12632,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-091",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Thancred",
@@ -11591,7 +12644,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-092",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Zapt",
@@ -11602,7 +12656,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-093",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Seymour",
@@ -11613,7 +12668,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-094",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cid Previa",
@@ -11624,7 +12680,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-095",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Noel",
@@ -11635,7 +12692,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-096",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Barbara",
@@ -11646,7 +12704,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-097",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Flanborg",
@@ -11657,7 +12716,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-098",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cannoneer",
@@ -11668,7 +12728,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-099",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Mystic Knight",
@@ -11679,7 +12740,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-100",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Mid Previa",
@@ -11690,7 +12752,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-101",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -11701,7 +12764,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-102",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ramuh",
@@ -11712,7 +12776,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-103",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ramza",
@@ -11723,7 +12788,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-104",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -11734,7 +12800,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-105",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Agrias",
@@ -11745,7 +12812,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-106",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Gawain",
@@ -11756,7 +12824,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-107",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Kimahri",
@@ -11767,7 +12836,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-108",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Chemist",
@@ -11778,7 +12848,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-109",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sahagin",
@@ -11789,7 +12860,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-110",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Geosgaeno",
@@ -11800,7 +12872,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-111",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -11811,7 +12884,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-112",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Styx",
@@ -11822,7 +12896,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-113",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sarah (FFL)",
@@ -11833,7 +12908,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-114",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Dusk",
@@ -11844,7 +12920,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-115",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Tidus",
@@ -11855,7 +12932,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-116",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Tidus",
@@ -11866,7 +12944,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-117",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -11877,7 +12956,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-118",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Halicarnassus",
@@ -11888,7 +12968,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-119",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Faris",
@@ -11899,7 +12980,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-120",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Braska",
@@ -11910,7 +12992,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-121",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Mime",
@@ -11921,7 +13004,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-122",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yaag Rosch",
@@ -11932,7 +13016,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "7-123",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Oracle",
@@ -11943,7 +13028,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-124",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Leviathan",
@@ -11954,7 +13040,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-125",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Wakka",
@@ -11965,7 +13052,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "7-126",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yuna",
@@ -11976,7 +13064,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-127",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yuri",
@@ -11987,7 +13076,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-128",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Galdes",
@@ -11998,7 +13088,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "7-129",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sin",
@@ -12009,7 +13100,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "7-130",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Warrior of Light",
@@ -12020,7 +13112,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "7-131",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Firion",
@@ -12031,7 +13124,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "7-132",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ultimecia",
@@ -12042,7 +13136,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "7-133",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "The Emperor",
@@ -12053,7 +13148,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "7-134",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cecil",
@@ -12064,7 +13160,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "7-135",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Y'shtola",
@@ -12075,7 +13172,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "7-136",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Garland",
@@ -12086,7 +13184,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "7-137",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Golbez",
@@ -12097,7 +13196,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "7-138",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ark Angel HM",
@@ -12108,7 +13208,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-001",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Red Mage",
@@ -12119,7 +13220,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-002",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ifrit",
@@ -12130,7 +13232,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-003",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Iroha",
@@ -12141,7 +13244,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-004",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Edgar",
@@ -12152,7 +13256,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-005",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cloud",
@@ -12163,7 +13268,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-006",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -12174,7 +13280,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-007",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Golem",
@@ -12185,7 +13292,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-008",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Samurai",
@@ -12196,7 +13304,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-009",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Amarant",
@@ -12207,7 +13316,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-010",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cid (FFL)",
@@ -12218,7 +13328,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-011",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Zenos",
@@ -12229,7 +13340,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-012",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Warrior",
@@ -12240,7 +13352,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-013",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Duncan",
@@ -12251,7 +13364,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-014",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Bahamut",
@@ -12262,7 +13376,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-015",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Vivi",
@@ -12273,7 +13388,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-016",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Brynhildr",
@@ -12284,7 +13400,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-017",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Marche",
@@ -12295,7 +13412,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-018",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sabin",
@@ -12306,7 +13424,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-019",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yotsuyu",
@@ -12317,7 +13436,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-020",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Rain",
@@ -12328,7 +13448,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-021",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lava Spider",
@@ -12339,7 +13460,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-022",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ark Angel GK",
@@ -12350,7 +13472,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-023",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Umaro",
@@ -12361,7 +13484,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-024",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Imperio",
@@ -12372,7 +13496,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-025",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Garland (IX)",
@@ -12383,7 +13508,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-026",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Scholar",
@@ -12394,7 +13520,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-027",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "The Mask",
@@ -12405,7 +13532,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-028",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -12416,7 +13544,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-029",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -12427,7 +13556,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-030",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cocytus",
@@ -12438,7 +13568,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-031",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Shiva",
@@ -12449,7 +13580,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-032",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Shiva",
@@ -12460,7 +13592,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-033",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Scale Toad",
@@ -12471,7 +13604,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-034",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Squall",
@@ -12482,7 +13616,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-035",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Setzer",
@@ -12493,7 +13628,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-036",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Celes",
@@ -12504,7 +13640,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-037",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sophia",
@@ -12515,7 +13652,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-038",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Time Mage",
@@ -12526,7 +13664,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-039",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Mateus, the Corrupt",
@@ -12537,7 +13676,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-040",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Palom",
@@ -12548,7 +13688,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-041",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Dark Fina",
@@ -12559,7 +13700,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-042",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lasswell",
@@ -12570,7 +13712,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-043",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lancer Unit",
@@ -12581,7 +13724,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-044",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ark Angel MR",
@@ -12592,7 +13736,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-045",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Alexander",
@@ -12603,7 +13748,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-046",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Waltrill",
@@ -12614,7 +13760,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-047",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Warrior of Light",
@@ -12625,7 +13772,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-048",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Aerith",
@@ -12636,7 +13784,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-049",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight",
@@ -12647,7 +13796,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-050",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Garuda",
@@ -12658,7 +13808,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-051",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Thief",
@@ -12669,7 +13820,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-052",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sherlotta",
@@ -12680,7 +13832,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-053",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cid Highwind",
@@ -12691,7 +13844,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-054",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Selkie",
@@ -12702,7 +13856,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-055",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Deathgaze (IX)",
@@ -12713,7 +13868,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-056",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -12724,7 +13880,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-057",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Norschtalen",
@@ -12735,7 +13892,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-058",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Basilisk",
@@ -12746,7 +13904,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-059",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Fina",
@@ -12757,7 +13916,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-060",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Fina",
@@ -12768,7 +13928,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-061",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Veriaulde",
@@ -12779,7 +13940,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-062",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Matoya",
@@ -12790,7 +13952,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-063",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yuffie",
@@ -12801,7 +13964,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-064",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Archer",
@@ -12812,7 +13976,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-065",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Chaos, Walker of the Wheel",
@@ -12823,7 +13988,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-066",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ark Angel TT",
@@ -12834,7 +14000,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-067",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ardyn",
@@ -12845,7 +14012,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-068",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Apururu",
@@ -12856,7 +14024,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-069",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -12867,7 +14036,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-070",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Undead Princess",
@@ -12878,7 +14048,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-071",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ignis",
@@ -12889,7 +14060,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-072",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Machinist",
@@ -12900,7 +14072,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-073",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Gladiolus",
@@ -12911,7 +14084,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-074",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Graham",
@@ -12922,7 +14096,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-075",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Glaive",
@@ -12933,7 +14108,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-076",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Titan",
@@ -12944,7 +14120,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-077",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Nacht",
@@ -12955,7 +14132,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-078",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Noctis",
@@ -12966,7 +14144,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-079",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Luminous Puma",
@@ -12977,7 +14156,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-080",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Fenrir",
@@ -12988,7 +14168,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-081",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Prompto",
@@ -12999,7 +14180,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-082",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Hecatoncheir",
@@ -13010,7 +14192,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-083",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Libroarian",
@@ -13021,7 +14204,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-084",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Marlene",
@@ -13032,7 +14216,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-085",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Moogle Knight",
@@ -13043,7 +14228,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-086",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Monk",
@@ -13054,7 +14240,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-087",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Layle",
@@ -13065,7 +14252,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-088",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ark Angel EV",
@@ -13076,7 +14264,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-089",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Alisaie",
@@ -13087,7 +14276,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-090",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Alba",
@@ -13098,7 +14288,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-091",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Alphinaud",
@@ -13109,7 +14300,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-092",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Electric Jellyfish",
@@ -13120,7 +14312,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-093",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Odin",
@@ -13131,7 +14324,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-094",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -13142,7 +14336,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-095",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Sakura",
@@ -13153,7 +14348,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-096",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Jake",
@@ -13164,7 +14360,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-097",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Shango",
@@ -13175,7 +14372,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-098",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Summoner",
@@ -13186,7 +14384,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-099",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Jinnai",
@@ -13197,7 +14396,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-100",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Diana",
@@ -13208,7 +14408,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-101",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Death Machine",
@@ -13219,7 +14420,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-102",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Raiden",
@@ -13230,7 +14432,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-103",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ramuh",
@@ -13241,7 +14444,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-104",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lid",
@@ -13252,7 +14456,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-105",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -13263,7 +14468,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-106",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Dragoon",
@@ -13274,7 +14480,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-107",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Rude",
@@ -13285,7 +14492,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-108",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Rufus",
@@ -13296,7 +14504,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-109",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Reno",
@@ -13307,7 +14516,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-110",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Alexander",
@@ -13318,7 +14528,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-111",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Eiko",
@@ -13329,7 +14540,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-112",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Garnet",
@@ -13340,7 +14552,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-113",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Quina",
@@ -13351,7 +14564,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-114",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Zidane",
@@ -13362,7 +14576,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-115",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Shamonde P Grauche",
@@ -13373,7 +14588,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-116",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -13384,7 +14600,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-117",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Steiner",
@@ -13395,7 +14612,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-118",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Strago",
@@ -13406,7 +14624,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-119",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Astrologian",
@@ -13417,7 +14636,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-120",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Paladin",
@@ -13428,7 +14648,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-121",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Gramps",
@@ -13439,7 +14660,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-122",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Nichol",
@@ -13450,7 +14672,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-123",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ninja",
@@ -13461,7 +14684,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-124",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Fairy",
@@ -13472,7 +14696,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-125",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Freya",
@@ -13483,7 +14708,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-126",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Whale Zombie",
@@ -13494,7 +14720,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-127",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Meltigemini",
@@ -13505,7 +14732,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-128",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lion",
@@ -13516,7 +14744,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "8-129",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Leviathan",
@@ -13527,7 +14756,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-130",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Relm",
@@ -13538,7 +14768,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "8-131",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lunafreya",
@@ -13549,7 +14780,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-132",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Madeen",
@@ -13560,7 +14792,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-133",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Rain",
@@ -13571,7 +14804,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-134",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Ark",
@@ -13582,7 +14816,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "8-135",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Veritas of the Dark",
@@ -13593,7 +14828,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "8-136",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Gosetsu",
@@ -13604,7 +14840,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-137",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Hien",
@@ -13615,7 +14852,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-138",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Lyse",
@@ -13626,7 +14864,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-139",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Godo",
@@ -13637,7 +14876,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-140",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yuffie",
@@ -13648,7 +14888,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-141",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Red XIII",
@@ -13659,7 +14900,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-142",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Cloud",
@@ -13670,7 +14912,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-143",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Tifa",
@@ -13681,7 +14924,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-144",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Barret",
@@ -13692,7 +14936,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-145",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Thancred",
@@ -13703,7 +14948,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-146",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Fordola",
@@ -13714,7 +14960,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-147",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Yugiri",
@@ -13725,7 +14972,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "8-148",
-        opus: "VII"
+        opus: "VII",
+        idealQuantity: 3
     },
     {
         name: "Irvine",
@@ -13736,7 +14984,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-001",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ifrita",
@@ -13747,7 +14996,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-002",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ace",
@@ -13758,7 +15008,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-003",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ace",
@@ -13769,7 +15020,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-004",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "King of Eblan",
@@ -13780,7 +15032,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-005",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Queen of Eblan",
@@ -13791,7 +15044,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-006",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Gaius",
@@ -13802,7 +15056,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-007",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Cyan",
@@ -13813,7 +15068,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-008",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Gijuk",
@@ -13824,7 +15080,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-009",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "King",
@@ -13835,7 +15092,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-010",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Clavat",
@@ -13846,7 +15104,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-011",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Shadow",
@@ -13857,7 +15116,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-012",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Fusilier",
@@ -13868,7 +15128,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-013",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Nael",
@@ -13879,7 +15140,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-014",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Hume",
@@ -13890,7 +15152,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-015",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Bwagi",
@@ -13901,7 +15164,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-016",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Belias",
@@ -13912,7 +15176,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-017",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Bergan",
@@ -13923,7 +15188,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-018",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Bomb",
@@ -13934,7 +15200,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-019",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Rhitahtyn",
@@ -13945,7 +15212,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-020",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Varis",
@@ -13956,7 +15224,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-021",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Vayne",
@@ -13967,7 +15236,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-022",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Quistis",
@@ -13978,7 +15248,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-023",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Airborne Trooper",
@@ -13989,7 +15260,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-024",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Zalera",
@@ -14000,7 +15272,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-025",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Cid Aulstyne",
@@ -14011,7 +15284,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-026",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Squall",
@@ -14022,7 +15296,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-027",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Azure Dragon l'Cie Soryu",
@@ -14033,7 +15308,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-028",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Terra",
@@ -14044,7 +15320,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-029",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Hurdy",
@@ -14055,7 +15332,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-030",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Hundlegs",
@@ -14066,7 +15344,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-031",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Mindflayer",
@@ -14077,7 +15356,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-032",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Class Ninth Moogle",
@@ -14088,7 +15368,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-033",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Class Eleventh Moogle",
@@ -14099,7 +15380,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-034",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Yuke",
@@ -14110,7 +15392,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-035",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ghost",
@@ -14121,7 +15404,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-036",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Laguna",
@@ -14132,7 +15416,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-037",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Rinoa",
@@ -14143,7 +15428,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-038",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Locke",
@@ -14154,7 +15440,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-039",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Nu Mou",
@@ -14165,7 +15452,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-040",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ahriman",
@@ -14176,7 +15464,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-041",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Adelle",
@@ -14187,7 +15476,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-042",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -14198,7 +15488,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-043",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Viera",
@@ -14209,7 +15500,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-044",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Edge",
@@ -14220,7 +15512,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-045",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Shemhazai",
@@ -14231,7 +15524,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-046",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Sylph",
@@ -14242,7 +15536,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-047",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Seven",
@@ -14253,7 +15548,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-048",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Selkie",
@@ -14264,7 +15560,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-049",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -14275,7 +15572,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-050",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Fat Chocobo",
@@ -14286,7 +15584,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-051",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Deuce",
@@ -14297,7 +15596,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-052",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Balthier",
@@ -14308,7 +15608,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-053",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Penelo",
@@ -14319,7 +15620,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-054",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Fran",
@@ -14330,7 +15632,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-055",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "The Magus Sisters",
@@ -14341,7 +15644,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-056",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Yiazmat",
@@ -14352,7 +15656,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-057",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Luso",
@@ -14363,7 +15668,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-058",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Rem",
@@ -14374,7 +15680,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-059",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Rem",
@@ -14385,7 +15692,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-060",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Heretical Knight Garland",
@@ -14396,7 +15704,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-061",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Vincent",
@@ -14407,7 +15716,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-062",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Gabranth",
@@ -14418,7 +15728,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-063",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Garif",
@@ -14429,7 +15740,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-064",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Golem",
@@ -14440,7 +15752,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-065",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Cor",
@@ -14451,7 +15764,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-066",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Cid Garlond",
@@ -14462,7 +15776,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-067",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Mist Dragon",
@@ -14473,7 +15788,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-068",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Tonberry",
@@ -14484,7 +15800,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-069",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ba'Gamnan",
@@ -14495,7 +15812,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-070",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Bangaa",
@@ -14506,7 +15824,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-071",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Baigan",
@@ -14517,7 +15836,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-072",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Class Fifth Moogle",
@@ -14528,7 +15848,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-073",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Class Tenth Moogle",
@@ -14539,7 +15860,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-074",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Yang",
@@ -14550,7 +15872,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-075",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Larkeicus",
@@ -14561,7 +15884,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-076",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Rydia",
@@ -14572,7 +15896,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-077",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Rinok",
@@ -14583,7 +15908,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-078",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Lilty",
@@ -14594,7 +15920,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-079",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Regis",
@@ -14605,7 +15932,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-080",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Azul",
@@ -14616,7 +15944,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-081",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Edea",
@@ -14627,7 +15956,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-082",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Odin",
@@ -14638,7 +15968,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-083",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Kain",
@@ -14649,7 +15980,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-084",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Cid of Clan Gully",
@@ -14660,7 +15992,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-085",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Goblin",
@@ -14671,7 +16004,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-086",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Golbez",
@@ -14682,7 +16016,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-087",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Seifer",
@@ -14693,7 +16028,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-088",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Seeq",
@@ -14704,7 +16040,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-089",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Sage",
@@ -14715,7 +16052,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-090",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Nero (XIV)",
@@ -14726,7 +16064,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-091",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Baknamy",
@@ -14737,7 +16076,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-092",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Bahamut ZERO",
@@ -14748,7 +16088,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-093",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Fusoya",
@@ -14759,7 +16100,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-094",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Meia",
@@ -14770,7 +16112,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-095",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Class Third Moogle",
@@ -14781,7 +16124,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-096",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Class Sixth Moogle",
@@ -14792,7 +16136,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-097",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Reeve",
@@ -14803,7 +16148,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-098",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Livia",
@@ -14814,7 +16160,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-099",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ravus",
@@ -14825,7 +16172,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-100",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Adel (VIII)",
@@ -14836,7 +16184,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-101",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ultimecia",
@@ -14847,7 +16196,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-102",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Iedolas",
@@ -14858,7 +16208,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-103",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ultros",
@@ -14869,7 +16220,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-104",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Gau",
@@ -14880,7 +16232,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-105",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ghis",
@@ -14891,7 +16244,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-106",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Gogo",
@@ -14902,7 +16256,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-107",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -14913,7 +16268,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-108",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Cecil",
@@ -14924,7 +16280,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-109",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "King of Condordia",
@@ -14935,7 +16292,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-110",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Banon",
@@ -14946,7 +16304,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-111",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Paladin",
@@ -14957,7 +16316,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-112",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Famfrit",
@@ -14968,7 +16328,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-113",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Cuchulainn, the Impure",
@@ -14979,7 +16340,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-114",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Porom",
@@ -14990,7 +16352,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-115",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Moogle (XII)",
@@ -15001,7 +16364,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-116",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Mog (VI)",
@@ -15012,7 +16376,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-117",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Malboro",
@@ -15023,7 +16388,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "9-118",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Larsa",
@@ -15034,7 +16400,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "9-119",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Rosa",
@@ -15045,7 +16412,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-120",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Wol",
@@ -15056,7 +16424,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-121",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Locke",
@@ -15067,7 +16436,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-122",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Chaos (MOBIUS)",
@@ -15078,7 +16448,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "9-123",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Emperor Gestahl",
@@ -15089,7 +16460,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "9-124",
-        opus: "IX"
+        opus: "IX",
+        idealQuantity: 3
     },
     {
         name: "Ignacio",
@@ -15100,7 +16472,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-001",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ifrit",
@@ -15111,7 +16484,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-002",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Balasa",
@@ -15122,7 +16496,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-003",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Caius",
@@ -15133,7 +16508,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-004",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Gancanagh",
@@ -15144,7 +16520,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-005",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Cloud",
@@ -15155,7 +16532,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-006",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Zack",
@@ -15166,7 +16544,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-007",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Xande",
@@ -15177,7 +16556,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-008",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "SOLDIER: 3rd Class",
@@ -15188,7 +16568,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-009",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight (III)",
@@ -15199,7 +16580,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-010",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Naji",
@@ -15210,7 +16592,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-011",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Geomancer",
@@ -15221,7 +16604,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-012",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Firion",
@@ -15232,7 +16616,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-013",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Mutsuki",
@@ -15243,7 +16628,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-014",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Class First Moogle",
@@ -15254,7 +16640,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-015",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Class Second Moogle",
@@ -15265,7 +16652,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-016",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Lann",
@@ -15276,7 +16664,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-017",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ryid",
@@ -15287,7 +16676,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-018",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Lusse",
@@ -15298,7 +16688,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-019",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Reynn",
@@ -15309,7 +16700,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-020",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Rorrik",
@@ -15320,7 +16712,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-021",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Yve'noile",
@@ -15331,7 +16724,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-022",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Unei",
@@ -15342,7 +16736,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-023",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Eald'narche",
@@ -15353,7 +16748,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-024",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Kam'lanaut",
@@ -15364,7 +16760,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-025",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Bard",
@@ -15375,7 +16772,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-026",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Kurasame",
@@ -15386,7 +16784,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-027",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Cloud of Darkness",
@@ -15397,7 +16796,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-028",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Black Mage",
@@ -15408,7 +16808,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-029",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Shiva",
@@ -15419,7 +16820,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-030",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Jenova SYNTHESIS",
@@ -15430,7 +16832,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-031",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Scylla",
@@ -15441,7 +16844,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-032",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Squall",
@@ -15452,7 +16856,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-033",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Sephiroth",
@@ -15463,7 +16868,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-034",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Serah",
@@ -15474,7 +16880,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-035",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Terra",
@@ -15485,7 +16892,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-036",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Dendrobium",
@@ -15496,7 +16904,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-037",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Knight",
@@ -15507,7 +16916,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-038",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Nag'molada",
@@ -15518,7 +16928,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-039",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "White Tiger l'Cie Qun'mi",
@@ -15529,7 +16940,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-040",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Shivan",
@@ -15540,7 +16952,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-041",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Mog (XIII-2)",
@@ -15551,7 +16964,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-042",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Arc",
@@ -15562,7 +16976,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-043",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -15573,7 +16988,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-044",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Unsaganashi",
@@ -15584,7 +17000,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-045",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Aerith",
@@ -15595,7 +17012,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-046",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Echo",
@@ -15606,7 +17024,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-047",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Kytes",
@@ -15617,7 +17036,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-048",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ranger",
@@ -15628,7 +17048,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-049",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Thief",
@@ -15639,7 +17060,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-050",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Zidane",
@@ -15650,7 +17072,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-051",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Cid (FFBE)",
@@ -15661,7 +17084,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-052",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Sylph",
@@ -15672,7 +17096,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-053",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight (III)",
@@ -15683,7 +17108,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-054",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Chocobo",
@@ -15694,7 +17120,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-055",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Nono",
@@ -15705,7 +17132,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-056",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Bartz",
@@ -15716,7 +17144,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-057",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Penelo",
@@ -15727,7 +17156,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-058",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Filo",
@@ -15738,7 +17168,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-059",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Fran",
@@ -15749,7 +17180,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-060",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Class Eighth Moogle",
@@ -15760,7 +17192,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-061",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Class Twelfth Moogle",
@@ -15771,7 +17204,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-062",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Y'shtola",
@@ -15782,7 +17216,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-063",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Atlas",
@@ -15793,7 +17228,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-064",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Warrior of Light",
@@ -15804,7 +17240,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-065",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Garganzola",
@@ -15815,7 +17252,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-066",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Enkidu Uruk",
@@ -15826,7 +17264,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-067",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Cu Sith",
@@ -15837,7 +17276,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-068",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Black Tortoise l'Cie Gilgamesh",
@@ -15848,7 +17288,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-069",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Sieghard",
@@ -15859,7 +17300,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-070",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Cid (MOBIUS)",
@@ -15870,7 +17312,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-071",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Shantotto",
@@ -15881,7 +17324,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-072",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Joker",
@@ -15892,7 +17336,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-073",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Suzuhisa",
@@ -15903,7 +17348,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-074",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Warrior",
@@ -15914,7 +17360,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-075",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Titan",
@@ -15925,7 +17372,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-076",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight (III)",
@@ -15936,7 +17384,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-077",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Doga",
@@ -15947,7 +17396,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-078",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Noctis",
@@ -15958,7 +17408,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-079",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Basch",
@@ -15969,7 +17420,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-080",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Prishe",
@@ -15980,7 +17432,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-081",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Miotsk",
@@ -15991,7 +17444,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-082",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Mog (MOBIUS)",
@@ -16002,7 +17456,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-083",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Monk",
@@ -16013,7 +17468,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-084",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Alus",
@@ -16024,7 +17480,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-085",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Aldo",
@@ -16035,7 +17492,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-086",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Willis",
@@ -16046,7 +17504,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-087",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Garland",
@@ -16057,7 +17516,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-088",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Khalia Chival",
@@ -16068,7 +17528,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-089",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Kanna Kamuy",
@@ -16079,7 +17540,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-090",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Zaidou",
@@ -16090,7 +17552,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-091",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Sakura",
@@ -16101,7 +17564,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-092",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Shinra Soldier",
@@ -16112,7 +17576,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-093",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Judge of Wings",
@@ -16123,7 +17588,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-094",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Desch",
@@ -16134,7 +17600,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-095",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Knight",
@@ -16145,7 +17612,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-096",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Noel",
@@ -16156,7 +17624,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-097",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Feolthanos",
@@ -16167,7 +17636,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-098",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Dark Knight",
@@ -16178,7 +17648,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-099",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Raiden (REVENANT WINGS)",
@@ -16189,7 +17660,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-100",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -16200,7 +17672,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-101",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ramuh",
@@ -16211,7 +17684,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-102",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ramza",
@@ -16222,7 +17696,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-103",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ranperre",
@@ -16233,7 +17708,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-104",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Llyud",
@@ -16244,7 +17720,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-105",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ashe",
@@ -16255,7 +17732,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-106",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Exoray",
@@ -16266,7 +17744,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-107",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Aria (III)",
@@ -16277,7 +17756,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-108",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Elza",
@@ -16288,7 +17768,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-109",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Cuchulainn",
@@ -16299,7 +17780,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-110",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Gilgamesh (XI)",
@@ -16310,7 +17792,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-111",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Sara",
@@ -16321,7 +17804,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-112",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "G Diver",
@@ -16332,7 +17816,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-113",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "White Mage",
@@ -16343,7 +17828,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-114",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Cecil",
@@ -16354,7 +17840,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-115",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight (III)",
@@ -16365,7 +17852,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-116",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Tidus",
@@ -16376,7 +17864,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-117",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Tomaj",
@@ -16387,7 +17876,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-118",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Verena",
@@ -16398,7 +17888,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-119",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Folka",
@@ -16409,7 +17900,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-120",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Class Fourth Moogle",
@@ -16420,7 +17912,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-121",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Class Seventh Moogle",
@@ -16431,7 +17924,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-122",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Lion",
@@ -16442,7 +17936,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-123",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Raz",
@@ -16453,7 +17948,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "COMMON",
         serial: "10-124",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Leviathan",
@@ -16464,7 +17960,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-125",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Rikken",
@@ -16475,7 +17972,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "RARE",
         serial: "10-126",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Citra",
@@ -16486,7 +17984,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-127",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Refia",
@@ -16497,7 +17996,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-128",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Hein",
@@ -16508,7 +18008,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "LEGEND",
         serial: "10-129",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Raegen",
@@ -16519,7 +18020,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "HERO",
         serial: "10-130",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ace",
@@ -16530,7 +18032,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-131",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Terra",
@@ -16541,7 +18044,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-132",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Vaan",
@@ -16552,7 +18056,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-133",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Kain",
@@ -16563,7 +18068,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-134",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Kefka",
@@ -16574,7 +18080,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-135",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Shantotto",
@@ -16585,7 +18092,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-136",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -16596,7 +18104,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-137",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Ramza",
@@ -16607,7 +18116,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-138",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Onion Knight",
@@ -16618,7 +18128,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-139",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Cloud of Darkness",
@@ -16629,7 +18140,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "STARTER",
         serial: "10-140",
-        opus: "X"
+        opus: "X",
+        idealQuantity: 3
     },
     {
         name: "Sephiroth",
@@ -16640,7 +18152,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "PROMO",
         serial: "PR-001",
-        opus: "NONE"
+        opus: "NONE",
+        idealQuantity: 3
     },
     {
         name: "Vincent",
@@ -16651,7 +18164,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "PROMO",
         serial: "PR-002",
-        opus: "NONE"
+        opus: "NONE",
+        idealQuantity: 3
     },
     {
         name: "Lightning",
@@ -16662,7 +18176,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "PROMO",
         serial: "PR-003",
-        opus: "NONE"
+        opus: "NONE",
+        idealQuantity: 3
     },
     {
         name: "Rydia",
@@ -16673,7 +18188,8 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "PROMO",
         serial: "PR-051",
-        opus: "NONE"
+        opus: "NONE",
+        idealQuantity: 3
     },
     {
         name: "Yuri",
@@ -16684,6 +18200,7 @@ export const allCards = [
         alternateArtQuantity: 0,
         rarity: "PROMO",
         serial: "PR-055",
-        opus: "NONE"
+        opus: "NONE",
+        idealQuantity: 3
     }
 ];
