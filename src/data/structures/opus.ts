@@ -7,7 +7,7 @@ export enum Opus {
     V = "V",
     VI = "VI",
     VII = "VII",
-    VIII = "VII",
+    VIII = "VIII",
     IX = "IX",
     X = "X"
 }

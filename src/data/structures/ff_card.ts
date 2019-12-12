@@ -3,8 +3,8 @@ import { Opus } from "./opus";
 
 export interface FFCard {
     name: string;
-    normalAmount: number;
-    foilAmount: number;
+    normalQuantity: number;
+    foilQuantity: number;
     fullArtQuantity: number;
     foilArtQuanity: number;
     alternateArtQuantity: number;
