@@ -1,7 +1,7 @@
 import * as React from "react";
-import { FFCard } from "../../data/structures/ff_card";
-import { WantedCardComponent } from "../wanted_card/wanted_card_component";
-import { PageProps } from "./page_props";
+import { FFCard } from "../../../data/structures/ff_card";
+import { WantedCardComponent } from "../../wanted_card/wanted_card_component";
+import { PageProps } from "../page_props";
 
 export interface WantedCardsPageProps extends PageProps {
     cards: FFCard[];

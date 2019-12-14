@@ -31,7 +31,7 @@ export function getOpusBySerial(serial: string): Opus {
         }
     } else {
         throw new Error(
-            `Unexpect state while parsing serial. Expected string of length 1 or 2 but got "${opusNumber}".`
+            `Unexpected state while parsing serial. Expected string of length 1 or 2 but got "${opusNumber}".`
         );
     }
 }

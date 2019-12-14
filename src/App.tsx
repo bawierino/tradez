@@ -1,7 +1,7 @@
 import React from "react";
-import { PageSelectPageComponent } from "./components/pages/page_select_page_component";
-import { TradeableCardsPageComponent } from "./components/pages/tradeable_cards_page_component";
-import { WantedCardsPageComponent } from "./components/pages/wanted_cards_page_component";
+import { PageSelectPageComponent } from "./components/pages/page_select_page/page_select_page_component";
+import { TradeableCardsPageComponent } from "./components/pages/tradeable_cards_page/tradeable_cards_page_component";
+import { WantedCardsPageComponent } from "./components/pages/wanted_cards_page/wanted_cards_page_component";
 import { useCards } from "./hooks/use_cards";
 import { PageId, useRouter } from "./hooks/use_router";
 

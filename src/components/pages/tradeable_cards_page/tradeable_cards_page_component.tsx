@@ -1,8 +1,8 @@
 import * as React from "react";
-import { FFCard } from "../../data/structures/ff_card";
-import { Rarity } from "../../data/structures/rarity";
-import { getTotalQuantity } from "../../data/transformations/get_total_quantity";
-import { PageProps } from "./page_props";
+import { FFCard } from "../../../data/structures/ff_card";
+import { Rarity } from "../../../data/structures/rarity";
+import { getTotalQuantity } from "../../../data/transformations/get_total_quantity";
+import { PageProps } from "../page_props";
 
 export interface TradeableCardsPageProps extends PageProps {
     cards: FFCard[];

@@ -1,6 +1,6 @@
 import * as React from "react";
-import { PageId } from "../../hooks/use_router";
-import { PageProps } from "./page_props";
+import { PageId } from "../../../hooks/use_router";
+import { PageProps } from "../page_props";
 
 export interface PageSelectPageProps extends PageProps {}
 
