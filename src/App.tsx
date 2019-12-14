@@ -15,8 +15,10 @@ const App: React.FC = () => {
         case PageId.WANTED_CARDS:
             return <WantedCardsPageComponent cards={cards} routerAPI={routerAPI} />;
         case PageId.PAGE_SELECT:
-        default:
             return <PageSelectPageComponent routerAPI={routerAPI} />;
+        default:
+            routerAPI.fallback();
+            return <div />;
     }
 };
 
