@@ -1,7 +1,6 @@
 import * as React from "react";
 import { FFCard } from "../../data/structures/ff_card";
-import { Rarity } from "../../data/structures/rarity";
-import { getTotalQuantity } from "../../data/transformations/get_total_quantity";
+import { WantedCardComponent } from "../wanted_card/wanted_card_component";
 import { PageProps } from "./page_props";
 
 export interface WantedCardsPageProps extends PageProps {
@@ -12,19 +11,9 @@ export const WantedCardsPageComponent: React.FC<WantedCardsPageProps> = (props: 
     const { cards } = props;
     return (
         <div>
-            {cards
-                .filter(
-                    c =>
-                        (c.rarity === Rarity.LEGEND || c.rarity === Rarity.HERO) &&
-                        getTotalQuantity(c) < c.minimalWantedQuantity &&
-                        getTotalQuantity(c) > 0
-                )
-                .map(c => (
-                    <div key={c.serial}>
-                        {c.name} {c.serial} we want at least {c.minimalWantedQuantity} but we have only{" "}
-                        {getTotalQuantity(c)}
-                    </div>
-                ))}
+            {cards.map(c => (
+                <WantedCardComponent card={c} key={c.serial} />
+            ))}
         </div>
     );
 };
