@@ -48,7 +48,7 @@ export const WantedCardComponent: React.FC<WantedCardProps> = props => {
             tradeInfo = `want any card, do not care about the version. ${wantedWhateverVersionQuantity} wanted.`;
         } else {
             tradeInfo =
-                "only interested in specific versions of the card" +
+                "only interested in specific versions of the card. " +
                 `${!!wantedNormalQuantity ? `normal (${wantedNormalQuantity}) ` : ""}${
                     !!wantedFoilQuantity ? `foil (${wantedFoilQuantity}) ` : ""
                 }${!!wantedAlternateArtQuantity ? `alt art (${wantedAlternateArtQuantity}) ` : ""}${
