@@ -1,9 +1,10 @@
 import * as React from "react";
-import { FFCard } from "../data/structures/ff_card";
-import { Rarity } from "../data/structures/rarity";
-import { getTotalQuantity } from "../data/transformations/get_total_quantity";
+import { FFCard } from "../../data/structures/ff_card";
+import { Rarity } from "../../data/structures/rarity";
+import { getTotalQuantity } from "../../data/transformations/get_total_quantity";
+import { PageProps } from "./page_props";
 
-export interface WantedCardsPageProps {
+export interface WantedCardsPageProps extends PageProps {
     cards: FFCard[];
 }
 
