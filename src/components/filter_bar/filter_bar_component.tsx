@@ -1,7 +1,7 @@
 import * as React from "react";
 import { FFCard } from "../../data/structures/ff_card";
 import { Rarity } from "../../data/structures/rarity";
-import { CheckboxComponent } from "../checkbox/checkbox_component";
+import { CheckboxGroupComponent } from "../checkbox/checkbox_group_component";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -29,44 +29,32 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
     return (
         <div>
             <RarityFilterComponent
-                onRarityFilterChanged={payload => {
-                    const rarityFilterCopy = [...rarityFilter];
-                    if (payload.checked) {
-                        rarityFilterCopy.push(payload.toggledRarity);
-                    } else {
-                        rarityFilterCopy.splice(
-                            rarityFilterCopy.findIndex(r => r === payload.toggledRarity),
-                            1
-                        );
-                    }
-                    setRarityFilter(rarityFilterCopy);
+                onRarityFilterChanged={rarities => {
+                    setRarityFilter(rarities);
                 }}
-                initialRarities={[]}
             />
         </div>
     );
 };
 
 interface RarityFilterProps {
-    initialRarities: Rarity[];
-    onRarityFilterChanged: (payload: { toggledRarity: Rarity; checked: boolean }) => void;
+    onRarityFilterChanged: (rarities: Rarity[]) => void;
 }
 const RarityFilterComponent: React.FC<RarityFilterProps> = props => {
-    const { initialRarities, onRarityFilterChanged } = props;
+    const { onRarityFilterChanged } = props;
     return (
         <div>
             Filter on rarity
-            {Object.values(Rarity).map(rarity => (
-                <div key={rarity}>
-                    {rarity}
-                    <CheckboxComponent
-                        initiallyChecked={initialRarities.includes(rarity)}
-                        onChange={checked => {
-                            onRarityFilterChanged({ checked, toggledRarity: rarity });
-                        }}
-                    />
-                </div>
-            ))}
+            <CheckboxGroupComponent
+                checkboxes={Object.values(Rarity).map(rarity => ({
+                    label: rarity,
+                    id: rarity,
+                    initiallyChecked: false
+                }))}
+                onSelectionChanged={selectedIds => {
+                    onRarityFilterChanged(selectedIds as Rarity[]);
+                }}
+            />
         </div>
     );
 };
