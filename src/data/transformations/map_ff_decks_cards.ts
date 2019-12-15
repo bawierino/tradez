@@ -8,7 +8,7 @@ export function mapFFDecksCards(ffDecksCards: FFDecksCard[]): FFCard[] {
         return {
             name: ffCard.Name,
             normal: { quantity: ffCard["regular quantity"], minimalQuantityWanted: 0 },
-            foil: { quantity: ffCard["foil quantity"], minimalQuantityWanted: 0 },
+            foil: { quantity: ffCard["foil quantity"], minimalQuantityWanted: 1 },
             fullArt: { quantity: 0, minimalQuantityWanted: 0 },
             foilArt: { quantity: 0, minimalQuantityWanted: 0 },
             alternateArt: { quantity: 0, minimalQuantityWanted: 0 },
