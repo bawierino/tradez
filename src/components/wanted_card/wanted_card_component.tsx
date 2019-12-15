@@ -8,20 +8,20 @@ export interface WantedCardProps {
 }
 
 export const WantedCardComponent: React.FC<WantedCardProps> = props => {
-    const { card: c } = props;
+    const { card } = props;
 
     const hasAbundantQuantity =
-        c.rarity === Rarity.COMMON || c.rarity === Rarity.RARE || getTotalQuantity(c) === 0;
-    const totalQuantity = getTotalQuantity(c);
+        card.rarity === Rarity.COMMON || card.rarity === Rarity.RARE || getTotalQuantity(card) === 0;
+    const totalQuantity = getTotalQuantity(card);
 
-    const wantedWhateverVersionQuantity = Math.max(c.minimalWantedQuantity - totalQuantity, 0);
+    const wantedWhateverVersionQuantity = Math.max(card.minimalWantedQuantity - totalQuantity, 0);
 
-    const wantedNormalQuantity = calculateWantedSpecificQuantity(c.normal);
-    const wantedFoilQuantity = calculateWantedSpecificQuantity(c.foil);
-    const wantedAlternateArtQuantity = calculateWantedSpecificQuantity(c.alternateArt);
-    const wantedFoilAlternateArtQuantity = calculateWantedSpecificQuantity(c.alternateArtFoil);
-    const wantedFullArtQuantity = calculateWantedSpecificQuantity(c.fullArt);
-    const wantedFoilArtQuantity = calculateWantedSpecificQuantity(c.foilArt);
+    const wantedNormalQuantity = calculateWantedSpecificQuantity(card.normal);
+    const wantedFoilQuantity = calculateWantedSpecificQuantity(card.foil);
+    const wantedAlternateArtQuantity = calculateWantedSpecificQuantity(card.alternateArt);
+    const wantedFoilAlternateArtQuantity = calculateWantedSpecificQuantity(card.alternateArtFoil);
+    const wantedFullArtQuantity = calculateWantedSpecificQuantity(card.fullArt);
+    const wantedFoilArtQuantity = calculateWantedSpecificQuantity(card.foilArt);
 
     const wantAny = !!wantedWhateverVersionQuantity && !hasAbundantQuantity;
     const wantSpecific = [
@@ -63,7 +63,7 @@ export const WantedCardComponent: React.FC<WantedCardProps> = props => {
 
         return (
             <div>
-                {c.name} {c.serial} {c.rarity} {tradeInfo}
+                {card.name} {card.serial} {card.rarity} {tradeInfo}
             </div>
         );
     } else {
