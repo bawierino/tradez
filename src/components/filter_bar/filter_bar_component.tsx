@@ -1,7 +1,7 @@
 import * as React from "react";
 import { FFCard } from "../../data/structures/ff_card";
 import { Rarity } from "../../data/structures/rarity";
-import { CheckboxGroupComponent } from "../checkbox/checkbox_group_component";
+import { RarityFilterComponent } from "./rarity_filter_component";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -33,29 +33,6 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                     setRarityFilter(rarities);
                 }}
                 initialRarities={rarityFilter}
-            />
-        </div>
-    );
-};
-
-interface RarityFilterProps {
-    onRarityFilterChanged: (rarities: Rarity[]) => void;
-    initialRarities: Rarity[];
-}
-const RarityFilterComponent: React.FC<RarityFilterProps> = props => {
-    const { onRarityFilterChanged, initialRarities } = props;
-    return (
-        <div>
-            Filter on rarity
-            <CheckboxGroupComponent
-                checkboxes={Object.values(Rarity).map(rarity => ({
-                    label: rarity,
-                    id: rarity
-                }))}
-                onSelectionChanged={selectedIds => {
-                    onRarityFilterChanged(selectedIds as Rarity[]);
-                }}
-                initialSelectionIds={initialRarities}
             />
         </div>
     );
