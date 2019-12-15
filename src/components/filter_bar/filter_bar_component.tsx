@@ -15,6 +15,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
 
     const [rarityFilter, setRarityFilter] = React.useState([] as Rarity[]);
     const [serialFilter, setSerialFilter] = useDebouncedState("");
+    const [nameFilter, setNameFilter] = useDebouncedState("");
 
     React.useEffect(() => {
         onFilter(
@@ -28,14 +29,21 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 })
                 .filter(c => {
                     if (serialFilter) {
-                        return c.serial.includes(serialFilter);
+                        return c.serial.toLowerCase().includes(serialFilter.toLowerCase());
+                    } else {
+                        return true;
+                    }
+                })
+                .filter(c => {
+                    if (nameFilter) {
+                        return c.name.toLowerCase().includes(nameFilter.toLowerCase());
                     } else {
                         return true;
                     }
                 })
         );
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [rarityFilter, serialFilter]);
+    }, [rarityFilter, serialFilter, nameFilter]);
 
     return (
         <div>
@@ -52,6 +60,14 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 }}
                 initialValue={serialFilter}
                 placeholder={"i.e. 5-036"}
+            />
+            <TextInputComponent
+                label={"filter by name"}
+                onChange={text => {
+                    setNameFilter(text);
+                }}
+                initialValue={nameFilter}
+                placeholder={"i.e. Zidane"}
             />
         </div>
     );
