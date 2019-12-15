@@ -2,8 +2,8 @@ import * as React from "react";
 import { FFCard } from "../../data/structures/ff_card";
 import { Rarity } from "../../data/structures/rarity";
 import { useDebouncedState } from "../../hooks/use_debounced_state";
+import { CheckboxGroupComponent } from "../checkbox/checkbox_group_component";
 import { TextInputComponent } from "../text_input/text_input_component";
-import { RarityFilterComponent } from "./rarity_filter_component";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -47,12 +47,19 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
 
     return (
         <div>
-            <RarityFilterComponent
-                onRarityFilterChanged={rarities => {
-                    setRarityFilter(rarities);
-                }}
-                initialRarities={rarityFilter}
-            />
+            <div>
+                Filter on rarity
+                <CheckboxGroupComponent
+                    checkboxes={Object.values(Rarity).map(rarity => ({
+                        label: rarity,
+                        id: rarity
+                    }))}
+                    onSelectionChanged={selectedIds => {
+                        setRarityFilter(selectedIds as Rarity[]);
+                    }}
+                    initialSelectionIds={rarityFilter}
+                />
+            </div>
             <TextInputComponent
                 label={"filter by serial"}
                 onChange={text => {
