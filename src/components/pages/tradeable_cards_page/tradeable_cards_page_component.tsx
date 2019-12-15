@@ -14,7 +14,11 @@ export const TradeableCardsPageComponent: React.FC<TradeableCardsPageProps> = pr
 
     return (
         <div>
-            <FilterBarComponent cards={cards} onFilter={cards => setFilteredCards(cards)} />
+            <FilterBarComponent
+                cards={cards}
+                onFilter={cards => setFilteredCards(cards)}
+                showTradeableVersionFilter={true}
+            />
             {filteredCards.map(c => (
                 <TradeableCardComponent key={c.serial} card={c} />
             ))}

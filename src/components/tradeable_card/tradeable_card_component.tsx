@@ -1,7 +1,8 @@
 import * as React from "react";
-import { FFCard, CardQuantityInfo } from "../../data/structures/ff_card";
-import { Rarity } from "../../data/structures/rarity";
-import { getTotalQuantity } from "../../data/transformations/get_total_quantity";
+import { FFCard } from "../../data/structures/ff_card";
+import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
+import { getTotalQuantity } from "../../data/utils/get_total_quantity";
+import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 
 export interface TradeableCardsProps {
     card: FFCard;
@@ -12,16 +13,13 @@ const A_LOT = 1337;
 export const TradeableCardComponent: React.FC<TradeableCardsProps> = props => {
     const { card } = props;
 
-    const hasAbundantQuantity =
-        card.rarity === Rarity.COMMON || card.rarity === Rarity.RARE || getTotalQuantity(card) === 0;
+    const aLotAvailable = hasAbundantQuantity(card);
     const totalQuantity = getTotalQuantity(card);
 
-    const tradeableQuantity = hasAbundantQuantity
-        ? A_LOT
-        : Math.max(totalQuantity - card.minimalWantedQuantity, 0);
-    const canTrade = !!tradeableQuantity || hasAbundantQuantity;
+    const tradeableQuantity = aLotAvailable ? A_LOT : Math.max(totalQuantity - card.minimalWantedQuantity, 0);
+    const canTrade = !!tradeableQuantity || aLotAvailable;
 
-    const tradeableNormalQuantity = hasAbundantQuantity ? A_LOT : getSpecificTradeableQuantity(card.normal);
+    const tradeableNormalQuantity = aLotAvailable ? A_LOT : getSpecificTradeableQuantity(card.normal);
     const tradeableFoilQuantity = getSpecificTradeableQuantity(card.foil);
     const tradeableAlternateArtQuantity = getSpecificTradeableQuantity(card.alternateArt);
     const tradeableAlternateArtFoilQuantity = getSpecificTradeableQuantity(card.alternateArtFoil);
@@ -56,7 +54,3 @@ export const TradeableCardComponent: React.FC<TradeableCardsProps> = props => {
         return null;
     }
 };
-
-function getSpecificTradeableQuantity(info: CardQuantityInfo): number {
-    return Math.max(0, info.quantity - info.minimalQuantityWanted);
-}

@@ -5,17 +5,22 @@ import { useDebouncedState } from "../../hooks/use_debounced_state";
 import { CheckboxGroupComponent } from "../checkbox/checkbox_group_component";
 import { TextInputComponent } from "../text_input/text_input_component";
 import { Opus } from "../../data/structures/opus";
+import { Version } from "../../data/structures/version";
+import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
+import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
 
 export interface FilterBarProps {
     cards: FFCard[];
     onFilter: (cards: FFCard[]) => void;
+    showTradeableVersionFilter: boolean;
 }
 
 export const FilterBarComponent: React.FC<FilterBarProps> = props => {
-    const { cards, onFilter } = props;
+    const { cards, onFilter, showTradeableVersionFilter } = props;
 
     const [rarityFilter, setRarityFilter] = React.useState([] as Rarity[]);
     const [opusFilter, setOpusFilter] = React.useState([] as Opus[]);
+    const [tradeableVersionFilter, setTradeableVersionFilter] = React.useState([] as Version[]);
     const [serialFilter, setSerialFilter] = useDebouncedState("");
     const [nameFilter, setNameFilter] = useDebouncedState("");
 
@@ -37,6 +42,30 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                     }
                 })
                 .filter(c => {
+                    if (tradeableVersionFilter.length) {
+                        return tradeableVersionFilter.some(version => {
+                            switch (version) {
+                                case Version.NORMAL:
+                                    return hasAbundantQuantity(c) || !!getSpecificTradeableQuantity(c.normal);
+                                case Version.FOIL:
+                                    return !!getSpecificTradeableQuantity(c.foil);
+                                case Version.ALTERNATE_ART:
+                                    return !!getSpecificTradeableQuantity(c.alternateArt);
+                                case Version.ALTERNATE_ART_FOIL:
+                                    return !!getSpecificTradeableQuantity(c.alternateArtFoil);
+                                case Version.FULL_ART:
+                                    return !!getSpecificTradeableQuantity(c.fullArt);
+                                case Version.FOIL_ART:
+                                    return !!getSpecificTradeableQuantity(c.foilArt);
+                                default:
+                                    throw new Error(`Unknown card version: ${version}`);
+                            }
+                        });
+                    } else {
+                        return true;
+                    }
+                })
+                .filter(c => {
                     if (serialFilter) {
                         return c.serial.toLowerCase().includes(serialFilter.toLowerCase());
                     } else {
@@ -52,7 +81,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 })
         );
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [rarityFilter, serialFilter, nameFilter, opusFilter]);
+    }, [rarityFilter, serialFilter, nameFilter, opusFilter, tradeableVersionFilter]);
 
     return (
         <div>
@@ -82,6 +111,21 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                     initialSelectionIds={opusFilter}
                 />
             </div>
+            {showTradeableVersionFilter && (
+                <div>
+                    Filter on card version
+                    <CheckboxGroupComponent
+                        checkboxes={Object.values(Version).map(version => ({
+                            label: version,
+                            id: version
+                        }))}
+                        onSelectionChanged={selectedIds => {
+                            setTradeableVersionFilter(selectedIds as Version[]);
+                        }}
+                        initialSelectionIds={tradeableVersionFilter}
+                    />
+                </div>
+            )}
             <TextInputComponent
                 label={"filter by serial"}
                 onChange={text => {

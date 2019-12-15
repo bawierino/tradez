@@ -1,0 +1,8 @@
+export enum Version {
+    NORMAL = "NORMAL",
+    FOIL = "FOIL",
+    ALTERNATE_ART = "ALTERNATE_ART",
+    ALTERNATE_ART_FOIL = "ALTERNATE_ART_FOIL",
+    FULL_ART = "FULL_ART",
+    FOIL_ART = "FOIL_ART"
+}

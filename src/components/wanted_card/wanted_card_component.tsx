@@ -1,7 +1,7 @@
 import * as React from "react";
-import { FFCard, CardQuantityInfo } from "../../data/structures/ff_card";
-import { Rarity } from "../../data/structures/rarity";
-import { getTotalQuantity } from "../../data/transformations/get_total_quantity";
+import { CardQuantityInfo, FFCard } from "../../data/structures/ff_card";
+import { getTotalQuantity } from "../../data/utils/get_total_quantity";
+import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 
 export interface WantedCardProps {
     card: FFCard;
@@ -10,8 +10,7 @@ export interface WantedCardProps {
 export const WantedCardComponent: React.FC<WantedCardProps> = props => {
     const { card } = props;
 
-    const hasAbundantQuantity =
-        card.rarity === Rarity.COMMON || card.rarity === Rarity.RARE || getTotalQuantity(card) === 0;
+    const hasATonOfThose = hasAbundantQuantity(card);
     const totalQuantity = getTotalQuantity(card);
 
     const wantedWhateverVersionQuantity = Math.max(card.minimalWantedQuantity - totalQuantity, 0);
@@ -23,7 +22,7 @@ export const WantedCardComponent: React.FC<WantedCardProps> = props => {
     const wantedFullArtQuantity = calculateWantedSpecificQuantity(card.fullArt);
     const wantedFoilArtQuantity = calculateWantedSpecificQuantity(card.foilArt);
 
-    const wantAny = !!wantedWhateverVersionQuantity && !hasAbundantQuantity;
+    const wantAny = !!wantedWhateverVersionQuantity && !hasATonOfThose;
     const wantSpecific = [
         wantedNormalQuantity,
         wantedFoilQuantity,
