@@ -4,6 +4,7 @@ import { Rarity } from "../../data/structures/rarity";
 import { useDebouncedState } from "../../hooks/use_debounced_state";
 import { CheckboxGroupComponent } from "../checkbox/checkbox_group_component";
 import { TextInputComponent } from "../text_input/text_input_component";
+import { Opus } from "../../data/structures/opus";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -14,6 +15,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
     const { cards, onFilter } = props;
 
     const [rarityFilter, setRarityFilter] = React.useState([] as Rarity[]);
+    const [opusFilter, setOpusFilter] = React.useState([] as Opus[]);
     const [serialFilter, setSerialFilter] = useDebouncedState("");
     const [nameFilter, setNameFilter] = useDebouncedState("");
 
@@ -23,6 +25,13 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 .filter(c => {
                     if (rarityFilter.length) {
                         return rarityFilter.includes(c.rarity);
+                    } else {
+                        return true;
+                    }
+                })
+                .filter(c => {
+                    if (opusFilter.length) {
+                        return opusFilter.includes(c.opus);
                     } else {
                         return true;
                     }
@@ -43,7 +52,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 })
         );
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [rarityFilter, serialFilter, nameFilter]);
+    }, [rarityFilter, serialFilter, nameFilter, opusFilter]);
 
     return (
         <div>
@@ -58,6 +67,19 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                         setRarityFilter(selectedIds as Rarity[]);
                     }}
                     initialSelectionIds={rarityFilter}
+                />
+            </div>
+            <div>
+                Filter on opus
+                <CheckboxGroupComponent
+                    checkboxes={Object.values(Opus).map(opus => ({
+                        label: opus,
+                        id: opus
+                    }))}
+                    onSelectionChanged={selectedIds => {
+                        setOpusFilter(selectedIds as Opus[]);
+                    }}
+                    initialSelectionIds={opusFilter}
                 />
             </div>
             <TextInputComponent
