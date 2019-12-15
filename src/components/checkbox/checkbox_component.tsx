@@ -1,17 +1,16 @@
 import * as React from "react";
+import { FormComponentProps, FormComponent } from "../form_component/form_component";
 
-export interface CheckboxProps {
+export interface CheckboxProps extends FormComponentProps {
     initiallyChecked: boolean;
     onChange: (checked: boolean) => void;
-    label?: string;
 }
 
 export const CheckboxComponent: React.FC<CheckboxProps> = props => {
     const { initiallyChecked, onChange, label } = props;
     const [checked, setChecked] = React.useState(initiallyChecked);
     return (
-        <div>
-            {label && <span>{label}</span>}
+        <FormComponent label={label}>
             <input
                 type="checkbox"
                 checked={checked}
@@ -21,6 +20,6 @@ export const CheckboxComponent: React.FC<CheckboxProps> = props => {
                     onChange(isNowChecked);
                 }}
             ></input>
-        </div>
+        </FormComponent>
     );
 };
