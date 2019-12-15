@@ -1,7 +1,6 @@
 import * as React from "react";
 import { FFCard } from "../../../data/structures/ff_card";
-import { Rarity } from "../../../data/structures/rarity";
-import { getTotalQuantity } from "../../../data/transformations/get_total_quantity";
+import { TradeableCardComponent } from "../../tradeable_card/tradeable_card_component";
 import { PageProps } from "../page_props";
 
 export interface TradeableCardsPageProps extends PageProps {
@@ -12,17 +11,9 @@ export const TradeableCardsPageComponent: React.FC<TradeableCardsPageProps> = pr
     const { cards } = props;
     return (
         <div>
-            {cards
-                .filter(
-                    c =>
-                        (c.rarity === Rarity.LEGEND || c.rarity === Rarity.HERO) &&
-                        getTotalQuantity(c) > c.minimalWantedQuantity
-                )
-                .map(c => (
-                    <div key={c.serial}>
-                        we have {getTotalQuantity(c) - c.minimalWantedQuantity} {c.name} {c.serial} to trade
-                    </div>
-                ))}
+            {cards.map(c => (
+                <TradeableCardComponent key={c.serial} card={c} />
+            ))}
         </div>
     );
 };
