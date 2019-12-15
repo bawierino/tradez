@@ -4,24 +4,23 @@ import { CheckboxComponent } from "./checkbox_component";
 export interface CheckboxGroupProps {
     checkboxes: CheckboxInfo[];
     onSelectionChanged: (selectedIds: string[]) => void;
+    initialSelectionIds: string[];
 }
 
 export interface CheckboxInfo {
     label: string;
     id: string;
-    initiallyChecked: boolean;
 }
 
 export const CheckboxGroupComponent: React.FC<CheckboxGroupProps> = props => {
-    const { checkboxes, onSelectionChanged } = props;
-    const [selection, setSelection] = React.useState(
-        checkboxes.map(c => (c.initiallyChecked ? c.id : undefined)).filter(c => c !== undefined)
-    );
+    const { checkboxes, onSelectionChanged, initialSelectionIds } = props;
+    const [selection, setSelection] = React.useState(initialSelectionIds);
+
     return (
         <div>
             {checkboxes.map(checkbox => (
                 <CheckboxComponent
-                    initiallyChecked={checkbox.initiallyChecked}
+                    initiallyChecked={initialSelectionIds.includes(checkbox.id)}
                     onChange={checked => {
                         const selectionCopy = [...selection];
                         if (checked) {

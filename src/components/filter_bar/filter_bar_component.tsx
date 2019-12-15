@@ -32,6 +32,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 onRarityFilterChanged={rarities => {
                     setRarityFilter(rarities);
                 }}
+                initialRarities={rarityFilter}
             />
         </div>
     );
@@ -39,21 +40,22 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
 
 interface RarityFilterProps {
     onRarityFilterChanged: (rarities: Rarity[]) => void;
+    initialRarities: Rarity[];
 }
 const RarityFilterComponent: React.FC<RarityFilterProps> = props => {
-    const { onRarityFilterChanged } = props;
+    const { onRarityFilterChanged, initialRarities } = props;
     return (
         <div>
             Filter on rarity
             <CheckboxGroupComponent
                 checkboxes={Object.values(Rarity).map(rarity => ({
                     label: rarity,
-                    id: rarity,
-                    initiallyChecked: false
+                    id: rarity
                 }))}
                 onSelectionChanged={selectedIds => {
                     onRarityFilterChanged(selectedIds as Rarity[]);
                 }}
+                initialSelectionIds={initialRarities}
             />
         </div>
     );
