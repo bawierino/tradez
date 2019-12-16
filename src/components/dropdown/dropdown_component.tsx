@@ -1,4 +1,5 @@
 import * as React from "react";
+import { dropdownStyle } from "./dropdown.style";
 
 export interface DropdownProps {
     externalPart: JSX.Element;
@@ -10,15 +11,20 @@ export const DropdownComponent: React.FC<DropdownProps> = props => {
     const [showDropdown, setShowDropdown] = React.useState(false);
 
     return (
-        <div style={{ position: "relative" }}>
+        <div className={dropdownStyle} style={{ position: "relative" }}>
             <div
+                className="external-part"
                 onClick={() => {
                     setShowDropdown(!showDropdown);
                 }}
             >
                 {externalPart}
             </div>
-            {showDropdown && <div style={{ position: "absolute", left: "200px" }}>{children}</div>}
+            {showDropdown && (
+                <div className="internal-part" style={{ position: "absolute", left: "200px" }}>
+                    {children}
+                </div>
+            )}
         </div>
     );
 };
