@@ -20,20 +20,20 @@ export const useRouter: () => RouterAPI = () => {
     }
 
     React.useEffect(() => {
+        function navigateToCurrentHash() {
+            setCurrentPage(getHash() as PageId);
+        }
+        window.addEventListener("popstate", navigateToCurrentHash);
+        return () => window.removeEventListener("popstate", navigateToCurrentHash);
+    }, []);
+
+    React.useEffect(() => {
         const hash = getHash();
         if (hash) {
             navigateToHash(hash, true);
         } else {
             fallback();
         }
-    }, []);
-
-    React.useEffect(() => {
-        function navigateToCurrentHash() {
-            setCurrentPage(getHash() as PageId);
-        }
-        window.addEventListener("popstate", navigateToCurrentHash);
-        return () => window.removeEventListener("popstate", navigateToCurrentHash);
     }, []);
 
     return {
