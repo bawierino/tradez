@@ -116,17 +116,18 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
             </div>
             {showTradeableVersionFilter && (
                 <div>
-                    Filter on card version
-                    <CheckboxGroupComponent
-                        checkboxes={Object.values(Version).map(version => ({
-                            label: version,
-                            id: version
-                        }))}
-                        onSelectionChanged={selectedIds => {
-                            setTradeableVersionFilter(selectedIds as Version[]);
-                        }}
-                        initialSelectionIds={tradeableVersionFilter}
-                    />
+                    <DropdownComponent externalPart={<React.Fragment>Filter on card version</React.Fragment>}>
+                        <CheckboxGroupComponent
+                            checkboxes={Object.values(Version).map(version => ({
+                                label: version,
+                                id: version
+                            }))}
+                            onSelectionChanged={selectedIds => {
+                                setTradeableVersionFilter(selectedIds as Version[]);
+                            }}
+                            initialSelectionIds={tradeableVersionFilter}
+                        />
+                    </DropdownComponent>
                 </div>
             )}
             <TextInputComponent
