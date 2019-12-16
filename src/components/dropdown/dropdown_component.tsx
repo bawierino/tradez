@@ -11,19 +11,18 @@ export const DropdownComponent: React.FC<DropdownProps> = props => {
 
     const [showDropdown, setShowDropdown] = React.useState(false);
 
-    const externalPartRef = React.useRef(undefined);
-    useOnClickOutside(externalPartRef, () => {
+    const dropdownRef = React.useRef(undefined);
+    useOnClickOutside(dropdownRef, () => {
         setShowDropdown(false);
     });
 
     return (
-        <div className={dropdownStyle} style={{ position: "relative" }}>
+        <div className={dropdownStyle} style={{ position: "relative" }} ref={dropdownRef}>
             <div
                 className="external-part"
                 onClick={() => {
                     setShowDropdown(!showDropdown);
                 }}
-                ref={externalPartRef}
             >
                 {externalPart}
             </div>
