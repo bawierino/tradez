@@ -8,6 +8,7 @@ import { Opus } from "../../data/structures/opus";
 import { Version } from "../../data/structures/version";
 import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
+import { DropdownComponent } from "../dropdown/dropdown_component";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -86,30 +87,32 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
     return (
         <div>
             <div>
-                Filter on rarity
-                <CheckboxGroupComponent
-                    checkboxes={Object.values(Rarity).map(rarity => ({
-                        label: rarity,
-                        id: rarity
-                    }))}
-                    onSelectionChanged={selectedIds => {
-                        setRarityFilter(selectedIds as Rarity[]);
-                    }}
-                    initialSelectionIds={rarityFilter}
-                />
+                <DropdownComponent externalPart={<React.Fragment>Filter on rarity</React.Fragment>}>
+                    <CheckboxGroupComponent
+                        checkboxes={Object.values(Rarity).map(rarity => ({
+                            label: rarity,
+                            id: rarity
+                        }))}
+                        onSelectionChanged={selectedIds => {
+                            setRarityFilter(selectedIds as Rarity[]);
+                        }}
+                        initialSelectionIds={rarityFilter}
+                    />
+                </DropdownComponent>
             </div>
             <div>
-                Filter on opus
-                <CheckboxGroupComponent
-                    checkboxes={Object.values(Opus).map(opus => ({
-                        label: opus,
-                        id: opus
-                    }))}
-                    onSelectionChanged={selectedIds => {
-                        setOpusFilter(selectedIds as Opus[]);
-                    }}
-                    initialSelectionIds={opusFilter}
-                />
+                <DropdownComponent externalPart={<React.Fragment>Filter on opus</React.Fragment>}>
+                    <CheckboxGroupComponent
+                        checkboxes={Object.values(Opus).map(opus => ({
+                            label: opus,
+                            id: opus
+                        }))}
+                        onSelectionChanged={selectedIds => {
+                            setOpusFilter(selectedIds as Opus[]);
+                        }}
+                        initialSelectionIds={opusFilter}
+                    />
+                </DropdownComponent>
             </div>
             {showTradeableVersionFilter && (
                 <div>
