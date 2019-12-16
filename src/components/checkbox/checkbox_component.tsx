@@ -9,15 +9,24 @@ export interface CheckboxProps extends FormComponentProps {
 export const CheckboxComponent: React.FC<CheckboxProps> = props => {
     const { initiallyChecked, onChange, label } = props;
     const [checked, setChecked] = React.useState(initiallyChecked);
+
+    function handleClick(checked: boolean): void {
+        setChecked(checked);
+        onChange(checked);
+    }
+
     return (
-        <FormComponent label={label}>
+        <FormComponent
+            label={label}
+            onLabelClick={() => {
+                handleClick(!checked);
+            }}
+        >
             <input
                 type="checkbox"
                 checked={checked}
                 onChange={event => {
-                    const isNowChecked = event.target.checked;
-                    setChecked(isNowChecked);
-                    onChange(isNowChecked);
+                    handleClick(event.target.checked);
                 }}
             ></input>
         </FormComponent>
