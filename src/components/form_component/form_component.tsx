@@ -6,7 +6,7 @@ export interface FormComponentProps {
 }
 
 export const FormComponent: React.FC<FormComponentProps> = props => {
-    const { label, children, onLabelClick } = props;
+    const { label, children, onLabelClick = () => {} } = props;
 
     return (
         <div>
