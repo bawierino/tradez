@@ -1,5 +1,6 @@
 import * as React from "react";
 import { dropdownStyle } from "./dropdown.style";
+import { useOnClickOutside } from "../../hooks/use_on_click_outside";
 
 export interface DropdownProps {
     externalPart: JSX.Element;
@@ -10,6 +11,11 @@ export const DropdownComponent: React.FC<DropdownProps> = props => {
 
     const [showDropdown, setShowDropdown] = React.useState(false);
 
+    const externalPartRef = React.useRef(undefined);
+    useOnClickOutside(externalPartRef, () => {
+        setShowDropdown(false);
+    });
+
     return (
         <div className={dropdownStyle} style={{ position: "relative" }}>
             <div
@@ -17,6 +23,7 @@ export const DropdownComponent: React.FC<DropdownProps> = props => {
                 onClick={() => {
                     setShowDropdown(!showDropdown);
                 }}
+                ref={externalPartRef}
             >
                 {externalPart}
             </div>
