@@ -7,7 +7,7 @@ import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_trad
 import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 import { SelectionStrategy } from "../../design_system/selection_strategy";
 import { useDebouncedState } from "../../hooks/use_debounced_state";
-import { DropdownLabelSelectGroupComponent } from "../dropdown/label_select/dropdown_label_select_group_component";
+import { DropdownLabelSelectGroupComponent } from "../dropdown/label_select/group/dropdown_label_select_group_component";
 import { WrappedDropdownComponent } from "../dropdown/wrapped_dropdown_component";
 import { TextInputComponent } from "../text_input/text_input_component";
 

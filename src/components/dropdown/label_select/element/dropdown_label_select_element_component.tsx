@@ -1,4 +1,5 @@
 import * as React from "react";
+import { dropdownLabelSelectElementStyle } from "./dropdown_label_select_element.style";
 
 export interface CheckboxProps {
     selected: boolean;
@@ -16,6 +17,7 @@ export const DropdownLabelSelectElementComponent: React.FC<CheckboxProps> = prop
 
     return (
         <div
+            className={`${dropdownLabelSelectElementStyle} ${selected ? "selected" : "not-selected"}`}
             onClick={() => {
                 handleClick(selected);
             }}

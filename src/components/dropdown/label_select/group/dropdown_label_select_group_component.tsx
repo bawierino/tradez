@@ -1,6 +1,7 @@
 import * as React from "react";
-import { SelectionStrategy } from "../../../design_system/selection_strategy";
-import { DropdownLabelSelectElementComponent } from "./dropdown_label_select_element_component";
+import { SelectionStrategy } from "../../../../design_system/selection_strategy";
+import { DropdownLabelSelectElementComponent } from "../element/dropdown_label_select_element_component";
+import { dropdownLabelSelectGroupStyle } from "./dropdown_label_select_group.style";
 
 export interface DropdownLabelSelectGroupProps {
     elements: LabelSelectElementInfo[];
@@ -19,9 +20,10 @@ export const DropdownLabelSelectGroupComponent: React.FC<DropdownLabelSelectGrou
     const [selection, setSelection] = React.useState(initialSelectionIds);
 
     return (
-        <div>
+        <div className={dropdownLabelSelectGroupStyle}>
             {elements.map(element => (
                 <DropdownLabelSelectElementComponent
+                    key={element.id}
                     selected={initialSelectionIds.includes(element.id)}
                     onSelect={(id, selected) => {
                         if (selectionStrategy === SelectionStrategy.CHECKBOX) {

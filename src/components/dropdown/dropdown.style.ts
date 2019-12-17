@@ -10,7 +10,6 @@ export const dropdownStyle = css`
 
     z-index: ${Z_INDEX.DROPDOWN};
     background-color: ${colors.shades.none};
-    padding: ${whitespaces[4]} ${whitespaces[0]};
     border-radius: ${borderRadiuses[4]};
     box-shadow: ${boxShadows.default};
     left: ${whitespaces[4]};
