@@ -1,9 +1,9 @@
 import * as React from "react";
-import { FormComponentProps, FormComponent } from "../form_component/form_component";
 
-export interface CheckboxProps extends FormComponentProps {
+export interface CheckboxProps {
     initiallyChecked: boolean;
     onChange: (checked: boolean) => void;
+    label?: string;
 }
 
 export const CheckboxComponent: React.FC<CheckboxProps> = props => {
@@ -16,9 +16,8 @@ export const CheckboxComponent: React.FC<CheckboxProps> = props => {
     }
 
     return (
-        <FormComponent
-            label={label}
-            onLabelClick={() => {
+        <div
+            onClick={() => {
                 handleClick(!checked);
             }}
         >
@@ -29,6 +28,7 @@ export const CheckboxComponent: React.FC<CheckboxProps> = props => {
                     handleClick(event.target.checked);
                 }}
             ></input>
-        </FormComponent>
+            {label && <label>{label}</label>}
+        </div>
     );
 };

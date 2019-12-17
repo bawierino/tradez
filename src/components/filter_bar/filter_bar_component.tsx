@@ -1,14 +1,15 @@
 import * as React from "react";
 import { FFCard } from "../../data/structures/ff_card";
-import { Rarity } from "../../data/structures/rarity";
-import { useDebouncedState } from "../../hooks/use_debounced_state";
-import { CheckboxGroupComponent } from "../checkbox/checkbox_group_component";
-import { TextInputComponent } from "../text_input/text_input_component";
 import { Opus } from "../../data/structures/opus";
+import { Rarity } from "../../data/structures/rarity";
 import { Version } from "../../data/structures/version";
-import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
-import { DropdownComponent } from "../dropdown/dropdown_component";
+import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
+import { SelectionStrategy } from "../../design_system/selection_strategy";
+import { useDebouncedState } from "../../hooks/use_debounced_state";
+import { DropdownLabelSelectGroupComponent } from "../dropdown/label_select/dropdown_label_select_group_component";
+import { WrappedDropdownComponent } from "../dropdown/wrapped_dropdown_component";
+import { TextInputComponent } from "../text_input/text_input_component";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -87,9 +88,9 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
     return (
         <div>
             <div>
-                <DropdownComponent externalPart={<React.Fragment>Filter on rarity</React.Fragment>}>
-                    <CheckboxGroupComponent
-                        checkboxes={Object.values(Rarity).map(rarity => ({
+                <WrappedDropdownComponent externalPart={<React.Fragment>Filter on rarity</React.Fragment>}>
+                    <DropdownLabelSelectGroupComponent
+                        elements={Object.values(Rarity).map(rarity => ({
                             label: rarity,
                             id: rarity
                         }))}
@@ -97,13 +98,14 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                             setRarityFilter(selectedIds as Rarity[]);
                         }}
                         initialSelectionIds={rarityFilter}
+                        selectionStrategy={SelectionStrategy.CHECKBOX}
                     />
-                </DropdownComponent>
+                </WrappedDropdownComponent>
             </div>
             <div>
-                <DropdownComponent externalPart={<React.Fragment>Filter on opus</React.Fragment>}>
-                    <CheckboxGroupComponent
-                        checkboxes={Object.values(Opus).map(opus => ({
+                <WrappedDropdownComponent externalPart={<React.Fragment>Filter on opus</React.Fragment>}>
+                    <DropdownLabelSelectGroupComponent
+                        elements={Object.values(Opus).map(opus => ({
                             label: opus,
                             id: opus
                         }))}
@@ -111,14 +113,17 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                             setOpusFilter(selectedIds as Opus[]);
                         }}
                         initialSelectionIds={opusFilter}
+                        selectionStrategy={SelectionStrategy.CHECKBOX}
                     />
-                </DropdownComponent>
+                </WrappedDropdownComponent>
             </div>
             {showTradeableVersionFilter && (
                 <div>
-                    <DropdownComponent externalPart={<React.Fragment>Filter on card version</React.Fragment>}>
-                        <CheckboxGroupComponent
-                            checkboxes={Object.values(Version).map(version => ({
+                    <WrappedDropdownComponent
+                        externalPart={<React.Fragment>Filter on card version</React.Fragment>}
+                    >
+                        <DropdownLabelSelectGroupComponent
+                            elements={Object.values(Version).map(version => ({
                                 label: version,
                                 id: version
                             }))}
@@ -126,8 +131,9 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                                 setTradeableVersionFilter(selectedIds as Version[]);
                             }}
                             initialSelectionIds={tradeableVersionFilter}
+                            selectionStrategy={SelectionStrategy.CHECKBOX}
                         />
-                    </DropdownComponent>
+                    </WrappedDropdownComponent>
                 </div>
             )}
             <TextInputComponent

@@ -1,10 +1,9 @@
 import * as React from "react";
-import { FormComponentProps, FormComponent } from "../form_component/form_component";
 
-export interface TextInputProps extends FormComponentProps {
+export interface TextInputProps {
     initialValue: string;
     onChange: (text: string) => void;
-
+    label?: string;
     placeholder?: string;
 }
 
@@ -12,7 +11,8 @@ export const TextInputComponent: React.FC<TextInputProps> = props => {
     const { label, initialValue, onChange, placeholder } = props;
     const [value, setValue] = React.useState(initialValue);
     return (
-        <FormComponent label={label}>
+        <div>
+            {label && <label>{label}</label>}
             <input
                 type="text"
                 value={value}
@@ -23,6 +23,6 @@ export const TextInputComponent: React.FC<TextInputProps> = props => {
                 }}
                 placeholder={placeholder}
             />
-        </FormComponent>
+        </div>
     );
 };

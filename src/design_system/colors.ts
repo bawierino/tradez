@@ -3,6 +3,7 @@ export const colors = {
         none: "white"
     },
     shadows: {
-        default: "rgba(0, 0, 0, 0.16)"
+        default: "rgba(0, 0, 0, 0.24)",
+        dark: "rgba(0, 0, 0, 0.38)"
     }
 };
