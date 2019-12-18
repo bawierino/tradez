@@ -26,7 +26,6 @@ export const DropdownLabelSelectElementComponent: React.FC<CheckboxProps> = prop
                 handleClick(selected);
             }}
         >
-            {hasTouch ? "hasTouch2" : "no touch2"}
             {label}
         </div>
     );
