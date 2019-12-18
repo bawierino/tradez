@@ -5,11 +5,11 @@ import { Rarity } from "../../data/structures/rarity";
 import { Version } from "../../data/structures/version";
 import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
 import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
-import { SelectionStrategy } from "../../design_system/selection_strategy";
+import { SelectionStrategy } from "../../design_system/constants/selection_strategy";
 import { useDebouncedState } from "../../hooks/use_debounced_state";
-import { DropdownLabelSelectGroupComponent } from "../dropdown/label_select/group/dropdown_label_select_group_component";
-import { WrappedDropdownComponent } from "../dropdown/wrapped_dropdown_component";
-import { TextInputComponent } from "../text_input/text_input_component";
+import { DropdownLabelSelectGroupComponent } from "../../design_system/components/dropdown/label_select/group/dropdown_label_select_group_component";
+import { WrappedDropdownComponent } from "../../design_system/components/dropdown/wrapped_dropdown_component";
+import { TextInputComponent } from "../../design_system/components/text_input/text_input_component";
 
 export interface FilterBarProps {
     cards: FFCard[];

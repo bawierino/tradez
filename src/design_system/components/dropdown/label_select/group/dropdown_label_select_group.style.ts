@@ -1,5 +1,5 @@
 import { css } from "emotion";
-import { whitespaces } from "../../../../design_system/whitespaces";
+import { whitespaces } from "../../../../constants/whitespaces";
 
 export const dropdownLabelSelectGroupStyle = css`
     label: dropdown-label-select-dropdownLabelSelectGroupStyle;

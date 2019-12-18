@@ -1,5 +1,5 @@
 import * as React from "react";
-import { SelectionStrategy } from "../../../../design_system/selection_strategy";
+import { SelectionStrategy } from "../../../../constants/selection_strategy";
 import { DropdownLabelSelectElementComponent } from "../element/dropdown_label_select_element_component";
 import { dropdownLabelSelectGroupStyle } from "./dropdown_label_select_group.style";
 

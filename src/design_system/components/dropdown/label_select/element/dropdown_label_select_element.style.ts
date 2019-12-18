@@ -1,7 +1,7 @@
 import { css } from "emotion";
-import { colors } from "../../../../design_system/colors";
-import { whitespaces } from "../../../../design_system/whitespaces";
-import { animationDurations } from "../../../../design_system/animations";
+import { colors } from "../../../../constants/colors";
+import { whitespaces } from "../../../../constants/whitespaces";
+import { animationDurations } from "../../../../constants/animations";
 
 export const dropdownLabelSelectElementStyle = css`
     label: dropdown-label-select-element;
