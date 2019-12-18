@@ -1,5 +1,6 @@
 import * as React from "react";
 import { dropdownLabelSelectElementStyle } from "./dropdown_label_select_element.style";
+import { useHasTouch } from "../../../../hooks/use_has_touch";
 
 export interface CheckboxProps {
     selected: boolean;
@@ -10,6 +11,7 @@ export interface CheckboxProps {
 
 export const DropdownLabelSelectElementComponent: React.FC<CheckboxProps> = props => {
     const { selected, onSelect, label, id } = props;
+    const hasTouch = useHasTouch();
 
     function handleClick(selected: boolean): void {
         onSelect(id, selected);
@@ -17,7 +19,9 @@ export const DropdownLabelSelectElementComponent: React.FC<CheckboxProps> = prop
 
     return (
         <div
-            className={`${dropdownLabelSelectElementStyle} ${selected ? "selected" : "not-selected"}`}
+            className={`${dropdownLabelSelectElementStyle} ${selected ? "selected" : "not-selected"} ${
+                hasTouch ? "touch" : "no-touch"
+            }`}
             onClick={() => {
                 handleClick(selected);
             }}

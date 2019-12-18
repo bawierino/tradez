@@ -16,7 +16,7 @@ export const dropdownLabelSelectElementStyle = css`
     &.selected {
         color: ${colors.shades.none};
         background-color: ${colors.primary.main};
-        &:hover {
+        &.no-touch &:hover {
             background-color: ${colors.primary.dark};
         }
     }
@@ -24,7 +24,7 @@ export const dropdownLabelSelectElementStyle = css`
     &.not-selected {
         background-color: ${colors.shades.none};
         color: ${colors.font.default};
-        &:hover {
+        &.no-touch &:hover {
             background-color: ${colors.primary.veryLight};
         }
     }
