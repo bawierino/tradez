@@ -9,9 +9,9 @@ export const dropdownLabelSelectElementStyle = css`
     cursor: pointer;
     user-select: none;
 
-    padding: ${whitespaces[4]};
+    padding: ${whitespaces[4]} ${whitespaces[8]};
 
-    transition: background-color ${animationDurations.short} linear, color ${animationDurations.short} linear;
+    transition: background-color ${animationDurations.short}, color ${animationDurations.short};
 
     &.selected {
         color: ${colors.shades.none};
