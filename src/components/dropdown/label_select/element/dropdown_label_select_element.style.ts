@@ -16,16 +16,21 @@ export const dropdownLabelSelectElementStyle = css`
     &.selected {
         color: ${colors.shades.none};
         background-color: ${colors.primary.main};
-        &.no-touch &:hover {
-            background-color: ${colors.primary.dark};
-        }
     }
 
     &.not-selected {
         background-color: ${colors.shades.none};
         color: ${colors.font.default};
-        &.no-touch &:hover {
-            background-color: ${colors.primary.veryLight};
+    }
+
+    &.no-touch {
+        &:hover {
+            &.not-selected {
+                background-color: ${colors.primary.veryLight};
+            }
+            &.selected {
+                background-color: ${colors.primary.dark};
+            }
         }
     }
 `;
