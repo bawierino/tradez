@@ -9,7 +9,7 @@ export const popoverLabelSelectElementStyle = css`
     cursor: pointer;
     user-select: none;
 
-    padding: ${whitespaces[4]} ${whitespaces[8]};
+    padding: ${whitespaces[6]} ${whitespaces[12]};
 
     transition: background-color ${animationDurations.short}, color ${animationDurations.short};
 
