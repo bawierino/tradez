@@ -2,6 +2,7 @@ import * as React from "react";
 import { SelectionStrategy } from "../../../../constants/selection_strategy";
 import { PopoverLabelSelectElementComponent } from "../element/popover_label_select_element_component";
 import { popoverLabelSelectGroupStyle } from "./popover_label_select_group.style";
+import { useScrollInfo } from "../../../../hooks/use_scroll_info";
 
 export interface PopoverLabelSelectGroupProps {
     elements: LabelSelectElementInfo[];
@@ -19,8 +20,13 @@ export const PopoverLabelSelectGroupComponent: React.FC<PopoverLabelSelectGroupP
     const { elements, onSelectionChanged, initialSelectionIds, selectionStrategy } = props;
     const [selection, setSelection] = React.useState(initialSelectionIds);
 
+    const wrapperRef = React.useRef(undefined as HTMLDivElement);
+    const scrollInfo = useScrollInfo(wrapperRef);
+
+    console.log(scrollInfo);
+
     return (
-        <div className={popoverLabelSelectGroupStyle}>
+        <div className={popoverLabelSelectGroupStyle} ref={wrapperRef}>
             {elements.map(element => (
                 <PopoverLabelSelectElementComponent
                     key={element.id}
