@@ -15,12 +15,16 @@ export function useScrollInfo<T extends HTMLElement>(
         function generateScrollInfo(): void {
             const { scrollHeight, clientHeight, scrollTop } = ref.current;
             if (scrollTop === 0 && clientHeight === scrollHeight) {
-                setScrollInfo({ canScroll: false, scrollPercentage: undefined });
+                setScrollInfo({
+                    canScroll: false,
+                    scrollPercentage: 0
+                });
             } else {
                 setScrollInfo({
                     canScroll: true,
                     scrollPercentage: Math.round((scrollTop / (scrollHeight - clientHeight)) * 100)
                 });
+                console.log(scrollHeight);
             }
         }
         generateScrollInfo();
