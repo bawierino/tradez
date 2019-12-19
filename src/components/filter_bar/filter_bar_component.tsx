@@ -10,6 +10,9 @@ import { useDebouncedState } from "../../hooks/use_debounced_state";
 import { DropdownLabelSelectGroupComponent } from "../../design_system/components/dropdown/label_select/group/dropdown_label_select_group_component";
 import { WrappedDropdownComponent } from "../../design_system/components/dropdown/wrapped_dropdown_component";
 import { TextInputComponent } from "../../design_system/components/text_input/text_input_component";
+import { getOpusMessage } from "../../data/transformations/get_opus_message";
+import { getRarityMessage } from "../../data/transformations/get_rarity_message";
+import { getVersionMessage } from "../../data/transformations/get_version_message";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -91,7 +94,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 <WrappedDropdownComponent externalPart={<React.Fragment>Filter on rarity</React.Fragment>}>
                     <DropdownLabelSelectGroupComponent
                         elements={Object.values(Rarity).map(rarity => ({
-                            label: rarity,
+                            label: getRarityMessage(rarity),
                             id: rarity
                         }))}
                         onSelectionChanged={selectedIds => {
@@ -106,7 +109,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 <WrappedDropdownComponent externalPart={<React.Fragment>Filter on opus</React.Fragment>}>
                     <DropdownLabelSelectGroupComponent
                         elements={Object.values(Opus).map(opus => ({
-                            label: opus,
+                            label: getOpusMessage(opus),
                             id: opus
                         }))}
                         onSelectionChanged={selectedIds => {
@@ -124,7 +127,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                     >
                         <DropdownLabelSelectGroupComponent
                             elements={Object.values(Version).map(version => ({
-                                label: version,
+                                label: getVersionMessage(version),
                                 id: version
                             }))}
                             onSelectionChanged={selectedIds => {
