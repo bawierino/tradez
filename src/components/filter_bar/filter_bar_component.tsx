@@ -7,8 +7,8 @@ import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_trad
 import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 import { SelectionStrategy } from "../../design_system/constants/selection_strategy";
 import { useDebouncedState } from "../../hooks/use_debounced_state";
-import { DropdownLabelSelectGroupComponent } from "../../design_system/components/dropdown/label_select/group/dropdown_label_select_group_component";
-import { WrappedDropdownComponent } from "../../design_system/components/dropdown/wrapped_dropdown_component";
+import { PopoverLabelSelectGroupComponent } from "../../design_system/components/popover/label_select/group/popover_label_select_group_component";
+import { WrappedPopoverComponent } from "../../design_system/components/popover/wrapped_popover_component";
 import { TextInputComponent } from "../../design_system/components/text_input/text_input_component";
 import { getOpusMessage } from "../../data/transformations/get_opus_message";
 import { getRarityMessage } from "../../data/transformations/get_rarity_message";
@@ -91,8 +91,8 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
     return (
         <div>
             <div>
-                <WrappedDropdownComponent externalPart={<React.Fragment>Filter on rarity</React.Fragment>}>
-                    <DropdownLabelSelectGroupComponent
+                <WrappedPopoverComponent externalPart={<React.Fragment>Filter on rarity</React.Fragment>}>
+                    <PopoverLabelSelectGroupComponent
                         elements={Object.values(Rarity).map(rarity => ({
                             label: getRarityMessage(rarity),
                             id: rarity
@@ -103,11 +103,11 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                         initialSelectionIds={rarityFilter}
                         selectionStrategy={SelectionStrategy.CHECKBOX}
                     />
-                </WrappedDropdownComponent>
+                </WrappedPopoverComponent>
             </div>
             <div>
-                <WrappedDropdownComponent externalPart={<React.Fragment>Filter on opus</React.Fragment>}>
-                    <DropdownLabelSelectGroupComponent
+                <WrappedPopoverComponent externalPart={<React.Fragment>Filter on opus</React.Fragment>}>
+                    <PopoverLabelSelectGroupComponent
                         elements={Object.values(Opus).map(opus => ({
                             label: getOpusMessage(opus),
                             id: opus
@@ -118,14 +118,14 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                         initialSelectionIds={opusFilter}
                         selectionStrategy={SelectionStrategy.CHECKBOX}
                     />
-                </WrappedDropdownComponent>
+                </WrappedPopoverComponent>
             </div>
             {showTradeableVersionFilter && (
                 <div>
-                    <WrappedDropdownComponent
+                    <WrappedPopoverComponent
                         externalPart={<React.Fragment>Filter on card version</React.Fragment>}
                     >
-                        <DropdownLabelSelectGroupComponent
+                        <PopoverLabelSelectGroupComponent
                             elements={Object.values(Version).map(version => ({
                                 label: getVersionMessage(version),
                                 id: version
@@ -136,7 +136,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                             initialSelectionIds={tradeableVersionFilter}
                             selectionStrategy={SelectionStrategy.CHECKBOX}
                         />
-                    </WrappedDropdownComponent>
+                    </WrappedPopoverComponent>
                 </div>
             )}
             <TextInputComponent

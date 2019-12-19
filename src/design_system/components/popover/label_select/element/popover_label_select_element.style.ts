@@ -3,8 +3,8 @@ import { colors } from "../../../../constants/colors";
 import { whitespaces } from "../../../../constants/whitespaces";
 import { animationDurations } from "../../../../constants/animations";
 
-export const dropdownLabelSelectElementStyle = css`
-    label: dropdown-label-select-element;
+export const popoverLabelSelectElementStyle = css`
+    label: popover-label-select-element;
 
     cursor: pointer;
     user-select: none;

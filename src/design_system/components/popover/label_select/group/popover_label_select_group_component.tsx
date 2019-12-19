@@ -1,9 +1,9 @@
 import * as React from "react";
 import { SelectionStrategy } from "../../../../constants/selection_strategy";
-import { DropdownLabelSelectElementComponent } from "../element/dropdown_label_select_element_component";
-import { dropdownLabelSelectGroupStyle } from "./dropdown_label_select_group.style";
+import { PopoverLabelSelectElementComponent } from "../element/popover_label_select_element_component";
+import { popoverLabelSelectGroupStyle } from "./popover_label_select_group.style";
 
-export interface DropdownLabelSelectGroupProps {
+export interface PopoverLabelSelectGroupProps {
     elements: LabelSelectElementInfo[];
     onSelectionChanged: (selectedIds: string[]) => void;
     initialSelectionIds: string[];
@@ -15,14 +15,14 @@ export interface LabelSelectElementInfo {
     id: string;
 }
 
-export const DropdownLabelSelectGroupComponent: React.FC<DropdownLabelSelectGroupProps> = props => {
+export const PopoverLabelSelectGroupComponent: React.FC<PopoverLabelSelectGroupProps> = props => {
     const { elements, onSelectionChanged, initialSelectionIds, selectionStrategy } = props;
     const [selection, setSelection] = React.useState(initialSelectionIds);
 
     return (
-        <div className={dropdownLabelSelectGroupStyle}>
+        <div className={popoverLabelSelectGroupStyle}>
             {elements.map(element => (
-                <DropdownLabelSelectElementComponent
+                <PopoverLabelSelectElementComponent
                     key={element.id}
                     selected={initialSelectionIds.includes(element.id)}
                     onSelect={(id, selected) => {

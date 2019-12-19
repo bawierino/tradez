@@ -5,8 +5,8 @@ import { whitespaces } from "../../constants/whitespaces";
 import { borderRadiuses } from "../../constants/border_radiuses";
 import { boxShadows } from "../../constants/box_shadows";
 
-export const dropdownStyle = css`
-    label: dropdown;
+export const popoverStyle = css`
+    label: popover;
 
     z-index: ${Z_INDEX.DROPDOWN};
     background-color: ${colors.shades.none};
