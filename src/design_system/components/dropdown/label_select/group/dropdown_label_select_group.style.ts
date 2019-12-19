@@ -5,4 +5,5 @@ export const dropdownLabelSelectGroupStyle = css`
     label: dropdown-label-select-dropdownLabelSelectGroupStyle;
 
     padding: ${whitespaces[4]} ${whitespaces[0]};
+    min-width: 148px;
 `;
