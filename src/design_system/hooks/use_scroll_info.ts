@@ -1,4 +1,6 @@
 import * as React from "react";
+import elementResizeEvent from "element-resize-event";
+const unbind = require("element-resize-event").unbind;
 
 export interface ScrollInfo {
     canScroll: boolean;
@@ -10,7 +12,8 @@ export function useScrollInfo<T extends HTMLElement>(
 ): ScrollInfo {
     const [scrollInfo, setScrollInfo] = React.useState(undefined as ScrollInfo);
     React.useLayoutEffect(() => {
-        const element = ref.current;
+        const element = ref.current.tagName !== "HTML" ? ref.current : document;
+        const resizeElement = ref.current;
 
         function generateScrollInfo(): void {
             const { scrollHeight, clientHeight, scrollTop } = ref.current;
@@ -24,13 +27,21 @@ export function useScrollInfo<T extends HTMLElement>(
                     canScroll: true,
                     scrollPercentage: Math.round((scrollTop / (scrollHeight - clientHeight)) * 100)
                 });
-                console.log(scrollHeight);
             }
         }
-        generateScrollInfo();
 
+        requestAnimationFrame(() => {
+            requestAnimationFrame(generateScrollInfo);
+        });
+        elementResizeEvent(resizeElement, () => {
+            generateScrollInfo();
+        });
         element.addEventListener("scroll", generateScrollInfo);
-        return () => element.removeEventListener("scroll", generateScrollInfo);
+
+        return () => {
+            element.removeEventListener("scroll", generateScrollInfo);
+            unbind(resizeElement);
+        };
         // eslint-disable-next-line
     }, []);
 

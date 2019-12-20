@@ -4,10 +4,16 @@ import { TradeableCardsPageComponent } from "./components/pages/tradeable_cards_
 import { WantedCardsPageComponent } from "./components/pages/wanted_cards_page/wanted_cards_page_component";
 import { useCards } from "./hooks/use_cards";
 import { PageId, useRouter } from "./hooks/use_router";
+import { useScrollShadowClassName } from "./design_system/hooks/use_scroll_shadow_class_name";
 
 const App: React.FC = () => {
     const cards = useCards();
+
     const routerAPI = useRouter();
+
+    const htmlRef = React.useRef(document.documentElement);
+    const scrollShadowClassName = useScrollShadowClassName(htmlRef);
+    htmlRef.current.className = scrollShadowClassName;
 
     switch (routerAPI.getCurrentPageId()) {
         case PageId.TRADEABLE_CARDS:

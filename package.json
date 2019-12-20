@@ -3,10 +3,12 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@types/element-resize-event": "^2.0.0",
         "@types/lodash.debounce": "^4.0.6",
         "@types/node": "^12.12.17",
         "@types/react": "^16.9.16",
         "@types/react-dom": "^16.9.4",
+        "element-resize-event": "^3.0.3",
         "emotion": "^10.0.23",
         "lodash.debounce": "^4.0.8",
         "react": "^16.12.0",

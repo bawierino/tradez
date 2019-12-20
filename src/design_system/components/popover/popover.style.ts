@@ -14,4 +14,5 @@ export const popoverStyle = css`
     box-shadow: ${boxShadows.default};
     left: ${whitespaces[4]};
     position: absolute;
+    overflow: hidden;
 `;
