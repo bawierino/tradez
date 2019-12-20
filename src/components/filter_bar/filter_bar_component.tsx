@@ -6,7 +6,7 @@ import { Version } from "../../data/structures/version";
 import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
 import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 import { SelectionStrategy } from "../../design_system/constants/selection_strategy";
-import { useDebouncedState } from "../../hooks/use_debounced_state";
+import { useDebouncedState } from "../../design_system/hooks/use_debounced_state";
 import { PopoverLabelSelectGroupComponent } from "../../design_system/components/popover/label_select/group/popover_label_select_group_component";
 import { WrappedPopoverComponent } from "../../design_system/components/popover/wrapped_popover_component";
 import { TextInputComponent } from "../../design_system/components/text_input/text_input_component";

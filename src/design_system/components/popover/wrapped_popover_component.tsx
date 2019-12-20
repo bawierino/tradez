@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useOnClickOutside } from "../../../hooks/use_on_click_outside";
+import { useOnClickOutside } from "../../hooks/use_on_click_outside";
 import { PopoverComponent } from "./popover_component";
 
 export interface WrappedPopoverProps {
