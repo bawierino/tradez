@@ -1,6 +1,8 @@
 export const colors = {
     shades: {
-        none: "white"
+        none: "white",
+        shade12: "#cfd8dc",
+        shade11: "#b0bec5"
     },
     font: { default: "#112" },
     shadows: {

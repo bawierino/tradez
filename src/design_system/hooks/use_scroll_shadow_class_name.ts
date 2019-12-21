@@ -14,10 +14,10 @@ export function useScrollShadowClassName<T extends HTMLElement>(
         const topAmount = scrollPercentage / 100;
         const bottomAmount = 1 - scrollPercentage / 100;
 
-        const topShadowColor = `rgba(0,0,0,${0.22 * topAmount})`;
+        const topShadowColor = `rgba(0,0,0,${0.16 * topAmount})`;
         const topBackground = `linear-gradient(${topShadowColor}, transparent)`;
 
-        const bottomShadowColor = `rgba(0,0,0,${0.22 * bottomAmount})`;
+        const bottomShadowColor = `rgba(0,0,0,${0.16 * bottomAmount})`;
         const bottomBackground = `linear-gradient(transparent,${bottomShadowColor})`;
 
         if (canScroll) {

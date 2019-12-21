@@ -23,26 +23,37 @@ export const PopoverLabelSelectGroupComponent: React.FC<PopoverLabelSelectGroupP
     const wrapperRef = React.useRef(undefined as HTMLDivElement);
     const scrollShadowClassName = useScrollShadowClassName(wrapperRef);
 
+    function handleSelection(id: string, selected: boolean): void {
+        if (selectionStrategy === SelectionStrategy.CHECKBOX) {
+            const selectionCopy = [...selection];
+            if (!selected) {
+                selectionCopy.push(id);
+            } else {
+                selectionCopy.splice(
+                    selectionCopy.findIndex(s => s === id),
+                    1
+                );
+            }
+            setSelection(selectionCopy);
+            onSelectionChanged(selectionCopy);
+        }
+    }
+
+    function getSelectionExplanation(selectionStrategy: SelectionStrategy): string {
+        if (selectionStrategy === SelectionStrategy.CHECKBOX) {
+            return "Choose multiple";
+        }
+    }
+
     return (
         <div className={`${popoverLabelSelectGroupStyle} ${scrollShadowClassName}`} ref={wrapperRef}>
+            <div className="selection-explanation">{getSelectionExplanation(selectionStrategy)}</div>
             {elements.map(element => (
                 <PopoverLabelSelectElementComponent
                     key={element.id}
                     selected={initialSelectionIds.includes(element.id)}
                     onSelect={(id, selected) => {
-                        if (selectionStrategy === SelectionStrategy.CHECKBOX) {
-                            const selectionCopy = [...selection];
-                            if (!selected) {
-                                selectionCopy.push(element.id);
-                            } else {
-                                selectionCopy.splice(
-                                    selectionCopy.findIndex(s => s === element.id),
-                                    1
-                                );
-                            }
-                            setSelection(selectionCopy);
-                            onSelectionChanged(selectionCopy);
-                        }
+                        handleSelection(id, selected);
                     }}
                     label={element.label}
                     id={element.id}
