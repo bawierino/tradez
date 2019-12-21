@@ -11,7 +11,7 @@ export const popoverStyle = css`
     z-index: ${Z_INDEX.DROPDOWN};
     background-color: ${colors.shades.none};
     border-radius: ${borderRadiuses[4]};
-    box-shadow: ${boxShadows.default};
+    box-shadow: ${boxShadows.popover};
     left: ${whitespaces[4]};
     position: absolute;
     overflow: hidden;
