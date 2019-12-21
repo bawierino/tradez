@@ -22,6 +22,8 @@ export function useScrollShadowClassName<T extends HTMLElement>(
 
         if (canScroll) {
             return css`
+                label: scroll-shadow;
+
                 padding: 0;
                 position: relative;
 
@@ -50,6 +52,8 @@ export function useScrollShadowClassName<T extends HTMLElement>(
         }
     }
     return css`
+        label: no-scroll-shadow;
+
         padding-top: ${whitespaces[6]};
         padding-bottom: ${whitespaces[6]};
     `;
