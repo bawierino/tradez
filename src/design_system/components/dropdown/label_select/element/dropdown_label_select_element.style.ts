@@ -3,13 +3,13 @@ import { colors } from "../../../../constants/colors";
 import { distances } from "../../../../constants/distances";
 import { animationDurations } from "../../../../constants/animations";
 
-export const popoverLabelSelectElementStyle = css`
-    label: popover-label-select-element;
+export const dropdownLabelSelectElementStyle = css`
+    label: dropdown-label-select-element;
 
     cursor: pointer;
     user-select: none;
 
-    padding: ${distances[6]} ${distances[12]};
+    padding: ${distances[4]} ${distances[8]};
 
     transition: background-color ${animationDurations.short}, color ${animationDurations.short};
 

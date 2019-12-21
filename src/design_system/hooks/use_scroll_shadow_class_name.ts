@@ -1,7 +1,7 @@
 import { useScrollInfo } from "./use_scroll_info";
 import { css } from "emotion";
 import { borderRadiuses } from "../constants/border_radiuses";
-import { whitespaces } from "../constants/whitespaces";
+import { distances } from "../constants/distances";
 
 // passed ref must be compatible with `position: relative`
 export function useScrollShadowClassName<T extends HTMLElement>(
@@ -34,7 +34,7 @@ export function useScrollShadowClassName<T extends HTMLElement>(
                     right: 0;
                     display: block;
                     border-radius: ${borderRadiuses[4]};
-                    height: ${whitespaces[6]};
+                    height: ${distances[6]};
                     content: " ";
                     transition: background 0.1s ease;
                 }
@@ -54,7 +54,7 @@ export function useScrollShadowClassName<T extends HTMLElement>(
     return css`
         label: no-scroll-shadow;
 
-        padding-top: ${whitespaces[6]};
-        padding-bottom: ${whitespaces[6]};
+        padding-top: ${distances[6]};
+        padding-bottom: ${distances[6]};
     `;
 }

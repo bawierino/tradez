@@ -1,7 +1,7 @@
 import { css } from "emotion";
 import { Z_INDEX } from "../../constants/z_indexes";
 import { colors } from "../../constants/colors";
-import { whitespaces } from "../../constants/whitespaces";
+import { distances } from "../../constants/distances";
 import { borderRadiuses } from "../../constants/border_radiuses";
 import { boxShadows } from "../../constants/box_shadows";
 
@@ -12,7 +12,7 @@ export const popoverStyle = css`
     background-color: ${colors.shades.none};
     border-radius: ${borderRadiuses[4]};
     box-shadow: ${boxShadows.popover};
-    left: ${whitespaces[4]};
+    left: ${distances[4]};
     position: absolute;
     overflow: hidden;
 `;

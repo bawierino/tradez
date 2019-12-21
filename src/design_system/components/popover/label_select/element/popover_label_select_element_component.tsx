@@ -1,6 +1,6 @@
 import * as React from "react";
+import { useHasTouchClassName } from "../../../../hooks/use_has_touch_class_name";
 import { popoverLabelSelectElementStyle } from "./popover_label_select_element.style";
-import { useHasTouch } from "../../../../hooks/use_has_touch";
 
 export interface CheckboxProps {
     selected: boolean;
@@ -11,7 +11,7 @@ export interface CheckboxProps {
 
 export const PopoverLabelSelectElementComponent: React.FC<CheckboxProps> = props => {
     const { selected, onSelect, label, id } = props;
-    const hasTouch = useHasTouch();
+    const hasTouchClassName = useHasTouchClassName();
 
     function handleClick(selected: boolean): void {
         onSelect(id, selected);
@@ -19,9 +19,9 @@ export const PopoverLabelSelectElementComponent: React.FC<CheckboxProps> = props
 
     return (
         <div
-            className={`${popoverLabelSelectElementStyle} ${selected ? "selected" : "not-selected"} ${
-                hasTouch ? "" : "no-touch"
-            }`}
+            className={`${popoverLabelSelectElementStyle} ${
+                selected ? "selected" : "not-selected"
+            } ${hasTouchClassName}`}
             onClick={() => {
                 handleClick(selected);
             }}

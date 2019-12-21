@@ -1,6 +1,6 @@
 import { css } from "emotion";
 import { fontSizes } from "../../../../constants/font_sizes";
-import { whitespaces } from "../../../../constants/whitespaces";
+import { distances } from "../../../../constants/distances";
 import { colors } from "../../../../constants/colors";
 
 export const popoverLabelSelectGroupStyle = css`
@@ -16,6 +16,6 @@ export const popoverLabelSelectGroupStyle = css`
         font-size: 9px;
         color: ${colors.shades.shade11};
         text-transform: uppercase;
-        padding: ${whitespaces[4]} ${whitespaces[6]};
+        padding: ${distances[4]} ${distances[6]};
     }
 `;
