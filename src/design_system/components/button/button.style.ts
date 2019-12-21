@@ -6,8 +6,8 @@ import { animationDurations } from "../../constants/animations";
 import { boxShadows } from "../../constants/box_shadows";
 import { borderRadiuses } from "../../constants/border_radiuses";
 
-const defaultButtonBackground = `linear-gradient(to right, ${colors.primary.main},${colors.primary.veryLight})`;
-const hoveredButtonBackground = `linear-gradient(to right, ${colors.primary.dark},${colors.primary.light})`;
+const defaultButtonBackground = `linear-gradient(to bottom right, ${colors.primary.main},${colors.primary.veryLight})`;
+const hoveredButtonBackground = `linear-gradient(to bottom right, ${colors.primary.dark},${colors.primary.light})`;
 
 export const buttonStyle = css`
     label: button;
