@@ -15,6 +15,8 @@ export const buttonStyle = css`
     position: relative;
 
     overflow: hidden;
+    user-select: none;
+    cursor: pointer;
 
     height: ${distances[42]};
     width: ${distances[200]};
@@ -26,6 +28,8 @@ export const buttonStyle = css`
     font-weight: bold;
 
     box-shadow: ${boxShadows.default};
+
+    transition: box-shadow ${animationDurations.short}, transform ${animationDurations.short};
 
     display: flex;
     align-items: center;
@@ -48,12 +52,15 @@ export const buttonStyle = css`
             &:before {
                 opacity: 0.75;
             }
-            .label,
-            .icon {
-                z-index: 2000000000;
-            }
         }
     }
+    .label,
+    .icon {
+        z-index: 2000000000;
+    }
 
-    cursor: pointer;
+    &.pushed {
+        transform: translateY(1px);
+        box-shadow: ${boxShadows.close};
+    }
 `;
