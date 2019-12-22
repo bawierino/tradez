@@ -90,8 +90,11 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
 
     return (
         <div>
+            filter on
             <div>
-                <WrappedPopoverComponent externalPart={<React.Fragment>Filter on rarity</React.Fragment>}>
+                <WrappedPopoverComponent
+                    externalPart={<React.Fragment>rarity ({rarityFilter.length} selected)</React.Fragment>}
+                >
                     <PopoverLabelSelectGroupComponent
                         elements={Object.values(Rarity).map(rarity => ({
                             label: getRarityMessage(rarity),
@@ -106,7 +109,9 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 </WrappedPopoverComponent>
             </div>
             <div>
-                <WrappedPopoverComponent externalPart={<React.Fragment>Filter on opus</React.Fragment>}>
+                <WrappedPopoverComponent
+                    externalPart={<React.Fragment>opus ({opusFilter.length} selected)</React.Fragment>}
+                >
                     <PopoverLabelSelectGroupComponent
                         elements={Object.values(Opus).map(opus => ({
                             label: getOpusMessage(opus),
@@ -123,7 +128,11 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
             {showTradeableVersionFilter && (
                 <div>
                     <WrappedPopoverComponent
-                        externalPart={<React.Fragment>Filter on card version</React.Fragment>}
+                        externalPart={
+                            <React.Fragment>
+                                card version ({tradeableVersionFilter.length} selected)
+                            </React.Fragment>
+                        }
                     >
                         <PopoverLabelSelectGroupComponent
                             elements={Object.values(Version).map(version => ({
@@ -140,9 +149,8 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 </div>
             )}
             <div style={{ marginTop: 16 }}></div>
-
             <TextInputComponent
-                label={"filter by serial"}
+                label={"serial"}
                 onChange={text => {
                     setSerialFilter(text);
                 }}
@@ -151,7 +159,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
             />
             <div style={{ marginTop: 16 }}></div>
             <TextInputComponent
-                label={"filter by name"}
+                label={"name"}
                 onChange={text => {
                     setNameFilter(text);
                 }}
