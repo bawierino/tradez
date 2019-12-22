@@ -139,6 +139,8 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                     </WrappedPopoverComponent>
                 </div>
             )}
+            <div style={{ marginTop: 16 }}></div>
+
             <TextInputComponent
                 label={"filter by serial"}
                 onChange={text => {
@@ -147,6 +149,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 initialValue={serialFilter}
                 placeholder={"i.e. 5-036"}
             />
+            <div style={{ marginTop: 16 }}></div>
             <TextInputComponent
                 label={"filter by name"}
                 onChange={text => {

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { textInputStyle } from "./text_input.style";
 
 export interface TextInputProps {
     initialValue: string;
@@ -11,7 +12,7 @@ export const TextInputComponent: React.FC<TextInputProps> = props => {
     const { label, initialValue, onChange, placeholder } = props;
     const [value, setValue] = React.useState(initialValue);
     return (
-        <div>
+        <div className={textInputStyle}>
             {label && <label>{label}</label>}
             <input
                 type="text"

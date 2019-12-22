@@ -4,6 +4,7 @@ export const distances = {
     6: "6px",
     8: "8px",
     12: "12px",
+    20: "20px",
     42: "42px",
     200: "200px"
 };

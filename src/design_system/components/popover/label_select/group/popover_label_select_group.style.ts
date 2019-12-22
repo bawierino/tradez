@@ -14,7 +14,7 @@ export const popoverLabelSelectGroupStyle = css`
 
     .selection-explanation {
         font-size: 9px;
-        color: ${colors.shades.shade11};
+        color: ${colors.font.veryLight};
         text-transform: uppercase;
         padding: ${distances[4]} ${distances[6]};
     }

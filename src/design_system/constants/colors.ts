@@ -1,16 +1,15 @@
 export const shadowColorOpacitiesRaw = {
     default: 0.26,
     light: 0.22,
-    dark: 0.38
+    dark: 0.35,
+    veryLight: 0.18
 };
 
 export const colors = {
     shades: {
-        none: "white",
-        shade12: "#cfd8dc",
-        shade11: "#b0bec5"
+        none: "white"
     },
-    font: { default: "#112" },
+    font: { default: "#32323e", lightened: "#50504c", veryLight: "#b0bec5" },
     shadows: {
         default: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.default})`,
         light: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.light})`,

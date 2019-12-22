@@ -1,5 +1,6 @@
 export const animationDurationsRawMs = {
-    short: 200
+    short: 200,
+    normal: 400
 };
 
 export const animationDurations: { [index: string]: string } = {};
