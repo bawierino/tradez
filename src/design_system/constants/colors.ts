@@ -1,3 +1,9 @@
+export const shadowColorOpacitiesRaw = {
+    default: 0.26,
+    light: 0.22,
+    dark: 0.38
+};
+
 export const colors = {
     shades: {
         none: "white",
@@ -6,9 +12,9 @@ export const colors = {
     },
     font: { default: "#112" },
     shadows: {
-        default: "rgba(0, 0, 0, 0.26)",
-        high: "rgba(0, 0, 0, 0.22)",
-        dark: "rgba(0, 0, 0, 0.38)"
+        default: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.default})`,
+        light: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.light})`,
+        dark: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.dark})`
     },
     primary: {
         hoveryLight: "#e3f2fd",
