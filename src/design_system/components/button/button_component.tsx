@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useHasTouchClassName } from "../../hooks/use_has_touch_class_name";
 import { buttonStyle } from "./button.style";
+import { animationDurationsRawMs } from "../../constants/animations";
 
 export interface ButtonProps {
     id: string;
@@ -35,7 +36,7 @@ export const ButtonComponent: React.FC<ButtonProps> = props => {
             onClick={() => {
                 setTimeout(() => {
                     onCLick(id);
-                }, 200);
+                }, animationDurationsRawMs.short);
 
                 setPushed(false);
             }}
