@@ -13,6 +13,7 @@ import { TextInputComponent } from "../../design_system/components/text_input/te
 import { getOpusMessage } from "../../data/transformations/get_opus_message";
 import { getRarityMessage } from "../../data/transformations/get_rarity_message";
 import { getVersionMessage } from "../../data/transformations/get_version_message";
+import { WrappedPopoverLabelSelectComponent } from "../../design_system/components/popover/label_select/wrapped_popover_label_select_component";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -92,21 +93,19 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
         <div>
             filter on
             <div>
-                <WrappedPopoverComponent
-                    externalPart={<React.Fragment>rarity ({rarityFilter.length} selected)</React.Fragment>}
-                >
-                    <PopoverLabelSelectGroupComponent
-                        elements={Object.values(Rarity).map(rarity => ({
-                            label: getRarityMessage(rarity),
-                            id: rarity
-                        }))}
-                        onSelectionChanged={selectedIds => {
-                            setRarityFilter(selectedIds as Rarity[]);
-                        }}
-                        initialSelectionIds={rarityFilter}
-                        selectionStrategy={SelectionStrategy.CHECKBOX}
-                    />
-                </WrappedPopoverComponent>
+                <WrappedPopoverLabelSelectComponent
+                    label="rarity"
+                    selectedElementsMessage={`(${rarityFilter.length} selected)`}
+                    elements={Object.values(Rarity).map(rarity => ({
+                        label: getRarityMessage(rarity),
+                        id: rarity
+                    }))}
+                    onSelectionChanged={selectedIds => {
+                        setRarityFilter(selectedIds as Rarity[]);
+                    }}
+                    initialSelectionIds={rarityFilter}
+                    selectionStrategy={SelectionStrategy.CHECKBOX}
+                />
             </div>
             <div>
                 <WrappedPopoverComponent
