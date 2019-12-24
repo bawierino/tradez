@@ -6,7 +6,8 @@ export const pageSelectPageStyle = css`
     height: 100%;
 
     display: flex;
-    align-content: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
     align-items: center;
 `;

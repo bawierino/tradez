@@ -1,7 +1,7 @@
 export const shadowColorOpacitiesRaw = {
     default: 0.26,
     light: 0.22,
-    dark: 0.35,
+    dark: 0.33,
     veryLight: 0.18
 };
 

@@ -7,7 +7,6 @@ import { distances } from "../../constants/distances";
 export const cardStyle = css`
     label: card-component;
 
-    margin: ${distances[12]};
     padding: ${distances[12]};
     border-radius: ${borderRadiuses[6]};
 
@@ -16,8 +15,8 @@ export const cardStyle = css`
     transition: box-shadow ${animationDurations.normal}, transform ${animationDurations.normal};
     &.no-touch {
         &:hover {
-            box-shadow: ${boxShadows.high};
-            transform: scale(1.1);
+            box-shadow: ${boxShadows.popover};
+            transform: scale(1.05);
         }
     }
 `;
