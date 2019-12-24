@@ -19,11 +19,11 @@ export const textInputStyle = css`
         height: ${distances[42]};
         border-radius: ${borderRadiuses[24]};
         outline: none;
-        padding: 0 ${distances[20]};
+        padding: 0 ${distances[24]};
         border: none;
         box-shadow: ${boxShadows.deep};
 
-        color: ${colors.font.lightened};
+        color: ${colors.font.default};
         font-size: ${fontSizes.default};
 
         transition: box-shadow ${animationDurations.normal};

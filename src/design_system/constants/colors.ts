@@ -9,7 +9,7 @@ export const colors = {
     shades: {
         none: "white"
     },
-    font: { default: "#32323e", lightened: "#606060", veryLight: "#b0bec5" },
+    font: { default: "#32323e", veryLight: "#b0bec5" },
     shadows: {
         default: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.default})`,
         light: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.light})`,

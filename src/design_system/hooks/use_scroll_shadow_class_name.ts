@@ -3,6 +3,7 @@ import { css } from "emotion";
 import { borderRadiuses } from "../constants/border_radiuses";
 import { distances } from "../constants/distances";
 import { shadowColorOpacitiesRaw } from "../constants/colors";
+import { animationDurations } from "../constants/animations";
 
 // passed ref must be compatible with `position: relative`
 export function useScrollShadowClassName<T extends HTMLElement>(
@@ -37,7 +38,7 @@ export function useScrollShadowClassName<T extends HTMLElement>(
                     border-radius: ${borderRadiuses[4]};
                     height: ${distances[6]};
                     content: " ";
-                    transition: background 0.1s ease;
+                    transition: background ${animationDurations.short} ease;
                 }
 
                 &:before {
