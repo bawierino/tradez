@@ -26,7 +26,7 @@ export const textInputStyle = css`
         color: ${colors.font.default};
         font-size: ${fontSizes.default};
 
-        transition: box-shadow ${animationDurations.normal};
+        transition: box-shadow ${animationDurations.normal} ease-in-out;
         &:focus {
             box-shadow: ${boxShadows.deeper};
         }
