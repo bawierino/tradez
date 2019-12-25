@@ -20,7 +20,7 @@ export const cardStyle = css`
     transition: box-shadow ${animationDurations.normal} ease-in-out;
     &.no-touch {
         &:hover {
-            box-shadow: ${boxShadows.popover};
+            box-shadow: ${boxShadows.high};
         }
     }
 `;
