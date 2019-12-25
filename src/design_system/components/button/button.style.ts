@@ -47,6 +47,7 @@ export const buttonStyle = css`
             background: ${hoveredButtonBackground};
             transition: opacity ${animationDurations.short};
             opacity: 0;
+            border-radius: ${borderRadiuses[24]};
         }
         &:hover {
             &:before {

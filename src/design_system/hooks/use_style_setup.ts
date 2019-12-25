@@ -14,11 +14,14 @@ export const useStyleSetup: () => void = () => {
             "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        background: linear-gradient(to right, ${colors.primary.hoveryLight}42, transparent);
-        -webkit-tap-highlight-color: transparent;
+        background: linear-gradient(to right, ${colors.primary.hoveryLight}42, rgba(255, 255, 255, 0));
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+
         *,
         ::before,
         ::after {
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
             box-sizing: border-box;
         }
     `;

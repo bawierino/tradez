@@ -17,11 +17,10 @@ export const cardStyle = css`
 
     box-shadow: ${boxShadows.default};
 
-    transition: box-shadow ${animationDurations.normal}, transform ${animationDurations.normal};
+    transition: box-shadow ${animationDurations.normal};
     &.no-touch {
         &:hover {
             box-shadow: ${boxShadows.popover};
-            transform: scale(1.01337);
         }
     }
 `;
