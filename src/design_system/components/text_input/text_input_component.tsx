@@ -11,9 +11,10 @@ export interface TextInputProps {
 export const TextInputComponent: React.FC<TextInputProps> = props => {
     const { label, initialValue, onChange, placeholder } = props;
     const [value, setValue] = React.useState(initialValue);
+    const [focussed, setFocussed] = React.useState(false);
+
     return (
-        <div className={textInputStyle}>
-            {label && <label>{label}</label>}
+        <div className={`${textInputStyle} ${focussed ? "focussed" : ""} ${!!value ? "not-empty" : ""}`}>
             <input
                 type="text"
                 value={value}
@@ -23,7 +24,14 @@ export const TextInputComponent: React.FC<TextInputProps> = props => {
                     onChange(newValue);
                 }}
                 placeholder={placeholder}
+                onFocus={() => {
+                    setFocussed(true);
+                }}
+                onBlur={() => {
+                    setFocussed(false);
+                }}
             />
+            {label && <label>{label}</label>}
         </div>
     );
 };

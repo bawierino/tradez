@@ -149,7 +149,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
             )}
             <div style={{ marginTop: 16 }}></div>
             <TextInputComponent
-                label={"serial"}
+                label={"Serial"}
                 onChange={text => {
                     setSerialFilter(text);
                 }}
