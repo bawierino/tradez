@@ -60,7 +60,8 @@ export const buttonStyle = css`
     }
 
     &:active {
-        transform: translateY(1px);
+        transform: translate(1px, 1px);
+
         box-shadow: ${boxShadows.close};
     }
 `;
