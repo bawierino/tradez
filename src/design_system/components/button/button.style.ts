@@ -59,7 +59,7 @@ export const buttonStyle = css`
         z-index: 2000000000;
     }
 
-    &.pushed {
+    &:active {
         transform: translateY(1px);
         box-shadow: ${boxShadows.close};
     }

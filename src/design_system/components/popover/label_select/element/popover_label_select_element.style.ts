@@ -33,4 +33,15 @@ export const popoverLabelSelectElementStyle = css`
             }
         }
     }
+
+    &.touch {
+        &:active {
+            &.not-selected {
+                background-color: ${colors.primary.hoveryLight};
+            }
+            &.selected {
+                background-color: ${colors.primary.dark};
+            }
+        }
+    }
 `;

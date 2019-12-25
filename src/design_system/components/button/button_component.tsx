@@ -20,8 +20,6 @@ export const ButtonComponent: React.FC<ButtonProps> = props => {
     const { id, label = "", icon = "", onCLick = () => {}, iconPlacement = ButtonIconPlacement.LEFT } = props;
     const hasTouchClassName = useHasTouchClassName();
 
-    const [pushed, setPushed] = React.useState(false);
-
     function renderIcon(): JSX.Element {
         if (icon) {
             return <i className={`${icon} icon`} />;
@@ -32,28 +30,11 @@ export const ButtonComponent: React.FC<ButtonProps> = props => {
 
     return (
         <div
-            className={`${buttonStyle} ${hasTouchClassName} ${pushed ? "pushed" : ""}`}
+            className={`${buttonStyle} ${hasTouchClassName}`}
             onClick={() => {
                 setTimeout(() => {
                     onCLick(id);
                 }, animationDurationsRawMs.short);
-
-                setPushed(false);
-            }}
-            onTouchStart={() => {
-                setPushed(true);
-            }}
-            onTouchEnd={() => {
-                setPushed(false);
-            }}
-            onMouseDown={() => {
-                setPushed(true);
-            }}
-            onMouseUp={() => {
-                setPushed(false);
-            }}
-            onMouseLeave={() => {
-                setPushed(false);
             }}
         >
             {iconPlacement === ButtonIconPlacement.LEFT ? renderIcon() : <div> </div>}
