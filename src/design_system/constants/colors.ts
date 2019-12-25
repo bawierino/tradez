@@ -28,5 +28,5 @@ export const colors = {
         hoveryLight: "#FFF8EB",
         dark: "#736145"
     },
-    alternativeSecondary: { main: "#A252B3", dark: "#8A309C", hoveryLight: "#F6C7FF" }
+    alternativeSecondary: { main: "#A252B3", dark: "#8A309C", hoveryLight: "#FAE0FF" }
 };
