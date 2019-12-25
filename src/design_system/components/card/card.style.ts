@@ -3,12 +3,15 @@ import { animationDurations } from "../../constants/animations";
 import { borderRadiuses } from "../../constants/border_radiuses";
 import { boxShadows } from "../../constants/box_shadows";
 import { distances } from "../../constants/distances";
+import { colors } from "../../constants/colors";
 
 export const cardStyle = css`
     label: card-component;
 
     padding: ${distances[12]};
     margin: ${distances[12]};
+
+    background-color: ${colors.shades.none};
 
     border-radius: ${borderRadiuses[6]};
 

@@ -5,6 +5,8 @@ import { WantedCardsPageComponent } from "./components/pages/wanted_cards_page/w
 import { useCards } from "./hooks/use_cards";
 import { PageId, useRouter } from "./hooks/use_router";
 import { useScrollShadowClassName } from "./design_system/hooks/use_scroll_shadow_class_name";
+import { css } from "emotion";
+import { colors } from "./design_system/constants/colors";
 
 const App: React.FC = () => {
     const cards = useCards();
@@ -14,6 +16,10 @@ const App: React.FC = () => {
     const htmlRef = React.useRef(document.documentElement);
     const scrollShadowClassName = useScrollShadowClassName(htmlRef);
     htmlRef.current.className = scrollShadowClassName;
+
+    document.body.className = css`
+        background: linear-gradient(to right, ${colors.primary.hoveryLight}42, transparent);
+    `;
 
     switch (routerAPI.getCurrentPageId()) {
         case PageId.TRADEABLE_CARDS:
