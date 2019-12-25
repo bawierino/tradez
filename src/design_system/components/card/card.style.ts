@@ -21,7 +21,7 @@ export const cardStyle = css`
     &.no-touch {
         &:hover {
             box-shadow: ${boxShadows.popover};
-            transform: scale(1.05);
+            transform: scale(1.01337);
         }
     }
 `;
