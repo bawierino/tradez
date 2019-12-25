@@ -7,16 +7,19 @@ export interface AppCardProps {
     button: ButtonProps;
     title: string;
     description: string;
-    backgroundColor: string;
+    titleBackground: string;
 }
 
 export const AppCardComponent: React.FC<AppCardProps> = props => {
-    const { button, title, description } = props;
+    const { button, title, description, titleBackground } = props;
+
     return (
         <CardComponent>
             <div className={appCardStyle}>
-                <div className="title">{title}</div>
-                <div>{description}</div>
+                <div className="title" style={{ background: titleBackground }}>
+                    {title}
+                </div>
+                <div className="description">{description}</div>
                 <div className="button">
                     <ButtonComponent {...button} />
                 </div>

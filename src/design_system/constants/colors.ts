@@ -21,5 +21,10 @@ export const colors = {
         light: "#63a4ff",
         main: "#1976d2",
         dark: "#004ba0"
-    }
+    },
+    secondary: {
+        main: "#B3986B",
+        light: "#FFECCC"
+    },
+    alternativeSecondary: { main: "#296166" }
 };

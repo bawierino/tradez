@@ -4,6 +4,7 @@ import { AppCardComponent } from "../../../design_system/components/card/app_car
 import { PageId } from "../../../hooks/use_router";
 import { PageProps } from "../page_props";
 import { pageSelectPageStyle } from "./page_select_page.stye";
+import { colors } from "../../../design_system/constants/colors";
 
 export interface PageSelectPageProps extends PageProps {}
 
@@ -24,7 +25,7 @@ export const PageSelectPageComponent: React.FC<PageSelectPageProps> = props => {
                 }}
                 title="Tradeable Cards"
                 description="See the cards we are willing to trade. Most of our cards are in English."
-                backgroundColor="violet"
+                titleBackground={`linear-gradient(to bottom right, ${colors.secondary.main}, ${colors.secondary.light})`}
             />
             <AppCardComponent
                 button={{
@@ -37,8 +38,8 @@ export const PageSelectPageComponent: React.FC<PageSelectPageProps> = props => {
                     }
                 }}
                 title="Wanted Cards"
-                description="See the cards we are looking for. We are looking for cards in English, Japanese or Chinese."
-                backgroundColor="blue"
+                description="See the cards we are looking for. We are looking for cards in English and sometimes Japanese or Chinese."
+                titleBackground={`linear-gradient(to bottom right, ${colors.alternativeSecondary.main}, ${colors.primary.hoveryLight})`}
             />
         </div>
     );

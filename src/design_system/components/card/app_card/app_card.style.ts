@@ -1,5 +1,8 @@
 import { css } from "emotion";
+import { borderRadiuses } from "../../../constants/border_radiuses";
 import { distances } from "../../../constants/distances";
+import { colors } from "../../../constants/colors";
+import { fontSizes } from "../../../constants/font_sizes";
 
 export const appCardStyle = css`
     width: 320px;
@@ -18,10 +21,19 @@ export const appCardStyle = css`
     justify-content: space-between;
 
     .title {
-        height: 160px;
+        height: 55%;
+        margin: -${distances[12]} -${distances[12]} ${distances[12]} -${distances[12]};
+        padding: ${distances[12]};
+        border-radius: ${borderRadiuses[6]} ${borderRadiuses[6]} 0 0;
+        color: ${colors.shades.none};
+        font-weight: bold;
+        font-size: ${fontSizes.big};
     }
 
     .description {
+        color: ${colors.font.default};
+        font-size: ${fontSizes.small};
+        margin-bottom: auto;
     }
 
     .button {
