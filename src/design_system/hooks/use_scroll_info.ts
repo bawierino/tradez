@@ -17,7 +17,7 @@ export function useScrollInfo<T extends HTMLElement>(
 
         function generateScrollInfo(): void {
             const { scrollHeight, clientHeight, scrollTop } = ref.current;
-            if (scrollTop === 0 && clientHeight === scrollHeight) {
+            if (scrollTop === 0 && clientHeight >= scrollHeight) {
                 setScrollInfo({
                     canScroll: false,
                     scrollPercentage: 0
