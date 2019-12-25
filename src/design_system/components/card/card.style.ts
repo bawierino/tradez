@@ -8,6 +8,8 @@ export const cardStyle = css`
     label: card-component;
 
     padding: ${distances[12]};
+    margin: ${distances[12]};
+
     border-radius: ${borderRadiuses[6]};
 
     box-shadow: ${boxShadows.default};

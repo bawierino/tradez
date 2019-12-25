@@ -15,9 +15,11 @@ export const AppCardComponent: React.FC<AppCardProps> = props => {
     return (
         <CardComponent>
             <div className={appCardStyle}>
-                <div className="title-container">{title}</div>
-                {description}
-                <ButtonComponent {...button} />
+                <div className="title">{title}</div>
+                <div>{description}</div>
+                <div className="button">
+                    <ButtonComponent {...button} />
+                </div>
             </div>
         </CardComponent>
     );

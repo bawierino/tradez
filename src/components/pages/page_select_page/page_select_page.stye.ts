@@ -3,11 +3,11 @@ import { css } from "emotion";
 export const pageSelectPageStyle = css`
     label: page-select-page;
 
-    height: 100%;
+    height: calc(100vh - 12px);
 
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
+    align-content: center;
+    justify-content: center;
     align-items: center;
 `;
