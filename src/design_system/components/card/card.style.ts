@@ -17,7 +17,7 @@ export const cardStyle = css`
 
     box-shadow: ${boxShadows.default};
 
-    transition: box-shadow ${animationDurations.normal};
+    transition: box-shadow ${animationDurations.normal} ease-in-out;
     &.no-touch {
         &:hover {
             box-shadow: ${boxShadows.popover};
