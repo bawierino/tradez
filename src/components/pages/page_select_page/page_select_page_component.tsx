@@ -25,7 +25,7 @@ export const PageSelectPageComponent: React.FC<PageSelectPageProps> = props => {
                 }}
                 title="Tradeable Cards"
                 description="See the cards we are willing to trade. Most of our cards are in English."
-                titleBackground={`linear-gradient(to bottom right, ${colors.secondary.main}, ${colors.secondary.light})`}
+                titleBackground={`linear-gradient(to bottom right, ${colors.secondary.dark}, ${colors.secondary.hoveryLight})`}
             />
             <AppCardComponent
                 button={{
@@ -39,7 +39,7 @@ export const PageSelectPageComponent: React.FC<PageSelectPageProps> = props => {
                 }}
                 title="Wanted Cards"
                 description="See the cards we are looking for. We are looking for cards in English and sometimes Japanese or Chinese."
-                titleBackground={`linear-gradient(to bottom right, ${colors.alternativeSecondary.main}, ${colors.primary.hoveryLight})`}
+                titleBackground={`linear-gradient(to bottom right, ${colors.alternativeSecondary.dark}, ${colors.alternativeSecondary.hoveryLight})`}
             />
         </div>
     );

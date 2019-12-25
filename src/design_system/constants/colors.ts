@@ -24,7 +24,9 @@ export const colors = {
     },
     secondary: {
         main: "#B3986B",
-        light: "#FFECCC"
+        light: "#FFECCC",
+        hoveryLight: "#FFF8EB",
+        dark: "#736145"
     },
-    alternativeSecondary: { main: "#296166" }
+    alternativeSecondary: { main: "#A252B3", dark: "#8A309C", hoveryLight: "#F6C7FF" }
 };
