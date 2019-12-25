@@ -19,6 +19,7 @@ const App: React.FC = () => {
 
     document.body.className = css`
         background: linear-gradient(to right, ${colors.primary.hoveryLight}42, transparent);
+        -webkit-tap-highlight-color: transparent;
     `;
 
     switch (routerAPI.getCurrentPageId()) {
