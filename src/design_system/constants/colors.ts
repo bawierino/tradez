@@ -1,19 +1,21 @@
 export const shadowColorOpacitiesRaw = {
     default: 0.26,
     light: 0.22,
-    dark: 0.33,
-    veryLight: 0.18
+    veryDark: 0.49,
+    veryLight: 0.18,
+    dark: 0.33
 };
 
 export const colors = {
     shades: {
         none: "white"
     },
-    font: { default: "#32323e", veryLight: "#b0bec5" },
+    font: { default: "#32323e", light: "#535366", veryLight: "#b0bec5" },
     shadows: {
         default: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.default})`,
         light: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.light})`,
-        dark: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.dark})`
+        dark: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.dark})`,
+        veryDark: `rgba(0, 0, 0, ${shadowColorOpacitiesRaw.veryDark})`
     },
     primary: {
         hoveryLight: "#e3f2fd",

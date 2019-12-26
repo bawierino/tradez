@@ -4,13 +4,15 @@ import { colors } from "../../constants/colors";
 import { distances } from "../../constants/distances";
 import { fontSizes } from "../../constants/font_sizes";
 
+const inputPadding = distances[8];
+
 export const textInputStyle = css`
     label: text-input;
 
     position: relative;
 
-    padding: 8px;
-    margin-top: 12px;
+    padding: ${inputPadding};
+    margin-top: ${distances[12]};
     width: ${distances[200]};
 
     box-shadow: inset 0 -10px 4px -10px ${colors.shadows.default};
@@ -18,24 +20,30 @@ export const textInputStyle = css`
 
     transition: box-shadow ${animationDurations.normal};
     &.focussed {
-        box-shadow: inset 0 -10px 4px -10px ${colors.primary.dark};
+        box-shadow: inset 0 -10px 4px -10px ${colors.shadows.veryDark};
     }
 
     label {
         position: absolute;
-        top: 8px;
-        left: 8px;
+        top: ${inputPadding};
+        left: ${inputPadding};
 
         color: ${colors.font.default};
         font-size: ${fontSizes.default};
 
-        transition: transform ${animationDurations.normal}, font-size ${animationDurations.normal};
+        transition: transform ${animationDurations.normal}, font-size ${animationDurations.normal},
+            color ${animationDurations.normal};
     }
     &.focussed,
     &.not-empty {
         label {
-            transform: translateY(-20px);
+            transform: translateY(-18px);
             font-size: ${fontSizes.small};
+        }
+    }
+    &.focussed {
+        label {
+            color: ${colors.font.light};
         }
     }
 
