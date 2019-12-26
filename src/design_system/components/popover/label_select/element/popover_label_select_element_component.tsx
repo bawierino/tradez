@@ -19,8 +19,8 @@ export const PopoverLabelSelectElementComponent: React.FC<CheckboxProps> = props
 
     return (
         <div
-            className={`${popoverLabelSelectElementStyle} ${
-                selected ? "selected" : "not-selected"
+            className={`${popoverLabelSelectElementStyle}${
+                selected ? " selected" : " not-selected"
             } ${hasTouchClassName}`}
             onClick={() => {
                 handleClick(selected);

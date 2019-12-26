@@ -14,7 +14,7 @@ export const TextInputComponent: React.FC<TextInputProps> = props => {
     const [focussed, setFocussed] = React.useState(false);
 
     return (
-        <div className={`${textInputStyle} ${focussed ? "focussed" : ""} ${!!value ? "not-empty" : ""}`}>
+        <div className={`${textInputStyle}${focussed ? " focussed" : ""}${!!value ? " not-empty" : ""}`}>
             <input
                 type="text"
                 value={value}
