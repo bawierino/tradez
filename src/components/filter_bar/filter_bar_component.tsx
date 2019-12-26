@@ -158,7 +158,7 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
             />
             <div style={{ marginTop: 16 }}></div>
             <TextInputComponent
-                label={"name"}
+                label={"Name"}
                 onChange={text => {
                     setNameFilter(text);
                 }}

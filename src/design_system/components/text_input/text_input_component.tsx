@@ -12,9 +12,11 @@ export const TextInputComponent: React.FC<TextInputProps> = props => {
     const { label, initialValue, onChange, placeholder } = props;
     const [value, setValue] = React.useState(initialValue);
     const [focussed, setFocussed] = React.useState(false);
+    const inputRef = React.useRef(undefined as HTMLInputElement);
+    const empty = !value;
 
     return (
-        <div className={`${textInputStyle}${focussed ? " focussed" : ""}${!!value ? " not-empty" : ""}`}>
+        <div className={`${textInputStyle}${focussed ? " focussed" : ""}${!empty ? " not-empty" : ""}`}>
             <input
                 type="text"
                 value={value}
@@ -30,8 +32,19 @@ export const TextInputComponent: React.FC<TextInputProps> = props => {
                 onBlur={() => {
                     setFocussed(false);
                 }}
+                ref={inputRef}
             />
-            {label && <label>{label}</label>}
+            {label && (
+                <label
+                    onClick={() => {
+                        if (!focussed && empty) {
+                            inputRef.current.focus();
+                        }
+                    }}
+                >
+                    {label}
+                </label>
+            )}
         </div>
     );
 };

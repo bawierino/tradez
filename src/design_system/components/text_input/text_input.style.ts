@@ -31,6 +31,8 @@ export const textInputStyle = css`
         color: ${colors.font.default};
         font-size: ${fontSizes.default};
 
+        cursor: text;
+
         transition: transform ${animationDurations.normal}, font-size ${animationDurations.normal},
             color ${animationDurations.normal};
     }
@@ -39,6 +41,7 @@ export const textInputStyle = css`
         label {
             transform: translateY(-18px);
             font-size: ${fontSizes.small};
+            cursor: default;
         }
     }
     &.focussed {
