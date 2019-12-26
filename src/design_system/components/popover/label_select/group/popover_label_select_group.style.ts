@@ -8,7 +8,7 @@ export const popoverLabelSelectGroupStyle = css`
 
     min-width: 120px;
     font-size: ${fontSizes.default};
-    max-height: 300px;
+    max-height: 270px;
     overflow-y: auto;
     user-select: none;
 

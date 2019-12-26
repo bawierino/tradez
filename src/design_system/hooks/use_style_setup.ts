@@ -1,12 +1,7 @@
-import * as React from "react";
-import { useScrollShadowClassName } from "./use_scroll_shadow_class_name";
 import { css } from "emotion";
 import { colors } from "../constants/colors";
 
 export const useStyleSetup: () => void = () => {
-    const htmlRef = React.useRef(document.documentElement);
-    const scrollShadowClassName = useScrollShadowClassName(htmlRef);
-    htmlRef.current.className = scrollShadowClassName;
     document.body.className = css`
         label: global-style;
         margin: 0;

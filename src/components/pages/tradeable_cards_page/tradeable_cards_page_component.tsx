@@ -1,8 +1,10 @@
 import * as React from "react";
 import { FFCard } from "../../../data/structures/ff_card";
+import { FilterBarComponent } from "../../filter_bar/filter_bar_component";
 import { TradeableCardComponent } from "../../tradeable_card/tradeable_card_component";
 import { PageProps } from "../page_props";
-import { FilterBarComponent } from "../../filter_bar/filter_bar_component";
+import { tradeableCardsPageStyle } from "./tradeable_cards_page.style";
+import { useScrollShadowClassName } from "../../../design_system/hooks/use_scroll_shadow_class_name";
 
 export interface TradeableCardsPageProps extends PageProps {
     cards: FFCard[];
@@ -11,17 +13,27 @@ export interface TradeableCardsPageProps extends PageProps {
 export const TradeableCardsPageComponent: React.FC<TradeableCardsPageProps> = props => {
     const { cards } = props;
     const [filteredCards, setFilteredCards] = React.useState(cards);
+    const [filterBarHeight, setFilterBarHeight] = React.useState("");
+    const cardsRef = React.useRef(undefined);
+    const scrollShadowClassName = useScrollShadowClassName(cardsRef);
 
     return (
-        <div>
+        <div className={tradeableCardsPageStyle}>
             <FilterBarComponent
                 cards={cards}
                 onFilter={cards => setFilteredCards(cards)}
                 showTradeableVersionFilter={true}
+                onChangeHeight={height => setFilterBarHeight(height)}
             />
-            {filteredCards.map(c => (
-                <TradeableCardComponent key={c.serial} card={c} />
-            ))}
+            <div
+                className={`cards ${scrollShadowClassName}`}
+                ref={cardsRef}
+                style={{ maxHeight: `calc(100vh - ${filterBarHeight})` }}
+            >
+                {filteredCards.map(c => (
+                    <TradeableCardComponent key={c.serial} card={c} />
+                ))}
+            </div>
         </div>
     );
 };
