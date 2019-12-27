@@ -11,7 +11,7 @@ export const textInputStyle = css`
 
     position: relative;
 
-    padding: ${inputPadding};
+    padding: ${inputPadding} ${inputPadding} ${distances[8]} ${inputPadding};
     margin-top: ${distances[12]};
     width: ${distances[200]};
 
