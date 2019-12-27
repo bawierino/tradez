@@ -13,7 +13,6 @@ export interface TradeableCardsPageProps extends PageProps {
 export const TradeableCardsPageComponent: React.FC<TradeableCardsPageProps> = props => {
     const { cards } = props;
     const [filteredCards, setFilteredCards] = React.useState(cards);
-    const [filterBarHeight, setFilterBarHeight] = React.useState("");
     const cardsRef = React.useRef(undefined);
     const scrollShadowClassName = useScrollShadowClassName(cardsRef);
 
@@ -23,13 +22,8 @@ export const TradeableCardsPageComponent: React.FC<TradeableCardsPageProps> = pr
                 cards={cards}
                 onFilter={cards => setFilteredCards(cards)}
                 showTradeableVersionFilter={true}
-                onChangeHeight={height => setFilterBarHeight(height)}
             />
-            <div
-                className={`cards ${scrollShadowClassName}`}
-                ref={cardsRef}
-                style={{ maxHeight: `calc(100vh - ${filterBarHeight})` }}
-            >
+            <div className={`cards ${scrollShadowClassName}`} ref={cardsRef}>
                 {filteredCards.map(c => (
                     <TradeableCardComponent key={c.serial} card={c} />
                 ))}

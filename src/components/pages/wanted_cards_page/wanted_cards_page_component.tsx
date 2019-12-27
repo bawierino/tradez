@@ -18,7 +18,6 @@ export const WantedCardsPageComponent: React.FC<WantedCardsPageProps> = (props: 
                 cards={cards}
                 onFilter={cards => setFilteredCards(cards)}
                 showTradeableVersionFilter={false}
-                onChangeHeight={height => {}}
             />
             {filteredCards.map(c => (
                 <WantedCardComponent card={c} key={c.serial} />

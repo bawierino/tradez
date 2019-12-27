@@ -6,8 +6,9 @@ import { Z_INDEX } from "../../design_system/constants/z_indexes";
 export const filterBarStyle = css`
     label: filter-bar;
 
-    position: relative;
     z-index: ${Z_INDEX.TOP_BAR};
+    position: sticky;
+    top: 0px;
 
     padding-top: ${distances[8]};
 

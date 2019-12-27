@@ -20,11 +20,10 @@ export interface FilterBarProps {
     cards: FFCard[];
     onFilter: (cards: FFCard[]) => void;
     showTradeableVersionFilter: boolean;
-    onChangeHeight: (height: string) => void;
 }
 
 export const FilterBarComponent: React.FC<FilterBarProps> = props => {
-    const { cards, onFilter, showTradeableVersionFilter, onChangeHeight } = props;
+    const { cards, onFilter, showTradeableVersionFilter } = props;
 
     const [rarityFilter, setRarityFilter] = React.useState([] as Rarity[]);
     const [opusFilter, setOpusFilter] = React.useState([] as Opus[]);
@@ -91,13 +90,8 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [rarityFilter, serialFilter, nameFilter, opusFilter, tradeableVersionFilter]);
 
-    const wrapperRef = React.useRef(undefined as HTMLDivElement);
-    React.useEffect(() => {
-        onChangeHeight(window.getComputedStyle(wrapperRef.current).height);
-    });
-
     return (
-        <div ref={wrapperRef} className={filterBarStyle}>
+        <div className={filterBarStyle}>
             <div className="row">
                 <div className="row-element">
                     <TextInputComponent
