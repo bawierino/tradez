@@ -8,7 +8,8 @@ export const shadowColorOpacitiesRaw = {
 
 export const colors = {
     shades: {
-        none: "white"
+        none: "white",
+        lightBlueGray: "#EEEEF4"
     },
     font: { default: "#32323e", light: "#535366", veryLight: "#b0bec5" },
     shadows: {
@@ -21,7 +22,7 @@ export const colors = {
         hoveryLight: "#e3f2fd",
         veryLight: "#81d4fa",
         light: "#63a4ff",
-        main: "#1976d2",
+        main: "#2b5baf",
         dark: "#004ba0"
     },
     secondary: {

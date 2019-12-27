@@ -12,7 +12,8 @@ export const popoverStyle = css`
     background-color: ${colors.shades.none};
     border-radius: ${borderRadiuses[4]};
     box-shadow: ${boxShadows.popover};
-    left: ${distances[4]};
+    right: 0;
+    top: calc(100% + ${distances[4]});
     position: absolute;
     overflow: hidden;
 `;
