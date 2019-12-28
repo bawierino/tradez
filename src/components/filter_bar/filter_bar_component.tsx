@@ -156,22 +156,22 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 <div className="row">
                     <div className="row-element">
                         <TextInputComponent
-                            label={"Serial"}
-                            onChange={text => {
-                                setSerialFilter(text);
-                            }}
-                            initialValue={serialFilter}
-                            placeholder={"i.e. 5-036"}
-                        />
-                    </div>
-                    <div className="row-element">
-                        <TextInputComponent
                             label={"Name"}
                             onChange={text => {
                                 setNameFilter(text);
                             }}
                             initialValue={nameFilter}
                             placeholder={"i.e. Zidane"}
+                        />
+                    </div>
+                    <div className="row-element">
+                        <TextInputComponent
+                            label={"Serial"}
+                            onChange={text => {
+                                setSerialFilter(text);
+                            }}
+                            initialValue={serialFilter}
+                            placeholder={"i.e. 5-036"}
                         />
                     </div>
                 </div>
