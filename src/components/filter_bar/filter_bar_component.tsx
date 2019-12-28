@@ -109,7 +109,6 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                 });
             }
         }
-
         window.addEventListener("orientationchange", handleOrientationChange);
         return () => window.removeEventListener("orientationchange", handleOrientationChange);
     }, [isCollapsed]);
