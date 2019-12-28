@@ -96,13 +96,30 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
     const filterSpawnerRef = React.useRef(undefined as HTMLSpanElement);
     React.useLayoutEffect(handleCollapse, [isCollapsed]);
 
+    React.useEffect(() => {
+        function handleOrientationChange(): void {
+            if (isCollapsed) {
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        const wrapperStyle = wrapperRef.current.style;
+                        const offset = -wrapperRef.current.clientHeight;
+                        wrapperStyle.marginBottom = offset + "px";
+                        wrapperStyle.transform = `translateY(${offset}px)`;
+                    });
+                });
+            }
+        }
+
+        window.addEventListener("orientationchange", handleOrientationChange);
+        return () => window.removeEventListener("orientationchange", handleOrientationChange);
+    }, [isCollapsed]);
+
     function handleCollapse(): void {
         const wrapperStyle = wrapperRef.current.style;
         const filterSpawnerStyle = filterSpawnerRef.current.style;
 
         if (isCollapsed) {
-            const wrapperHeight = wrapperRef.current.clientHeight;
-            const offset = -wrapperHeight;
+            const offset = -wrapperRef.current.clientHeight;
 
             wrapperStyle.marginBottom = offset + "px";
             wrapperStyle.transform = `translateY(${offset}px)`;
