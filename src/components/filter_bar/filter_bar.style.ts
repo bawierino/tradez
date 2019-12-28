@@ -2,22 +2,23 @@ import { css } from "emotion";
 import { colors } from "../../design_system/constants/colors";
 import { distances } from "../../design_system/constants/distances";
 import { Z_INDEX } from "../../design_system/constants/z_indexes";
+import { animationDurations } from "../../design_system/constants/animations";
 
 export const filterBarStyle = css`
     label: filter-bar;
 
     z-index: ${Z_INDEX.TOP_BAR};
     position: sticky;
-    top: 0px;
+    top: 0;
+
+    transition: transform ${animationDurations.short} ease-out,
+        margin-bottom ${animationDurations.short} ease-out;
 
     padding-top: ${distances[8]};
 
     display: flex;
     flex-flow: column;
     align-items: center;
-
-    box-shadow: -6px 0 ${colors.primary.main}, 6px 0 ${colors.primary.main},
-        0 7px 10px -3px ${colors.shadows.dark};
 
     background-color: ${colors.primary.main};
 

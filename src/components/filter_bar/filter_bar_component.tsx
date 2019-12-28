@@ -3,18 +3,20 @@ import { FFCard } from "../../data/structures/ff_card";
 import { Opus } from "../../data/structures/opus";
 import { Rarity } from "../../data/structures/rarity";
 import { Version } from "../../data/structures/version";
-import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
-import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
-import { SelectionStrategy } from "../../design_system/constants/selection_strategy";
-import { useDebouncedState } from "../../design_system/hooks/use_debounced_state";
-import { PopoverLabelSelectGroupComponent } from "../../design_system/components/popover/label_select/group/popover_label_select_group_component";
-import { WrappedPopoverComponent } from "../../design_system/components/popover/wrapped_popover_component";
-import { TextInputComponent } from "../../design_system/components/text_input/text_input_component";
 import { getOpusMessage } from "../../data/transformations/get_opus_message";
 import { getRarityMessage } from "../../data/transformations/get_rarity_message";
 import { getVersionMessage } from "../../data/transformations/get_version_message";
+import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
+import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
+import { PopoverLabelSelectGroupComponent } from "../../design_system/components/popover/label_select/group/popover_label_select_group_component";
 import { WrappedPopoverLabelSelectComponent } from "../../design_system/components/popover/label_select/wrapped_popover_label_select_component";
+import { WrappedPopoverComponent } from "../../design_system/components/popover/wrapped_popover_component";
+import { TextInputComponent } from "../../design_system/components/text_input/text_input_component";
+import { SelectionStrategy } from "../../design_system/constants/selection_strategy";
+import { useDebouncedState } from "../../design_system/hooks/use_debounced_state";
 import { filterBarStyle } from "./filter_bar.style";
+import { animationDurationsRawMs } from "../../design_system/constants/animations";
+import { colors } from "../../design_system/constants/colors";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -90,87 +92,145 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [rarityFilter, serialFilter, nameFilter, opusFilter, tradeableVersionFilter]);
 
+    const [isCollapsed, setIsCollapsed] = React.useState(false);
+    const wrapperRef = React.useRef(undefined as HTMLDivElement);
+    const filterSpawnerRef = React.useRef(undefined as HTMLSpanElement);
+    React.useLayoutEffect(() => {
+        if (isCollapsed) {
+            const wrapperHeight = wrapperRef.current.clientHeight;
+            const offset = -wrapperHeight;
+
+            wrapperRef.current.style.marginBottom = offset + "px";
+            wrapperRef.current.style.transform = `translateY(${offset}px)`;
+            wrapperRef.current.style.boxShadow = `0 0 0 0 rgba(0,0,0,0)`;
+
+            setTimeout(() => {
+                filterSpawnerRef.current.style.transform = "translateX(0px)";
+            }, animationDurationsRawMs.short);
+        } else {
+            setTimeout(() => {
+                wrapperRef.current.style.marginBottom = "0px";
+                wrapperRef.current.style.transform = "translateY(0px)";
+                wrapperRef.current.style.boxShadow = `-6px 0 ${colors.primary.main}, 6px 0 ${colors.primary.main},
+                0 7px 10px -3px ${colors.shadows.dark}`;
+            }, animationDurationsRawMs.normal);
+
+            filterSpawnerRef.current.style.transform = "translateX(170px)";
+        }
+    }, [isCollapsed]);
+
     return (
-        <div className={filterBarStyle}>
-            <div className="row">
-                <div className="row-element">
-                    <TextInputComponent
-                        label={"Serial"}
-                        onChange={text => {
-                            setSerialFilter(text);
-                        }}
-                        initialValue={serialFilter}
-                        placeholder={"i.e. 5-036"}
-                    />
+        <React.Fragment>
+            <div ref={wrapperRef} className={`${filterBarStyle}${isCollapsed ? " collapsed" : ""}`}>
+                <div className="row">
+                    <div className="row-element">
+                        <TextInputComponent
+                            label={"Serial"}
+                            onChange={text => {
+                                setSerialFilter(text);
+                            }}
+                            initialValue={serialFilter}
+                            placeholder={"i.e. 5-036"}
+                        />
+                    </div>
+                    <div className="row-element">
+                        <TextInputComponent
+                            label={"Name"}
+                            onChange={text => {
+                                setNameFilter(text);
+                            }}
+                            initialValue={nameFilter}
+                            placeholder={"i.e. Zidane"}
+                        />
+                    </div>
                 </div>
-                <div className="row-element">
-                    <TextInputComponent
-                        label={"Name"}
-                        onChange={text => {
-                            setNameFilter(text);
-                        }}
-                        initialValue={nameFilter}
-                        placeholder={"i.e. Zidane"}
-                    />
-                </div>
-            </div>
-            <div className="row">
-                <div className="row-element">
-                    <WrappedPopoverLabelSelectComponent
-                        label="rarity"
-                        selectedElementsMessage={`(${rarityFilter.length} selected)`}
-                        elements={Object.values(Rarity).map(rarity => ({
-                            label: getRarityMessage(rarity),
-                            id: rarity
-                        }))}
-                        onSelectionChanged={selectedIds => {
-                            setRarityFilter(selectedIds as Rarity[]);
-                        }}
-                        initialSelectionIds={rarityFilter}
-                        selectionStrategy={SelectionStrategy.CHECKBOX}
-                    />
-                </div>
-                <div className="row-element">
-                    <WrappedPopoverComponent
-                        externalPart={<React.Fragment>opus ({opusFilter.length} selected)</React.Fragment>}
-                    >
-                        <PopoverLabelSelectGroupComponent
-                            elements={Object.values(Opus).map(opus => ({
-                                label: getOpusMessage(opus),
-                                id: opus
+                <div className="row">
+                    <div className="row-element">
+                        <WrappedPopoverLabelSelectComponent
+                            label="rarity"
+                            selectedElementsMessage={`(${rarityFilter.length} selected)`}
+                            elements={Object.values(Rarity).map(rarity => ({
+                                label: getRarityMessage(rarity),
+                                id: rarity
                             }))}
                             onSelectionChanged={selectedIds => {
-                                setOpusFilter(selectedIds as Opus[]);
+                                setRarityFilter(selectedIds as Rarity[]);
                             }}
-                            initialSelectionIds={opusFilter}
+                            initialSelectionIds={rarityFilter}
                             selectionStrategy={SelectionStrategy.CHECKBOX}
                         />
-                    </WrappedPopoverComponent>
-                </div>
-                {showTradeableVersionFilter && (
+                    </div>
                     <div className="row-element">
                         <WrappedPopoverComponent
                             externalPart={
-                                <React.Fragment>
-                                    card version ({tradeableVersionFilter.length} selected)
-                                </React.Fragment>
+                                <React.Fragment>opus ({opusFilter.length} selected)</React.Fragment>
                             }
                         >
                             <PopoverLabelSelectGroupComponent
-                                elements={Object.values(Version).map(version => ({
-                                    label: getVersionMessage(version),
-                                    id: version
+                                elements={Object.values(Opus).map(opus => ({
+                                    label: getOpusMessage(opus),
+                                    id: opus
                                 }))}
                                 onSelectionChanged={selectedIds => {
-                                    setTradeableVersionFilter(selectedIds as Version[]);
+                                    setOpusFilter(selectedIds as Opus[]);
                                 }}
-                                initialSelectionIds={tradeableVersionFilter}
+                                initialSelectionIds={opusFilter}
                                 selectionStrategy={SelectionStrategy.CHECKBOX}
                             />
                         </WrappedPopoverComponent>
                     </div>
-                )}
+                    {showTradeableVersionFilter && (
+                        <div className="row-element">
+                            <WrappedPopoverComponent
+                                externalPart={
+                                    <React.Fragment>
+                                        card version ({tradeableVersionFilter.length} selected)
+                                    </React.Fragment>
+                                }
+                            >
+                                <PopoverLabelSelectGroupComponent
+                                    elements={Object.values(Version).map(version => ({
+                                        label: getVersionMessage(version),
+                                        id: version
+                                    }))}
+                                    onSelectionChanged={selectedIds => {
+                                        setTradeableVersionFilter(selectedIds as Version[]);
+                                    }}
+                                    initialSelectionIds={tradeableVersionFilter}
+                                    selectionStrategy={SelectionStrategy.CHECKBOX}
+                                />
+                            </WrappedPopoverComponent>
+                        </div>
+                    )}
+                </div>
+                <span
+                    onClick={() => {
+                        setIsCollapsed(true);
+                    }}
+                >
+                    X
+                </span>
             </div>
-        </div>
+            <div
+                style={{
+                    position: "absolute",
+                    right: 0,
+                    top: 0,
+                    overflow: "hidden",
+                    height: "100%",
+                    width: "100%"
+                }}
+            >
+                <span
+                    ref={filterSpawnerRef}
+                    style={{ position: "fixed", right: 0, top: 0, transition: "transform 400ms" }}
+                    onClick={() => {
+                        setIsCollapsed(false);
+                    }}
+                >
+                    make filters great again
+                </span>
+            </div>
+        </React.Fragment>
     );
 };
