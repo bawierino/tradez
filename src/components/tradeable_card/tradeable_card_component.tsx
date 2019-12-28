@@ -1,8 +1,11 @@
 import * as React from "react";
 import { FFCard } from "../../data/structures/ff_card";
+import { getRarityMessage } from "../../data/transformations/get_rarity_message";
 import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
 import { getTotalQuantity } from "../../data/utils/get_total_quantity";
 import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
+import { CardComponent } from "../../design_system/components/card/card_component";
+import { tradeableCardStyle } from "./tradeable_card.style";
 
 export interface TradeableCardsProps {
     card: FFCard;
@@ -46,9 +49,16 @@ export const TradeableCardComponent: React.FC<TradeableCardsProps> = props => {
         }`;
 
         return (
-            <div>
-                {card.name} {card.serial} {card.rarity} {tradeInfo}
-            </div>
+            <CardComponent>
+                <div className={tradeableCardStyle}>
+                    <div className="name">{card.name}</div>
+                    <div className="trade-info">{tradeInfo}</div>
+                    <div className="bottom-line">
+                        <div className="rarity">{getRarityMessage(card.rarity)}</div>
+                        <div className="serial">{card.serial}</div>
+                    </div>
+                </div>
+            </CardComponent>
         );
     } else {
         return null;

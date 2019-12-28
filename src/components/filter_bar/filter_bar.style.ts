@@ -47,8 +47,8 @@ export const filterSpawnerStyle = css`
     right: 0;
     top: 0;
     overflow: hidden;
-    height: 100%;
-    width: 100%;
+    height: 1px;
+    width: 1px;
 
     .inner {
         position: fixed;
