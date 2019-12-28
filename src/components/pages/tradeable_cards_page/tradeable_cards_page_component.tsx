@@ -12,7 +12,6 @@ export interface TradeableCardsPageProps extends PageProps {
 export const TradeableCardsPageComponent: React.FC<TradeableCardsPageProps> = props => {
     const { cards } = props;
     const [filteredCards, setFilteredCards] = React.useState(cards);
-    const cardsRef = React.useRef(undefined);
 
     return (
         <div className={tradeableCardsPageStyle}>
@@ -21,7 +20,7 @@ export const TradeableCardsPageComponent: React.FC<TradeableCardsPageProps> = pr
                 onFilter={cards => setFilteredCards(cards)}
                 showTradeableVersionFilter={true}
             />
-            <div className={`cards`} ref={cardsRef}>
+            <div className={`cards`}>
                 {filteredCards.map(c => (
                     <TradeableCardComponent key={c.serial} card={c} />
                 ))}

@@ -3,8 +3,8 @@ import { colors } from "../../design_system/constants/colors";
 import { distances } from "../../design_system/constants/distances";
 import { fontSizes } from "../../design_system/constants/font_sizes";
 
-export const tradeableCardStyle = css`
-    label: tradeable-card;
+export const wantedCardStyle = css`
+    label: wanted-card;
 
     width: 120px;
     height: 220px;

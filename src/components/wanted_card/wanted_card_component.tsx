@@ -2,6 +2,9 @@ import * as React from "react";
 import { CardQuantityInfo, FFCard } from "../../data/structures/ff_card";
 import { getTotalQuantity } from "../../data/utils/get_total_quantity";
 import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
+import { wantedCardStyle } from "./wanted_card.style";
+import { CardComponent } from "../../design_system/components/card/card_component";
+import { getRarityMessage } from "../../data/transformations/get_rarity_message";
 
 export interface WantedCardProps {
     card: FFCard;
@@ -61,9 +64,16 @@ export const WantedCardComponent: React.FC<WantedCardProps> = props => {
         }
 
         return (
-            <div>
-                {card.name} {card.serial} {card.rarity} {tradeInfo}
-            </div>
+            <CardComponent>
+                <div className={wantedCardStyle}>
+                    <div className="name">{card.name}</div>
+                    <div className="trade-info">{tradeInfo}</div>
+                    <div className="bottom-line">
+                        <div className="rarity">{getRarityMessage(card.rarity)}</div>
+                        <div className="serial">{card.serial}</div>
+                    </div>
+                </div>
+            </CardComponent>
         );
     } else {
         return null;
