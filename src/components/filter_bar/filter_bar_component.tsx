@@ -12,11 +12,10 @@ import { PopoverLabelSelectGroupComponent } from "../../design_system/components
 import { WrappedPopoverLabelSelectComponent } from "../../design_system/components/popover/label_select/wrapped_popover_label_select_component";
 import { WrappedPopoverComponent } from "../../design_system/components/popover/wrapped_popover_component";
 import { TextInputComponent } from "../../design_system/components/text_input/text_input_component";
+import { animationDurationsRawMs } from "../../design_system/constants/animations";
 import { SelectionStrategy } from "../../design_system/constants/selection_strategy";
 import { useDebouncedState } from "../../design_system/hooks/use_debounced_state";
-import { filterBarStyle } from "./filter_bar.style";
-import { animationDurationsRawMs } from "../../design_system/constants/animations";
-import { colors } from "../../design_system/constants/colors";
+import { filterBarShadow, filterBarStyle, filterSpawnerStyle } from "./filter_bar.style";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -95,29 +94,45 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
     const [isCollapsed, setIsCollapsed] = React.useState(false);
     const wrapperRef = React.useRef(undefined as HTMLDivElement);
     const filterSpawnerRef = React.useRef(undefined as HTMLSpanElement);
-    React.useLayoutEffect(() => {
+    React.useLayoutEffect(handleCollapse, [isCollapsed]);
+
+    function handleCollapse(): void {
+        const wrapperStyle = wrapperRef.current.style;
+        const filterSpawnerStyle = filterSpawnerRef.current.style;
+
         if (isCollapsed) {
             const wrapperHeight = wrapperRef.current.clientHeight;
             const offset = -wrapperHeight;
 
-            wrapperRef.current.style.marginBottom = offset + "px";
-            wrapperRef.current.style.transform = `translateY(${offset}px)`;
-            wrapperRef.current.style.boxShadow = `0 0 0 0 rgba(0,0,0,0)`;
+            wrapperStyle.marginBottom = offset + "px";
+            wrapperStyle.transform = `translateY(${offset}px)`;
+            wrapperStyle.boxShadow = `0 0 0 0 rgba(0,0,0,0)`;
+
+            filterSpawnerStyle.pointerEvents = "auto";
+            filterSpawnerStyle.opacity = "1";
 
             setTimeout(() => {
-                filterSpawnerRef.current.style.transform = "translateX(0px)";
-            }, animationDurationsRawMs.short);
-        } else {
-            setTimeout(() => {
-                wrapperRef.current.style.marginBottom = "0px";
-                wrapperRef.current.style.transform = "translateY(0px)";
-                wrapperRef.current.style.boxShadow = `-6px 0 ${colors.primary.main}, 6px 0 ${colors.primary.main},
-                0 7px 10px -3px ${colors.shadows.dark}`;
+                wrapperStyle.pointerEvents = "none";
+                wrapperStyle.opacity = "0";
+
+                filterSpawnerStyle.transform = "translateX(0px)";
             }, animationDurationsRawMs.normal);
+        } else {
+            wrapperStyle.pointerEvents = "auto";
+            wrapperStyle.opacity = "1";
 
-            filterSpawnerRef.current.style.transform = "translateX(170px)";
+            filterSpawnerStyle.transform = "translateX(170px)";
+
+            setTimeout(() => {
+                wrapperStyle.marginBottom = "0px";
+                wrapperStyle.transform = "translateY(0px)";
+                wrapperStyle.boxShadow = filterBarShadow;
+
+                filterSpawnerStyle.pointerEvents = "none";
+                filterSpawnerStyle.opacity = "0";
+            }, animationDurationsRawMs.normal);
         }
-    }, [isCollapsed]);
+    }
 
     return (
         <React.Fragment>
@@ -211,19 +226,10 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                     X
                 </span>
             </div>
-            <div
-                style={{
-                    position: "absolute",
-                    right: 0,
-                    top: 0,
-                    overflow: "hidden",
-                    height: "100%",
-                    width: "100%"
-                }}
-            >
+            <div className={`${filterSpawnerStyle}`}>
                 <span
+                    className="inner"
                     ref={filterSpawnerRef}
-                    style={{ position: "fixed", right: 0, top: 0, transition: "transform 400ms" }}
                     onClick={() => {
                         setIsCollapsed(false);
                     }}
