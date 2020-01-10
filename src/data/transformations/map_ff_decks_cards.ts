@@ -29,7 +29,7 @@ export function mapFFDecksCards(ffDecksCards: FFDecksCard[]): FFCard[] {
             alternateArtFoil: {
                 quantity: 0,
                 minimalQuantityWanted: 0,
-                ...specificCardProperties.alternateArt
+                ...specificCardProperties.alternateArtFoil
             },
             rarity: getRarityByFFRarity(rarity),
             serial,
