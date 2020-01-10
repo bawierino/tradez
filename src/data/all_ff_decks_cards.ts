@@ -1514,6 +1514,986 @@ export const allFFDecksCards: FFDecksCard[] = [
         "foil quantity": 0
     },
     {
+        Name: "Ignacio",
+        "Serial number": "10-001",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Ifrit",
+        "Serial number": "10-002",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Balasa",
+        "Serial number": "10-003",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Caius",
+        "Serial number": "10-004",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Gancanagh",
+        "Serial number": "10-005",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Cloud",
+        "Serial number": "10-006",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Zack",
+        "Serial number": "10-007",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Xande",
+        "Serial number": "10-008",
+        rarity: "Legend",
+        "regular quantity": 4,
+        "foil quantity": 0
+    },
+    {
+        Name: "SOLDIER: 3rd Class",
+        "Serial number": "10-009",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Onion Knight (III)",
+        "Serial number": "10-010",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Naji",
+        "Serial number": "10-011",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Geomancer",
+        "Serial number": "10-012",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Firion",
+        "Serial number": "10-013",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Mutsuki",
+        "Serial number": "10-014",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Class First Moogle",
+        "Serial number": "10-015",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Class Second Moogle",
+        "Serial number": "10-016",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Lann",
+        "Serial number": "10-017",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Ryid",
+        "Serial number": "10-018",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Lusse",
+        "Serial number": "10-019",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Reynn",
+        "Serial number": "10-020",
+        rarity: "Legend",
+        "regular quantity": 3,
+        "foil quantity": 0
+    },
+    {
+        Name: "Rorrik",
+        "Serial number": "10-021",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Yve'noile",
+        "Serial number": "10-022",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Unei",
+        "Serial number": "10-023",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Eald'narche",
+        "Serial number": "10-024",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Kam'lanaut",
+        "Serial number": "10-025",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Bard",
+        "Serial number": "10-026",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Kurasame",
+        "Serial number": "10-027",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Cloud of Darkness",
+        "Serial number": "10-028",
+        rarity: "Legend",
+        "regular quantity": 3,
+        "foil quantity": 1
+    },
+    {
+        Name: "Black Mage",
+        "Serial number": "10-029",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Shiva",
+        "Serial number": "10-030",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Jenova SYNTHESIS",
+        "Serial number": "10-031",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Scylla",
+        "Serial number": "10-032",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Squall",
+        "Serial number": "10-033",
+        rarity: "Legend",
+        "regular quantity": 2,
+        "foil quantity": 1
+    },
+    {
+        Name: "Sephiroth",
+        "Serial number": "10-034",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Serah",
+        "Serial number": "10-035",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Terra",
+        "Serial number": "10-036",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Dendrobium",
+        "Serial number": "10-037",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Knight",
+        "Serial number": "10-038",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Nag'molada",
+        "Serial number": "10-039",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "White Tiger l'Cie Qun'mi",
+        "Serial number": "10-040",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Shivan",
+        "Serial number": "10-041",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Mog (XIII-2)",
+        "Serial number": "10-042",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Arc",
+        "Serial number": "10-043",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Vaan",
+        "Serial number": "10-044",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Unsaganashi",
+        "Serial number": "10-045",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Aerith",
+        "Serial number": "10-046",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Echo",
+        "Serial number": "10-047",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Kytes",
+        "Serial number": "10-048",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Ranger",
+        "Serial number": "10-049",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Thief",
+        "Serial number": "10-050",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Zidane",
+        "Serial number": "10-051",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Cid (FFBE)",
+        "Serial number": "10-052",
+        rarity: "Legend",
+        "regular quantity": 3,
+        "foil quantity": 0
+    },
+    {
+        Name: "Sylph",
+        "Serial number": "10-053",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Onion Knight (III)",
+        "Serial number": "10-054",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Chocobo",
+        "Serial number": "10-055",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Nono",
+        "Serial number": "10-056",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Bartz",
+        "Serial number": "10-057",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Penelo",
+        "Serial number": "10-058",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Filo",
+        "Serial number": "10-059",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Fran",
+        "Serial number": "10-060",
+        rarity: "Legend",
+        "regular quantity": 1,
+        "foil quantity": 2
+    },
+    {
+        Name: "Class Eighth Moogle",
+        "Serial number": "10-061",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Class Twelfth Moogle",
+        "Serial number": "10-062",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Y'shtola",
+        "Serial number": "10-063",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Atlas",
+        "Serial number": "10-064",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Warrior of Light",
+        "Serial number": "10-065",
+        rarity: "Legend",
+        "regular quantity": 4,
+        "foil quantity": 1
+    },
+    {
+        Name: "Garganzola",
+        "Serial number": "10-066",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Enkidu Uruk",
+        "Serial number": "10-067",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Cu Sith",
+        "Serial number": "10-068",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Black Tortise l'Cie Gilgamesh",
+        "Serial number": "10-069",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Sieghard",
+        "Serial number": "10-070",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Cid (MOBIUS)",
+        "Serial number": "10-071",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Shantotto",
+        "Serial number": "10-072",
+        rarity: "Legend",
+        "regular quantity": 4,
+        "foil quantity": 1
+    },
+    {
+        Name: "Joker",
+        "Serial number": "10-073",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Suzuhisa",
+        "Serial number": "10-074",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Warrior",
+        "Serial number": "10-075",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Titan",
+        "Serial number": "10-076",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Onion Knight (III)",
+        "Serial number": "10-077",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Doga",
+        "Serial number": "10-078",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Noctis",
+        "Serial number": "10-079",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Basch",
+        "Serial number": "10-080",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Prishe",
+        "Serial number": "10-081",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Miotsk",
+        "Serial number": "10-082",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Mog (MOBIUS)",
+        "Serial number": "10-083",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Monk",
+        "Serial number": "10-084",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Alus",
+        "Serial number": "10-085",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Aldo",
+        "Serial number": "10-086",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Willis",
+        "Serial number": "10-087",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Garland",
+        "Serial number": "10-088",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Khalia Chival",
+        "Serial number": "10-089",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Kanna Kamuy",
+        "Serial number": "10-090",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Zaidou",
+        "Serial number": "10-091",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Sakura",
+        "Serial number": "10-092",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Shinra Soldier",
+        "Serial number": "10-093",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Judge of Wings",
+        "Serial number": "10-094",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Desch",
+        "Serial number": "10-095",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Knight",
+        "Serial number": "10-096",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Noel",
+        "Serial number": "10-097",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Feolthanos",
+        "Serial number": "10-098",
+        rarity: "Legend",
+        "regular quantity": 4,
+        "foil quantity": 1
+    },
+    {
+        Name: "Dark Knight",
+        "Serial number": "10-099",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Raiden (REVENANT WINGS)",
+        "Serial number": "10-100",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Lightning",
+        "Serial number": "10-101",
+        rarity: "Legend",
+        "regular quantity": 2,
+        "foil quantity": 1
+    },
+    {
+        Name: "Ramuh",
+        "Serial number": "10-102",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Ramza",
+        "Serial number": "10-103",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Ranperre",
+        "Serial number": "10-104",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Llyud",
+        "Serial number": "10-105",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Ashe",
+        "Serial number": "10-106",
+        rarity: "Legend",
+        "regular quantity": 3,
+        "foil quantity": 1
+    },
+    {
+        Name: "Exoray",
+        "Serial number": "10-107",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Aria (III)",
+        "Serial number": "10-108",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Elza",
+        "Serial number": "10-109",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Cuchulainn",
+        "Serial number": "10-110",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Gilgamesh (XI)",
+        "Serial number": "10-111",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Sara",
+        "Serial number": "10-112",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "G Diver",
+        "Serial number": "10-113",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "White Mage",
+        "Serial number": "10-114",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Cecil",
+        "Serial number": "10-115",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Onion Knight (III)",
+        "Serial number": "10-116",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Tidus",
+        "Serial number": "10-117",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 1
+    },
+    {
+        Name: "Tomaj",
+        "Serial number": "10-118",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Verena",
+        "Serial number": "10-119",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Folka",
+        "Serial number": "10-120",
+        rarity: "Legend",
+        "regular quantity": 1,
+        "foil quantity": 1
+    },
+    {
+        Name: "Class Fourth Moogle",
+        "Serial number": "10-121",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Class Seventh Moogle",
+        "Serial number": "10-122",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Lion",
+        "Serial number": "10-123",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Raz",
+        "Serial number": "10-124",
+        rarity: "Common",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Leviathan",
+        "Serial number": "10-125",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Rikken",
+        "Serial number": "10-126",
+        rarity: "Rare",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Citra",
+        "Serial number": "10-127",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Refia",
+        "Serial number": "10-128",
+        rarity: "Legend",
+        "regular quantity": 4,
+        "foil quantity": 1
+    },
+    {
+        Name: "Hein",
+        "Serial number": "10-129",
+        rarity: "Legend",
+        "regular quantity": 3,
+        "foil quantity": 0
+    },
+    {
+        Name: "Raegen",
+        "Serial number": "10-130",
+        rarity: "Hero",
+        "regular quantity": 0,
+        "foil quantity": 2
+    },
+    {
+        Name: "Ace",
+        "Serial number": "10-131",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Terra",
+        "Serial number": "10-132",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Vaan",
+        "Serial number": "10-133",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Kain",
+        "Serial number": "10-134",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Kefka",
+        "Serial number": "10-135",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Shantotto",
+        "Serial number": "10-136",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Lightning",
+        "Serial number": "10-137",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Ramza",
+        "Serial number": "10-138",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Onion Knight",
+        "Serial number": "10-139",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
+        Name: "Cloud of Darkness",
+        "Serial number": "10-140",
+        rarity: "Starter",
+        "regular quantity": 0,
+        "foil quantity": 0
+    },
+    {
         Name: "Irvine",
         "Serial number": "2-001",
         rarity: "Hero",
@@ -1882,7 +2862,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-053",
         rarity: "Hero",
         "regular quantity": 4,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Edge",
@@ -1959,14 +2939,14 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-064",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Balthier",
         "Serial number": "2-065",
         rarity: "Legend",
-        "regular quantity": 0,
-        "foil quantity": 0
+        "regular quantity": 2,
+        "foil quantity": 1
     },
     {
         Name: "Balthier",
@@ -2036,7 +3016,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-075",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Vanille",
@@ -2049,8 +3029,8 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Vincent",
         "Serial number": "2-077",
         rarity: "Legend",
-        "regular quantity": 0,
-        "foil quantity": 0
+        "regular quantity": 2,
+        "foil quantity": 1
     },
     {
         Name: "Vincent",
@@ -2078,7 +3058,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-081",
         rarity: "Legend",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Ranger",
@@ -2106,7 +3086,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-085",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Sorbet",
@@ -2162,14 +3142,14 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-093",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Rydia",
         "Serial number": "2-094",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Rydia",
@@ -2183,42 +3163,42 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-096",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Al-Cid",
         "Serial number": "2-097",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Amon",
         "Serial number": "2-098",
         rarity: "Legend",
-        "regular quantity": 0,
-        "foil quantity": 0
+        "regular quantity": 6,
+        "foil quantity": 1
     },
     {
         Name: "Edea",
         "Serial number": "2-099",
         rarity: "Legend",
-        "regular quantity": 0,
-        "foil quantity": 0
+        "regular quantity": 2,
+        "foil quantity": 1
     },
     {
         Name: "Edea",
         "Serial number": "2-100",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Exdeath",
         "Serial number": "2-101",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 3
     },
     {
         Name: "Gurdy",
@@ -2232,7 +3212,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-103",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Kain",
@@ -2274,7 +3254,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-109",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Seifer",
@@ -2358,7 +3338,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-121",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Agrias",
@@ -2379,7 +3359,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-124",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Semblance of a Witch",
@@ -2413,8 +3393,8 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Cecil",
         "Serial number": "2-129",
         rarity: "Legend",
-        "regular quantity": 0,
-        "foil quantity": 0
+        "regular quantity": 2,
+        "foil quantity": 1
     },
     {
         Name: "Astrologian",
@@ -2456,7 +3436,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-135",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Porom",
@@ -2470,14 +3450,14 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-137",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Yuna",
         "Serial number": "2-138",
         rarity: "Legend",
-        "regular quantity": 0,
-        "foil quantity": 0
+        "regular quantity": 5,
+        "foil quantity": 1
     },
     {
         Name: "Larsa",
@@ -2498,7 +3478,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-141",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Lenne",
@@ -2525,21 +3505,21 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Warrior of Light",
         "Serial number": "2-145",
         rarity: "Legend",
-        "regular quantity": 0,
-        "foil quantity": 0
+        "regular quantity": 1,
+        "foil quantity": 1
     },
     {
         Name: "Fusoya",
         "Serial number": "2-146",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "The Emperor",
         "Serial number": "2-147",
         rarity: "Legend",
-        "regular quantity": 0,
+        "regular quantity": 3,
         "foil quantity": 0
     },
     {
@@ -2547,7 +3527,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "2-148",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Red Mage",
@@ -2869,7 +3849,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "3-046",
         rarity: "Hero",
         "regular quantity": 4,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Cannoneer",
@@ -2896,7 +3876,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Aerith",
         "Serial number": "3-050",
         rarity: "Legend",
-        "regular quantity": 2,
+        "regular quantity": 3,
         "foil quantity": 1
     },
     {
@@ -2988,7 +3968,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "3-063",
         rarity: "Hero",
         "regular quantity": 5,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Trey",
@@ -3044,7 +4024,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "3-071",
         rarity: "Hero",
         "regular quantity": 4,
-        "foil quantity": 3
+        "foil quantity": 4
     },
     {
         Name: "Rem",
@@ -4002,7 +4982,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Onion Knight",
         "Serial number": "4-054",
         rarity: "Legend",
-        "regular quantity": 3,
+        "regular quantity": 5,
         "foil quantity": 1
     },
     {
@@ -4429,7 +5409,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Lightning",
         "Serial number": "4-115",
         rarity: "Legend",
-        "regular quantity": 3,
+        "regular quantity": 5,
         "foil quantity": 1
     },
     {
@@ -4583,7 +5563,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Mira",
         "Serial number": "4-137",
         rarity: "Legend",
-        "regular quantity": 4,
+        "regular quantity": 5,
         "foil quantity": 1
     },
     {
@@ -4793,7 +5773,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Phoenix",
         "Serial number": "5-019",
         rarity: "Legend",
-        "regular quantity": 2,
+        "regular quantity": 4,
         "foil quantity": 1
     },
     {
@@ -4878,7 +5858,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-031",
         rarity: "Hero",
         "regular quantity": 3,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Glasya Labolas",
@@ -5094,7 +6074,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Diabolos",
         "Serial number": "5-062",
         rarity: "Legend",
-        "regular quantity": 3,
+        "regular quantity": 5,
         "foil quantity": 0
     },
     {
@@ -5137,7 +6117,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-068",
         rarity: "Legend",
         "regular quantity": 2,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Luso",
@@ -5262,7 +6242,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Cecil",
         "Serial number": "5-086",
         rarity: "Legend",
-        "regular quantity": 2,
+        "regular quantity": 4,
         "foil quantity": 0
     },
     {
@@ -5410,7 +6390,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-107",
         rarity: "Hero",
         "regular quantity": 3,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Zemus",
@@ -5648,7 +6628,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-141",
         rarity: "Hero",
         "regular quantity": 4,
-        "foil quantity": 1
+        "foil quantity": 0
     },
     {
         Name: "Rosa",
@@ -5697,7 +6677,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-148",
         rarity: "Hero",
         "regular quantity": 5,
-        "foil quantity": 1
+        "foil quantity": 0
     },
     {
         Name: "Amodar",
@@ -5893,7 +6873,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "6-010",
         rarity: "Hero",
         "regular quantity": 2,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Dominion Legionary",
@@ -6130,7 +7110,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Zidane",
         "Serial number": "6-044",
         rarity: "Legend",
-        "regular quantity": 1,
+        "regular quantity": 2,
         "foil quantity": 1
     },
     {
@@ -7110,7 +8090,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Chelinka",
         "Serial number": "7-054",
         rarity: "Legend",
-        "regular quantity": 4,
+        "regular quantity": 3,
         "foil quantity": 0
     },
     {
@@ -7880,7 +8860,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Garland (IX)",
         "Serial number": "8-026",
         rarity: "Legend",
-        "regular quantity": 1,
+        "regular quantity": 2,
         "foil quantity": 1
     },
     {
@@ -8174,7 +9154,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Ardyn",
         "Serial number": "8-068",
         rarity: "Legend",
-        "regular quantity": 3,
+        "regular quantity": 4,
         "foil quantity": 0
     },
     {
@@ -8196,7 +9176,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "8-071",
         rarity: "Hero",
         "regular quantity": 5,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Ignis",
@@ -8231,7 +9211,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "8-076",
         rarity: "Hero",
         "regular quantity": 8,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Titan",
@@ -8378,7 +9358,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "8-097",
         rarity: "Hero",
         "regular quantity": 6,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Shango",
@@ -8461,7 +9441,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Rufus",
         "Serial number": "8-109",
         rarity: "Legend",
-        "regular quantity": 4,
+        "regular quantity": 3,
         "foil quantity": 2
     },
     {
@@ -8636,8 +9616,8 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Rain",
         "Serial number": "8-134",
         rarity: "Legend",
-        "regular quantity": 4,
-        "foil quantity": 1
+        "regular quantity": 3,
+        "foil quantity": 2
     },
     {
         Name: "Ark",
@@ -8749,7 +9729,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-002",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Ace",
@@ -8770,14 +9750,14 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-005",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Queen of Eblan",
         "Serial number": "9-006",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Gaius",
@@ -8833,7 +9813,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-014",
         rarity: "Legend",
         "regular quantity": 2,
-        "foil quantity": 5
+        "foil quantity": 1
     },
     {
         Name: "Hume",
@@ -8910,7 +9890,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-025",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Cid Aulstyne",
@@ -8924,7 +9904,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-027",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Azure Dragon l'Cie Soryu",
@@ -8945,7 +9925,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-030",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Hundlegs",
@@ -8987,7 +9967,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-036",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Laguna",
@@ -9029,7 +10009,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-042",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Vaan",
@@ -9050,14 +10030,14 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-045",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Shemhazai",
         "Serial number": "9-046",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Sylph",
@@ -9127,7 +10107,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-056",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Yiazmat",
@@ -9141,7 +10121,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-058",
         rarity: "Legend",
         "regular quantity": 2,
-        "foil quantity": 2
+        "foil quantity": 1
     },
     {
         Name: "Rem",
@@ -9169,13 +10149,13 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-062",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Gabranth",
         "Serial number": "9-063",
         rarity: "Legend",
-        "regular quantity": 2,
+        "regular quantity": 3,
         "foil quantity": 0
     },
     {
@@ -9211,7 +10191,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-068",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Tonberry",
@@ -9239,7 +10219,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-072",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Class Fifth Moogle",
@@ -9267,13 +10247,13 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-076",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Rydia",
         "Serial number": "9-077",
         rarity: "Legend",
-        "regular quantity": 4,
+        "regular quantity": 3,
         "foil quantity": 1
     },
     {
@@ -9344,7 +10324,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-087",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Seifer",
@@ -9372,7 +10352,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-091",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Baknamy",
@@ -9386,7 +10366,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-093",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Fusoya",
@@ -9400,7 +10380,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-095",
         rarity: "Legend",
         "regular quantity": 3,
-        "foil quantity": 2
+        "foil quantity": 1
     },
     {
         Name: "Class Third Moogle",
@@ -9449,7 +10429,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-102",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 2
     },
     {
         Name: "Iedolas",
@@ -9498,7 +10478,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-109",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "King of Condordia",
@@ -9512,7 +10492,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-111",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Paladin",
@@ -9526,7 +10506,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-113",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Cuchulainn, the Impure",
@@ -9589,7 +10569,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-122",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
+        "foil quantity": 3
     },
     {
         Name: "Chaos (MOBIUS)",
@@ -9603,987 +10583,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "9-124",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ignacio",
-        "Serial number": "10-001",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ifrit",
-        "Serial number": "10-002",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Balasa",
-        "Serial number": "10-003",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Caius",
-        "Serial number": "10-004",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Gancanagh",
-        "Serial number": "10-005",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Cloud",
-        "Serial number": "10-006",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Zack",
-        "Serial number": "10-007",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Xande",
-        "Serial number": "10-008",
-        rarity: "Legend",
-        "regular quantity": 3,
-        "foil quantity": 0
-    },
-    {
-        Name: "SOLDIER: 3rd Class",
-        "Serial number": "10-009",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Onion Knight (III)",
-        "Serial number": "10-010",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Naji",
-        "Serial number": "10-011",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Geomancer",
-        "Serial number": "10-012",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Firion",
-        "Serial number": "10-013",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Mutsuki",
-        "Serial number": "10-014",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Class First Moogle",
-        "Serial number": "10-015",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Class Second Moogle",
-        "Serial number": "10-016",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Lann",
-        "Serial number": "10-017",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ryid",
-        "Serial number": "10-018",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Lusse",
-        "Serial number": "10-019",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Reynn",
-        "Serial number": "10-020",
-        rarity: "Legend",
-        "regular quantity": 2,
-        "foil quantity": 0
-    },
-    {
-        Name: "Rorrik",
-        "Serial number": "10-021",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Yve'noile",
-        "Serial number": "10-022",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Unei",
-        "Serial number": "10-023",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Eald'narche",
-        "Serial number": "10-024",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Kam'lanaut",
-        "Serial number": "10-025",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Bard",
-        "Serial number": "10-026",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Kurasame",
-        "Serial number": "10-027",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Cloud of Darkness",
-        "Serial number": "10-028",
-        rarity: "Legend",
-        "regular quantity": 3,
         "foil quantity": 1
-    },
-    {
-        Name: "Black Mage",
-        "Serial number": "10-029",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Shiva",
-        "Serial number": "10-030",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Jenova SYNTHESIS",
-        "Serial number": "10-031",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Scylla",
-        "Serial number": "10-032",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Squall",
-        "Serial number": "10-033",
-        rarity: "Legend",
-        "regular quantity": 2,
-        "foil quantity": 5
-    },
-    {
-        Name: "Sephiroth",
-        "Serial number": "10-034",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Serah",
-        "Serial number": "10-035",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Terra",
-        "Serial number": "10-036",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Dendrobium",
-        "Serial number": "10-037",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Knight",
-        "Serial number": "10-038",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Nag'molada",
-        "Serial number": "10-039",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "White Tiger l'Cie Qun'mi",
-        "Serial number": "10-040",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Shivan",
-        "Serial number": "10-041",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Mog (XIII-2)",
-        "Serial number": "10-042",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Arc",
-        "Serial number": "10-043",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Vaan",
-        "Serial number": "10-044",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Unsaganashi",
-        "Serial number": "10-045",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Aerith",
-        "Serial number": "10-046",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Echo",
-        "Serial number": "10-047",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Kytes",
-        "Serial number": "10-048",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ranger",
-        "Serial number": "10-049",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Thief",
-        "Serial number": "10-050",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Zidane",
-        "Serial number": "10-051",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Cid (FFBE)",
-        "Serial number": "10-052",
-        rarity: "Legend",
-        "regular quantity": 3,
-        "foil quantity": 0
-    },
-    {
-        Name: "Sylph",
-        "Serial number": "10-053",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Onion Knight (III)",
-        "Serial number": "10-054",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Chocobo",
-        "Serial number": "10-055",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Nono",
-        "Serial number": "10-056",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Bartz",
-        "Serial number": "10-057",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Penelo",
-        "Serial number": "10-058",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Filo",
-        "Serial number": "10-059",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Fran",
-        "Serial number": "10-060",
-        rarity: "Legend",
-        "regular quantity": 1,
-        "foil quantity": 1
-    },
-    {
-        Name: "Class Eighth Moogle",
-        "Serial number": "10-061",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Class Twelfth Moogle",
-        "Serial number": "10-062",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Y'shtola",
-        "Serial number": "10-063",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Atlas",
-        "Serial number": "10-064",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Warrior of Light",
-        "Serial number": "10-065",
-        rarity: "Legend",
-        "regular quantity": 4,
-        "foil quantity": 1
-    },
-    {
-        Name: "Garganzola",
-        "Serial number": "10-066",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Enkidu Uruk",
-        "Serial number": "10-067",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Cu Sith",
-        "Serial number": "10-068",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Black Tortoise l'Cie Gilgamesh",
-        "Serial number": "10-069",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Sieghard",
-        "Serial number": "10-070",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Cid (MOBIUS)",
-        "Serial number": "10-071",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Shantotto",
-        "Serial number": "10-072",
-        rarity: "Legend",
-        "regular quantity": 4,
-        "foil quantity": 1
-    },
-    {
-        Name: "Joker",
-        "Serial number": "10-073",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Suzuhisa",
-        "Serial number": "10-074",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Warrior",
-        "Serial number": "10-075",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Titan",
-        "Serial number": "10-076",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Onion Knight (III)",
-        "Serial number": "10-077",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Doga",
-        "Serial number": "10-078",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Noctis",
-        "Serial number": "10-079",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Basch",
-        "Serial number": "10-080",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Prishe",
-        "Serial number": "10-081",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Miotsk",
-        "Serial number": "10-082",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Mog (MOBIUS)",
-        "Serial number": "10-083",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Monk",
-        "Serial number": "10-084",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Alus",
-        "Serial number": "10-085",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Aldo",
-        "Serial number": "10-086",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Willis",
-        "Serial number": "10-087",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Garland",
-        "Serial number": "10-088",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Khalia Chival",
-        "Serial number": "10-089",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Kanna Kamuy",
-        "Serial number": "10-090",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Zaidou",
-        "Serial number": "10-091",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Sakura",
-        "Serial number": "10-092",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Shinra Soldier",
-        "Serial number": "10-093",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Judge of Wings",
-        "Serial number": "10-094",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Desch",
-        "Serial number": "10-095",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Knight",
-        "Serial number": "10-096",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Noel",
-        "Serial number": "10-097",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Feolthanos",
-        "Serial number": "10-098",
-        rarity: "Legend",
-        "regular quantity": 4,
-        "foil quantity": 2
-    },
-    {
-        Name: "Dark Knight",
-        "Serial number": "10-099",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Raiden (REVENANT WINGS)",
-        "Serial number": "10-100",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Lightning",
-        "Serial number": "10-101",
-        rarity: "Legend",
-        "regular quantity": 1,
-        "foil quantity": 1
-    },
-    {
-        Name: "Ramuh",
-        "Serial number": "10-102",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ramza",
-        "Serial number": "10-103",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ranperre",
-        "Serial number": "10-104",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Llyud",
-        "Serial number": "10-105",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ashe",
-        "Serial number": "10-106",
-        rarity: "Legend",
-        "regular quantity": 4,
-        "foil quantity": 1
-    },
-    {
-        Name: "Exoray",
-        "Serial number": "10-107",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Aria (III)",
-        "Serial number": "10-108",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Elza",
-        "Serial number": "10-109",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Cuchulainn",
-        "Serial number": "10-110",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Gilgamesh (XI)",
-        "Serial number": "10-111",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Sara",
-        "Serial number": "10-112",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "G Diver",
-        "Serial number": "10-113",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "White Mage",
-        "Serial number": "10-114",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Cecil",
-        "Serial number": "10-115",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Onion Knight (III)",
-        "Serial number": "10-116",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Tidus",
-        "Serial number": "10-117",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Tomaj",
-        "Serial number": "10-118",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Verena",
-        "Serial number": "10-119",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Folka",
-        "Serial number": "10-120",
-        rarity: "Legend",
-        "regular quantity": 1,
-        "foil quantity": 1
-    },
-    {
-        Name: "Class Fourth Moogle",
-        "Serial number": "10-121",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Class Seventh Moogle",
-        "Serial number": "10-122",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Lion",
-        "Serial number": "10-123",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Raz",
-        "Serial number": "10-124",
-        rarity: "Common",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Leviathan",
-        "Serial number": "10-125",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Rikken",
-        "Serial number": "10-126",
-        rarity: "Rare",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Citra",
-        "Serial number": "10-127",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Refia",
-        "Serial number": "10-128",
-        rarity: "Legend",
-        "regular quantity": 4,
-        "foil quantity": 2
-    },
-    {
-        Name: "Hein",
-        "Serial number": "10-129",
-        rarity: "Legend",
-        "regular quantity": 3,
-        "foil quantity": 0
-    },
-    {
-        Name: "Raegen",
-        "Serial number": "10-130",
-        rarity: "Hero",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ace",
-        "Serial number": "10-131",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Terra",
-        "Serial number": "10-132",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Vaan",
-        "Serial number": "10-133",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Kain",
-        "Serial number": "10-134",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Kefka",
-        "Serial number": "10-135",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Shantotto",
-        "Serial number": "10-136",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Lightning",
-        "Serial number": "10-137",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Ramza",
-        "Serial number": "10-138",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Onion Knight",
-        "Serial number": "10-139",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
-    },
-    {
-        Name: "Cloud of Darkness",
-        "Serial number": "10-140",
-        rarity: "Starter",
-        "regular quantity": 0,
-        "foil quantity": 0
     },
     {
         Name: "Sephiroth",
