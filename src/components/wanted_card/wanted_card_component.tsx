@@ -1,10 +1,10 @@
 import * as React from "react";
 import { CardQuantityInfo, FFCard } from "../../data/structures/ff_card";
 import { getTotalQuantity } from "../../data/utils/get_total_quantity";
-import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 import { wantedCardStyle } from "./wanted_card.style";
 import { CardComponent } from "../../design_system/components/card/card_component";
 import { getRarityMessage } from "../../data/transformations/get_rarity_message";
+import { A_LOT } from "../../data/structures/a_lot";
 
 export interface WantedCardProps {
     card: FFCard;
@@ -13,8 +13,8 @@ export interface WantedCardProps {
 export const WantedCardComponent: React.FC<WantedCardProps> = props => {
     const { card } = props;
 
-    const hasATonOfThose = hasAbundantQuantity(card);
     const totalQuantity = getTotalQuantity(card);
+    const hasATonOfThose = totalQuantity >= A_LOT;
 
     const wantedWhateverVersionQuantity = Math.max(card.minimalWantedQuantity - totalQuantity, 0);
 

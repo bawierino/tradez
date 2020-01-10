@@ -3,21 +3,19 @@ import { FFCard } from "../../data/structures/ff_card";
 import { getRarityMessage } from "../../data/transformations/get_rarity_message";
 import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
 import { getTotalQuantity } from "../../data/utils/get_total_quantity";
-import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 import { CardComponent } from "../../design_system/components/card/card_component";
 import { tradeableCardStyle } from "./tradeable_card.style";
+import { A_LOT } from "../../data/structures/a_lot";
 
 export interface TradeableCardsProps {
     card: FFCard;
 }
 
-const A_LOT = 1337;
-
 export const TradeableCardComponent: React.FC<TradeableCardsProps> = props => {
     const { card } = props;
 
-    const aLotAvailable = hasAbundantQuantity(card);
     const totalQuantity = getTotalQuantity(card);
+    const aLotAvailable = totalQuantity >= A_LOT;
 
     const tradeableQuantity = aLotAvailable ? A_LOT : Math.max(totalQuantity - card.minimalWantedQuantity, 0);
     const canTrade = !!tradeableQuantity || aLotAvailable;

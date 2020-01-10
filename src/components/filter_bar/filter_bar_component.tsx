@@ -7,7 +7,6 @@ import { getOpusMessage } from "../../data/transformations/get_opus_message";
 import { getRarityMessage } from "../../data/transformations/get_rarity_message";
 import { getVersionMessage } from "../../data/transformations/get_version_message";
 import { getSpecificTradeableQuantity } from "../../data/utils/get_specific_tradeable_quantity";
-import { hasAbundantQuantity } from "../../data/utils/has_abundant_quantity";
 import { PopoverLabelSelectGroupComponent } from "../../design_system/components/popover/label_select/group/popover_label_select_group_component";
 import { WrappedPopoverLabelSelectComponent } from "../../design_system/components/popover/label_select/wrapped_popover_label_select_component";
 import { WrappedPopoverComponent } from "../../design_system/components/popover/wrapped_popover_component";
@@ -16,6 +15,8 @@ import { animationDurationsRawMs } from "../../design_system/constants/animation
 import { SelectionStrategy } from "../../design_system/constants/selection_strategy";
 import { useDebouncedState } from "../../design_system/hooks/use_debounced_state";
 import { filterBarShadow, filterBarStyle, filterSpawnerStyle } from "./filter_bar.style";
+import { getTotalQuantity } from "../../data/utils/get_total_quantity";
+import { A_LOT } from "../../data/structures/a_lot";
 
 export interface FilterBarProps {
     cards: FFCard[];
@@ -54,7 +55,10 @@ export const FilterBarComponent: React.FC<FilterBarProps> = props => {
                         return tradeableVersionFilter.some(version => {
                             switch (version) {
                                 case Version.NORMAL:
-                                    return hasAbundantQuantity(c) || !!getSpecificTradeableQuantity(c.normal);
+                                    return (
+                                        getTotalQuantity(c) >= A_LOT ||
+                                        !!getSpecificTradeableQuantity(c.normal)
+                                    );
                                 case Version.FOIL:
                                     return !!getSpecificTradeableQuantity(c.foil);
                                 case Version.ALTERNATE_ART:
