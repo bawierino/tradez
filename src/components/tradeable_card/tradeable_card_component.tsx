@@ -20,7 +20,7 @@ export const TradeableCardComponent: React.FC<TradeableCardsProps> = props => {
     const tradeableQuantity = aLotAvailable ? A_LOT : Math.max(totalQuantity - card.minimalWantedQuantity, 0);
     const canTrade = !!tradeableQuantity || aLotAvailable;
 
-    const tradeableNormalQuantity = aLotAvailable ? A_LOT : getSpecificTradeableQuantity(card.normal);
+    const tradeableNormalQuantity = getSpecificTradeableQuantity(card.normal);
     const tradeableFoilQuantity = getSpecificTradeableQuantity(card.foil);
     const tradeableAlternateArtQuantity = getSpecificTradeableQuantity(card.alternateArt);
     const tradeableAlternateArtFoilQuantity = getSpecificTradeableQuantity(card.alternateArtFoil);
@@ -37,7 +37,11 @@ export const TradeableCardComponent: React.FC<TradeableCardsProps> = props => {
                 ? `normal(${tradeableNormalQuantity >= A_LOT ? "a lot" : tradeableNormalQuantity}) `
                 : ""
         }${!!tradeableFoilQuantity ? `foil(${tradeableFoilQuantity}) ` : ""}${
-            !!tradeableAlternateArtQuantity ? `alternate art(${tradeableAlternateArtQuantity}) ` : ""
+            !!tradeableAlternateArtQuantity
+                ? `alternate art(${
+                      tradeableAlternateArtQuantity >= A_LOT ? "a lot" : tradeableAlternateArtQuantity
+                  }) `
+                : ""
         }${
             !!tradeableAlternateArtFoilQuantity
                 ? `alternate art foil(${tradeableAlternateArtFoilQuantity}) `
