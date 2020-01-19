@@ -44,10 +44,18 @@ export const TradeableCardComponent: React.FC<TradeableCardsProps> = props => {
                 : ""
         }${
             !!tradeableAlternateArtFoilQuantity
-                ? `alternate art foil(${tradeableAlternateArtFoilQuantity}) `
+                ? `alternate art foil(${
+                      tradeableAlternateArtFoilQuantity >= A_LOT ? "a lot" : tradeableAlternateArtFoilQuantity
+                  }) `
                 : ""
-        }${!!tradeableFullArtQuantity ? `full art(${tradeableFullArtQuantity}) ` : ""}${
-            !!tradeableFoilArtQuantity ? `foil art(${tradeableFoilArtQuantity}) ` : ""
+        }${
+            !!tradeableFullArtQuantity
+                ? `full art(${tradeableFullArtQuantity >= A_LOT ? "a lot" : tradeableFullArtQuantity}) `
+                : ""
+        }${
+            !!tradeableFoilArtQuantity
+                ? `foil art(${tradeableFoilArtQuantity >= A_LOT ? "a lot" : tradeableFoilArtQuantity}) `
+                : ""
         }`;
 
         return (

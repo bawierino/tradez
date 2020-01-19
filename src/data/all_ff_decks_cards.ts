@@ -1741,7 +1741,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Squall",
         "Serial number": "10-033",
         rarity: "Legend",
-        "regular quantity": 2,
+        "regular quantity": 3,
         "foil quantity": 1
     },
     {
@@ -2001,7 +2001,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "10-070",
         rarity: "Hero",
         "regular quantity": 0,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Cid (MOBIUS)",
@@ -5725,7 +5725,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-012",
         rarity: "Hero",
         "regular quantity": 3,
-        "foil quantity": 2
+        "foil quantity": 4
     },
     {
         Name: "Warrior",
@@ -5766,14 +5766,14 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Palom",
         "Serial number": "5-018",
         rarity: "Legend",
-        "regular quantity": 4,
+        "regular quantity": 5,
         "foil quantity": 1
     },
     {
         Name: "Phoenix",
         "Serial number": "5-019",
         rarity: "Legend",
-        "regular quantity": 4,
+        "regular quantity": 5,
         "foil quantity": 1
     },
     {
@@ -5809,7 +5809,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-024",
         rarity: "Hero",
         "regular quantity": 5,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "Aloeidai",
@@ -5892,8 +5892,8 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "The Emperor",
         "Serial number": "5-036",
         rarity: "Legend",
-        "regular quantity": 3,
-        "foil quantity": 1
+        "regular quantity": 4,
+        "foil quantity": 2
     },
     {
         Name: "Zeid",
@@ -5977,7 +5977,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-048",
         rarity: "Hero",
         "regular quantity": 3,
-        "foil quantity": 2
+        "foil quantity": 4
     },
     {
         Name: "Asura",
@@ -5991,7 +5991,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-050",
         rarity: "Hero",
         "regular quantity": 1,
-        "foil quantity": 2
+        "foil quantity": 3
     },
     {
         Name: "Aria (TYPE-0)",
@@ -6033,7 +6033,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-056",
         rarity: "Hero",
         "regular quantity": 3,
-        "foil quantity": 0
+        "foil quantity": 1
     },
     {
         Name: "White Mage",
@@ -6074,7 +6074,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Diabolos",
         "Serial number": "5-062",
         rarity: "Legend",
-        "regular quantity": 5,
+        "regular quantity": 6,
         "foil quantity": 0
     },
     {
@@ -6116,7 +6116,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Y'shtola",
         "Serial number": "5-068",
         rarity: "Legend",
-        "regular quantity": 2,
+        "regular quantity": 4,
         "foil quantity": 1
     },
     {
@@ -6165,8 +6165,8 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Wol",
         "Serial number": "5-075",
         rarity: "Legend",
-        "regular quantity": 2,
-        "foil quantity": 1
+        "regular quantity": 3,
+        "foil quantity": 2
     },
     {
         Name: "Botanist",
@@ -6242,7 +6242,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Cecil",
         "Serial number": "5-086",
         rarity: "Legend",
-        "regular quantity": 4,
+        "regular quantity": 5,
         "foil quantity": 0
     },
     {
@@ -6278,7 +6278,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-091",
         rarity: "Hero",
         "regular quantity": 1,
-        "foil quantity": 2
+        "foil quantity": 3
     },
     {
         Name: "Master Monk",
@@ -6341,7 +6341,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-100",
         rarity: "Hero",
         "regular quantity": 4,
-        "foil quantity": 2
+        "foil quantity": 3
     },
     {
         Name: "Twilight Odin",
@@ -6396,7 +6396,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Zemus",
         "Serial number": "5-108",
         rarity: "Legend",
-        "regular quantity": 3,
+        "regular quantity": 4,
         "foil quantity": 1
     },
     {
@@ -6466,7 +6466,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Ramza",
         "Serial number": "5-118",
         rarity: "Legend",
-        "regular quantity": 3,
+        "regular quantity": 4,
         "foil quantity": 0
     },
     {
@@ -6522,8 +6522,8 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Cloud of Darkness",
         "Serial number": "5-126",
         rarity: "Legend",
-        "regular quantity": 3,
-        "foil quantity": 2
+        "regular quantity": 4,
+        "foil quantity": 3
     },
     {
         Name: "Curilla",
@@ -6585,7 +6585,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Porom",
         "Serial number": "5-135",
         rarity: "Legend",
-        "regular quantity": 2,
+        "regular quantity": 3,
         "foil quantity": 0
     },
     {
@@ -6635,7 +6635,7 @@ export const allFFDecksCards: FFDecksCard[] = [
         "Serial number": "5-142",
         rarity: "Hero",
         "regular quantity": 4,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Orator",
@@ -6655,21 +6655,21 @@ export const allFFDecksCards: FFDecksCard[] = [
         Name: "Vaan",
         "Serial number": "5-145",
         rarity: "Legend",
-        "regular quantity": 3,
-        "foil quantity": 1
+        "regular quantity": 4,
+        "foil quantity": 2
     },
     {
         Name: "Wol",
         "Serial number": "5-146",
         rarity: "Hero",
         "regular quantity": 3,
-        "foil quantity": 1
+        "foil quantity": 2
     },
     {
         Name: "Eald'narche",
         "Serial number": "5-147",
         rarity: "Legend",
-        "regular quantity": 2,
+        "regular quantity": 3,
         "foil quantity": 1
     },
     {
