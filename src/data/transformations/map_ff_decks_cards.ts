@@ -129,7 +129,7 @@ function getSpecificCardProperties(serial: string, rarity: string): SpecificCard
                 cardProperties.alternateArtFoil = { quantity: 1, minimalQuantityWanted: 1 };
                 break;
             case "1-080":
-                cardProperties.foilArt = { quantity: 1, minimalQuantityWanted: 3 };
+                cardProperties.foilArt = { quantity: 3, minimalQuantityWanted: 3 };
                 cardProperties.fullArt = { quantity: A_LOT, minimalQuantityWanted: 3 };
                 break;
             case "1-176":
